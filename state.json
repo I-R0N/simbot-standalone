@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": 1782593964,
+    "generated_at": 1782594153,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 0,
+    "tick": 83,
     "interval_min": 30,
     "paused": false,
-    "has_chat": false
+    "has_chat": true
   },
   "clock": {
     "sim_minutes": 0,
@@ -16,17 +16,17 @@
     "label": "Day 1 \u00b7 08:00"
   },
   "stats": {
-    "energy": 70,
-    "full": 70,
-    "social": 60,
-    "fun": 60,
-    "health": 75,
-    "stress": 25
+    "energy": 0,
+    "full": 44,
+    "social": 30,
+    "fun": 95,
+    "health": 100,
+    "stress": 5
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "sharp",
-    "temp": 0.98
+    "clarity": "foggy and slow",
+    "temp": 1.3
   },
   "activity": [],
   "build": {
