@@ -36,6 +36,16 @@
   .ev .snap { color:#5b6478; font-size:11px; margin-top:5px;
               font-variant-numeric:tabular-nums; letter-spacing:.02em; }
   .empty { color:#8b93a7; font-style:italic; }
+  .ident { font-size:15px; line-height:1.55; color:#e7e9ee; font-style:italic; }
+  .mem { background:#0f1218; border-left:3px solid #3a4660; border-radius:8px;
+         padding:9px 12px; margin:9px 0; font-size:14px; line-height:1.45; }
+  .mem.reflection { border-left-color:#7a6cff; }
+  .mem .meta { color:#8b93a7; font-size:12px; margin-bottom:3px;
+               display:flex; gap:8px; align-items:center; }
+  .mem .kind { color:#b9a6ff; font-weight:600; text-transform:uppercase;
+               letter-spacing:.05em; font-size:10px; }
+  .mem.observation .kind { color:#9fb4ff; }
+  .mem .imp { color:#d8b06a; letter-spacing:1px; font-size:11px; }
   .foot { color:#5b6478; font-size:12px; text-align:center; margin-top:14px; }
   .foot button { background:#1c2230; color:#c4cad8; border:1px solid #2b3242;
                  border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; }
@@ -54,6 +64,16 @@
   <div class="card">
     <h2>Mind</h2>
     <div class="mood" id="mind">…</div>
+  </div>
+
+  <div class="card" id="selfCard" style="display:none">
+    <h2>Who they are</h2>
+    <div class="ident" id="identity"></div>
+  </div>
+
+  <div class="card" id="memCard" style="display:none">
+    <h2>Memories</h2>
+    <div id="memories"></div>
   </div>
 
   <div class="card">
@@ -134,6 +154,31 @@ function render(s) {
   document.getElementById("mind").innerHTML =
     `Feeling <b>${esc(mind.mood || "—")}</b>, thinking <b>${esc(mind.clarity || "—")}</b>`
     + (mind.temp != null ? ` (temperature ${mind.temp}).` : ".");
+
+  // Self-identity (Stage 2): a rolling first-person sense of self from reflection.
+  const selfCard = document.getElementById("selfCard");
+  if (s.identity) {
+    document.getElementById("identity").textContent = s.identity;
+    selfCard.style.display = "";
+  } else { selfCard.style.display = "none"; }
+
+  // Memories (Stage 2): reflections + salient observations, each with importance.
+  const memCard = document.getElementById("memCard");
+  const mems = Array.isArray(s.memories) ? s.memories : [];
+  if (mems.length) {
+    document.getElementById("memories").innerHTML = mems.map(m => {
+      const kind = m.kind === "reflection" ? "reflection" : "observation";
+      const meta = [`<span class="kind">${kind}</span>`];
+      if (m.sim) meta.push(esc(m.sim));
+      else if (m.t) meta.push(ago(m.t));
+      if (m.importance != null) {
+        const n = Math.max(1, Math.min(10, m.importance|0));
+        meta.push(`<span class="imp" title="importance ${n}/10">${"●".repeat(Math.max(1, Math.round(n/2)))}</span>`);
+      }
+      return `<div class="mem ${kind}"><div class="meta">${meta.join(" · ")}</div>${esc(m.text)}</div>`;
+    }).join("");
+    memCard.style.display = "";
+  } else { memCard.style.display = "none"; }
 
   // Activity: prefer structured activity[], fall back to plain thoughts[].
   const act = document.getElementById("activity");
