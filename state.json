@@ -1,58 +1,39 @@
 {
   "meta": {
-    "generated_at": 1782593778,
+    "generated_at": 1782593964,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 83,
+    "tick": 0,
     "interval_min": 30,
     "paused": false,
-    "has_chat": true
+    "has_chat": false
   },
-  "clock": null,
+  "clock": {
+    "sim_minutes": 0,
+    "day": 1,
+    "hour": 8,
+    "minute": 0,
+    "phase": "day",
+    "label": "Day 1 \u00b7 08:00"
+  },
   "stats": {
-    "energy": 0,
-    "full": 44,
-    "social": 30,
-    "fun": 95,
-    "health": 100,
-    "stress": 5
+    "energy": 70,
+    "full": 70,
+    "social": 60,
+    "fun": 60,
+    "health": 75,
+    "stress": 25
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "foggy and slow",
-    "temp": 1.3
+    "clarity": "sharp",
+    "temp": 0.98
   },
-  "activity": [
-    {
-      "thought": "Another random letter? My brain's definitely getting scattered\u2014I'm so tired underneath all this happiness with my friends. I need to eat something substantial before I actually crash, but wow, leaving even for five minutes feels like such a loss right now."
-    },
-    {
-      "thought": "Another letter? My brain's really struggling to make sense of anything right now\u2014I'm riding this amazing high with everyone, but I can feel myself getting delirious underneath it. I should probably eat something real before I completely crash, even though leaving feels impossible."
-    },
-    {
-      "thought": "That letter just floated in like a weird hiccup\u2014my brain's definitely getting spacey from riding this high too long. I know I'm running on fumes under all this euphoria, and that voice saying I should eat something real was actually right. My body needs to ground itself before I completely unravel."
-    },
-    {
-      "thought": "That fragment floating in my head feels like my brain's trying to tell me something, but I can't quite grab it\u2014everything's slippery right now. I'm riding this incredible wave but I can feel myself getting untethered, like I need to actually anchor down into my body instead of just drifting in this foggy brightness."
-    },
-    {
-      "thought": "I'm buzzing with this amazing feeling but my head's all cottony\u2014I can barely hold a thought long enough to finish it. I need to ground myself, get back into my body before I float away entirely. Maybe movement will help clear this fog and burn off some of this restless energy."
-    },
-    {
-      "thought": "Yeah, my head's still all fuzzy but my body's practically vibrating with this good energy\u2014I feel amazing but disconnected, like I'm floating above myself. Movement sounds perfect right now, like it'll snap me back into focus and let me actually *feel* this brightness instead of just drifting through it."
-    },
-    {
-      "thought": "My mind's still wrapped in cotton but god, I feel *alive*\u2014there's this electric hum running through me that I need to move through before it dissipates. Exercise could ground me, get me back into my body instead of floating around in this fog."
-    },
-    {
-      "thought": "That electric feeling is still there, tugging at me\u2014I'm buzzing with this weird hopeful energy even though my head is full of clouds. I need to move, to shake off this fog and channel this aliveness into something real before it fades."
-    },
-    {
-      "thought": "This fog is annoying but that hopeful buzz is still there, pushing me to move. My body's been still too long and my mind needs to shake loose\u2014exercise might burn through both the cloudiness and this restless energy."
-    },
-    {
-      "thought": "Yeah, the fog is still hanging around but that hopeful feeling is pulling me forward\u2014I can feel it in my chest. My body's restless and actually moving sounds right, like it might clear my head and let me lean into this good mood instead of sitting in the murk."
-    }
-  ],
+  "activity": [],
+  "build": {
+    "sha": "001e5c3",
+    "ref": "main",
+    "committed": "2026-06-27 16:58 EDT"
+  },
   "world": null,
   "memories": []
 }
