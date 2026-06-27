@@ -33,6 +33,8 @@
   .ev .meta { color:#8b93a7; font-size:12px; margin-bottom:3px; }
   .ev .act { color:#9fb4ff; font-weight:600; }
   .ev .wh { color:#d8b06a; font-style:italic; }
+  .ev .snap { color:#5b6478; font-size:11px; margin-top:5px;
+              font-variant-numeric:tabular-nums; letter-spacing:.02em; }
   .empty { color:#8b93a7; font-style:italic; }
   .foot { color:#5b6478; font-size:12px; text-align:center; margin-top:14px; }
   .foot button { background:#1c2230; color:#c4cad8; border:1px solid #2b3242;
@@ -117,9 +119,12 @@ function render(s) {
   else { badge.className = "badge live"; badge.textContent = "living"; }
 
   const bits = [];
-  if (meta.model) bits.push("model " + esc(meta.model));
+  if (s.clock && s.clock.label) {
+    const glyph = s.clock.phase === "night" ? "🌙" : "☀️";
+    bits.push(glyph + " " + esc(s.clock.label));
+  }
   if (meta.tick != null) bits.push("tick #" + meta.tick);
-  if (s.clock && s.clock.label) bits.push(esc(s.clock.label));
+  if (meta.model) bits.push("model " + esc(meta.model));
   document.getElementById("sub").textContent = bits.join(" · ");
 
   document.getElementById("bars").innerHTML =
@@ -141,7 +146,10 @@ function render(s) {
       if (e.action) meta.push(`<span class="act">${esc(e.action)}</span>`);
       const wh = e.whisper ? `<div class="wh">“${esc(e.whisper)}”</div>` : "";
       const head = meta.length ? `<div class="meta">${meta.join(" · ")}</div>` : "";
-      return `<div class="ev">${head}${wh}${esc(e.thought)}</div>`;
+      const st = e.stats ? `<div class="snap">`
+        + `e ${e.stats.energy} · f ${e.stats.full} · so ${e.stats.social} · `
+        + `fu ${e.stats.fun} · h ${e.stats.health} · st ${e.stats.stress}</div>` : "";
+      return `<div class="ev">${head}${wh}${esc(e.thought)}${st}</div>`;
     }).join("");
   } else {
     act.innerHTML = `<div class="empty">No activity recorded yet.</div>`;
