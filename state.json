@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": 1782587772,
+    "generated_at": 1782587963,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 79,
+    "tick": 80,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
@@ -10,11 +10,11 @@
   "clock": null,
   "stats": {
     "energy": 0,
-    "full": 76,
-    "social": 50,
+    "full": 68,
+    "social": 45,
     "fun": 95,
     "health": 100,
-    "stress": 15
+    "stress": 11
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -22,9 +22,6 @@
     "temp": 1.3
   },
   "activity": [
-    {
-      "thought": "I'm riding this incredible high\u2014my mind is all over the place but in the best way, like everything's possible right now. I've got so much energy and I'm feeling so connected to everyone; I should lean into this momentum before it fades, but man, I'm also running on fumes\u2014when did I last eat something real?"
-    },
     {
       "thought": "I'm buzzing right now and I never want this to come down, but my stomach's literally empty and I can feel my energy starting to get shaky underneath this high\u2014if I don't eat soon this momentum's gonna crash hard. Let me grab something real quick before I lose this."
     },
@@ -51,6 +48,9 @@
     },
     {
       "thought": "Yeah, my head's still all fuzzy but my body's practically vibrating with this good energy\u2014I feel amazing but disconnected, like I'm floating above myself. Movement sounds perfect right now, like it'll snap me back into focus and let me actually *feel* this brightness instead of just drifting through it."
+    },
+    {
+      "thought": "My mind's still wrapped in cotton but god, I feel *alive*\u2014there's this electric hum running through me that I need to move through before it dissipates. Exercise could ground me, get me back into my body instead of floating around in this fog."
     }
   ],
   "world": null,
