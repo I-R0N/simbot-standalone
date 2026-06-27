@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "generated_at": 0,
+    "model": "claude-haiku-4-5-20251001",
+    "tick": 0,
+    "interval_min": 30,
+    "paused": false,
+    "has_chat": false,
+    "note": "Sample/offline fallback. The bot overwrites the live copy on the 'state' branch."
+  },
+  "clock": null,
+  "stats": { "energy": 70, "full": 70, "social": 60, "fun": 60, "health": 75, "stress": 25 },
+  "mind": { "mood": "even", "clarity": "sharp", "temp": 0.7 },
+  "activity": [
+    { "t": 0, "action": "relax", "thought": "A calm beginning. This is the sample view shown until the bot publishes its first real state.", "whisper": "" }
+  ],
+  "world": null,
+  "memories": []
+}
