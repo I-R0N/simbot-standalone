@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": 1782591533,
+    "generated_at": 1782591723,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 81,
+    "tick": 82,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
@@ -10,11 +10,11 @@
   "clock": null,
   "stats": {
     "energy": 0,
-    "full": 60,
-    "social": 40,
+    "full": 52,
+    "social": 35,
     "fun": 95,
     "health": 100,
-    "stress": 8
+    "stress": 5
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -22,9 +22,6 @@
     "temp": 1.3
   },
   "activity": [
-    {
-      "thought": "I'm riding such a high right now\u2014my friends are amazing and we've been having the best time\u2014but yeah, my stomach's been growling and I can feel that hollow shakiness creeping in. I need to fuel up before this energy crashes completely, even though part of me just wants to stay in this moment forever."
-    },
     {
       "thought": "That random \"S\" is weird\u2014my brain's getting foggy like you said, probably because I'm running on fumes despite feeling amazing. I should eat something real soon before I crash hard, but honestly... I'm so reluctant to leave this moment with my friends. Maybe I can grab a quick snack and come right back?"
     },
@@ -51,6 +48,9 @@
     },
     {
       "thought": "That electric feeling is still there, tugging at me\u2014I'm buzzing with this weird hopeful energy even though my head is full of clouds. I need to move, to shake off this fog and channel this aliveness into something real before it fades."
+    },
+    {
+      "thought": "This fog is annoying but that hopeful buzz is still there, pushing me to move. My body's been still too long and my mind needs to shake loose\u2014exercise might burn through both the cloudiness and this restless energy."
     }
   ],
   "world": null,
