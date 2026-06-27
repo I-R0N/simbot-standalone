@@ -63,6 +63,7 @@
 
   <div class="foot">
     <span id="updated"></span> · <button onclick="load()">Refresh now</button>
+    <div id="build"></div>
   </div>
 </div>
 
@@ -157,6 +158,15 @@ function render(s) {
 
   document.getElementById("updated").textContent =
     meta.generated_at ? ("updated " + ago(meta.generated_at)) : "";
+
+  // Build stamp: which commit this page was published from (set by the preview
+  // workflow for PRs, by the VM publisher on main). Cuts through githack caching.
+  const b = s.build || {};
+  const parts = [];
+  if (b.sha) parts.push("build " + esc(b.sha));
+  if (b.ref) parts.push(esc(b.ref));
+  if (b.committed) parts.push(esc(b.committed));
+  document.getElementById("build").textContent = parts.join(" · ");
 }
 
 async function load() {
