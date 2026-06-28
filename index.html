@@ -46,6 +46,19 @@
                letter-spacing:.05em; font-size:10px; }
   .mem.observation .kind { color:#9fb4ff; }
   .mem .imp { color:#d8b06a; letter-spacing:1px; font-size:11px; }
+  .wstat { font-size:14px; line-height:1.5; color:#c4cad8; margin-bottom:12px; }
+  .wstat b { color:#fff; }
+  .grid { display:grid; gap:2px; background:#0f1218; padding:6px; border-radius:10px; }
+  .cell { position:relative; aspect-ratio:1/1; border-radius:3px; background:#141822;
+          display:flex; align-items:center; justify-content:center;
+          font-size:13px; line-height:1; }
+  .cell.loc { background:#1a2030; }
+  .cell.path { background:#23314f; }
+  .cell.here { background:#2b6cff; box-shadow:0 0 0 1px #6f9bff inset; }
+  .legend { margin-top:12px; display:flex; flex-wrap:wrap; gap:6px 14px;
+            font-size:12px; color:#8b93a7; }
+  .legend span b { color:#c4cad8; font-weight:600; }
+  .legend .aff { color:#5b6478; }
   .foot { color:#5b6478; font-size:12px; text-align:center; margin-top:14px; }
   .foot button { background:#1c2230; color:#c4cad8; border:1px solid #2b3242;
                  border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; }
@@ -64,6 +77,13 @@
   <div class="card">
     <h2>Mind</h2>
     <div class="mood" id="mind">…</div>
+  </div>
+
+  <div class="card" id="worldCard" style="display:none">
+    <h2>World</h2>
+    <div class="wstat" id="wstat"></div>
+    <div class="grid" id="grid"></div>
+    <div class="legend" id="legend"></div>
   </div>
 
   <div class="card" id="selfCard" style="display:none">
@@ -127,6 +147,59 @@ function esc(s) {
     ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 }
 
+// World (Stage 3): a lightweight CSS/emoji mini-grid — location icons, the
+// entity at its position, the planned path faintly lit, plus a status line.
+// Heavy 2D canvas rendering is deferred to Stage 4. Degrades to hidden if null.
+function renderWorld(w) {
+  const card = document.getElementById("worldCard");
+  if (!w || !w.grid) { card.style.display = "none"; return; }
+  card.style.display = "";
+
+  const W = w.grid.w, H = w.grid.h;
+  const locs = Array.isArray(w.locations) ? w.locations : [];
+  const locByCell = {};
+  locs.forEach(l => { locByCell[l.x + "," + l.y] = l; });
+  const pathSet = new Set((w.path || []).map(p => p.x + "," + p.y));
+  const ex = w.pos ? (w.pos.x|0) : -1, ey = w.pos ? (w.pos.y|0) : -1;
+
+  let html = "";
+  for (let y = 0; y < H; y++) {
+    for (let x = 0; x < W; x++) {
+      const key = x + "," + y;
+      const loc = locByCell[key];
+      const here = (x === ex && y === ey);
+      const cls = ["cell"];
+      if (loc) cls.push("loc");
+      if (pathSet.has(key)) cls.push("path");
+      if (here) cls.push("here");
+      const glyph = here ? "🙂" : (loc ? loc.icon : "");
+      const title = loc ? loc.label : "";
+      html += `<div class="${cls.join(" ")}" title="${esc(title)}">${glyph}</div>`;
+    }
+  }
+  const grid = document.getElementById("grid");
+  grid.style.gridTemplateColumns = `repeat(${W}, 1fr)`;
+  grid.innerHTML = html;
+
+  const labelOf = n => { const l = locs.find(x => x.name === n); return l ? l.label : n; };
+  const it = w.intent;
+  let status;
+  if (it && it.goal && !it.arrived) {
+    status = `🚶 On the way to <b>${esc(labelOf(it.goal))}</b> to <b>${esc(it.action)}</b>.`;
+  } else if (w.at) {
+    status = `📍 At <b>${esc(labelOf(w.at))}</b>`
+           + (it && it.action ? `, having just <b>${esc(it.action)}</b>.` : ".");
+  } else {
+    status = "Out, somewhere between places.";
+  }
+  document.getElementById("wstat").innerHTML = status;
+
+  document.getElementById("legend").innerHTML = locs.map(l =>
+    `<span>${l.icon} <b>${esc(l.label)}</b>`
+    + (l.affords && l.affords.length ? ` <span class="aff">${esc(l.affords.join(", "))}</span>` : "")
+    + `</span>`).join("");
+}
+
 function render(s) {
   const stats = s.stats || {};
   const meta = s.meta || {};
@@ -154,6 +227,8 @@ function render(s) {
   document.getElementById("mind").innerHTML =
     `Feeling <b>${esc(mind.mood || "—")}</b>, thinking <b>${esc(mind.clarity || "—")}</b>`
     + (mind.temp != null ? ` (temperature ${mind.temp}).` : ".");
+
+  renderWorld(s.world);   // Stage 3 — embodied grid + position + intent
 
   // Self-identity (Stage 2): a rolling first-person sense of self from reflection.
   const selfCard = document.getElementById("selfCard");
@@ -189,6 +264,7 @@ function render(s) {
       const meta = [];
       if (e.sim) meta.push(esc(e.sim));
       else if (e.t) meta.push(ago(e.t));
+      if (e.loc) meta.push("📍 " + esc(e.loc));
       if (e.action) meta.push(`<span class="act">${esc(e.action)}</span>`);
       const wh = e.whisper ? `<div class="wh">“${esc(e.whisper)}”</div>` : "";
       const head = meta.length ? `<div class="meta">${meta.join(" · ")}</div>` : "";

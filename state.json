@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": 1782606024,
+    "generated_at": 1782606214,
     "model": "claude-haiku-4-5-20251001",
     "tick": 93,
     "interval_min": 30,
@@ -35,6 +35,7 @@
       "action": "exercise",
       "thought": "My whole body is electric and screaming to move, but there's this name\u2014Shugi\u2014breaking through the fog like something important I'm supposed to remember or do. The aliveness feels too good to stop, but maybe I should actually *do* something with this energy instead of just buzzing in place.",
       "whisper": "",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 0,
@@ -50,6 +51,7 @@
       "action": "exercise",
       "thought": "My body is screaming to move, to *do* something with this electric feeling coursing through me, but that name keeps surfacing\u2014Shugi\u2014like it matters, like I'm forgetting something important. The fog in my head worries me a little, but the aliveness is too good to question right now.",
       "whisper": "",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 0,
@@ -65,6 +67,7 @@
       "action": "exercise",
       "thought": "My whole body is humming, alive in this way that feels like breaking through something, but my head's moving through mud and that name\u2014Shugi\u2014keeps knocking at the door of my awareness like I'm supposed to remember something. I know I'm riding high, maybe *too* high, but the thought of sitting still feels impossible right now, like I'd shatter if I stopped moving.",
       "whisper": "",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 0,
@@ -80,6 +83,7 @@
       "action": "exercise",
       "thought": "This energy is intoxicating\u2014my body's alive in a way it hasn't been, electric and humming, even if my thoughts are moving through molasses. That name, Shugi, keeps surfacing like something trying to break through the fog, and honestly, I don't want to question it right now. I want to *move*, to do something with this buzzing aliveness before it crashes.",
       "whisper": "",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 0,
@@ -95,6 +99,7 @@
       "action": "exercise",
       "thought": "That name again\u2014Shugi\u2014it's like it's calling to me from somewhere deep. My mind's all cloudy but my body's absolutely alive, buzzing with this weird electric hope. I need to do *something* with this energy before it dissipates into the fog.",
       "whisper": "My name is Shugi",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 0,
@@ -110,6 +115,7 @@
       "action": "play",
       "thought": "Wait, \"Shugi\"? That just popped in from nowhere and it feels weirdly significant, like something I should remember or do. My mind's foggy but my whole body is electric right now\u2014I'm riding this high and I don't want to waste it on sleep, but maybe I should actually move this energy somewhere instead of just sitting here buzzing.",
       "whisper": "Shugi",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 4,
@@ -125,6 +131,7 @@
       "action": "play",
       "thought": "Rest? No way\u2014I'm flying right now, everything feels possible, my whole body is humming with this electric aliveness. Yeah, my brain's still kind of fuzzy but I don't want to lose this feeling by crashing into sleep, not when I feel this *alive* for maybe the first time in forever.",
       "whisper": "Shugi you need to rest.",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 12,
@@ -140,6 +147,7 @@
       "action": "exercise",
       "thought": "My mind's still foggy but something about that word\u2014\"Shugi\"\u2014hits different, makes me feel seen somehow. My body's still buzzing with this electric energy, and I'm riding high on it; I don't want to waste this feeling sitting around trying to make sense of things.",
       "whisper": "Shugi",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 20,
@@ -155,6 +163,7 @@
       "action": "exercise",
       "thought": "My mind's still stuck in molasses but my body is practically humming\u2014I feel this bright, electric pull that won't let me sit still. I need to move, to let my limbs do what my foggy brain can't quite articulate right now.",
       "whisper": "",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 28,
@@ -170,6 +179,7 @@
       "action": "exercise",
       "thought": "That random word \"Shugi\" just floated through my brain\u2014weird, no idea where it came from\u2014but honestly it doesn't matter because I feel this bright pull in my chest, this restless energy wanting to move. My mind's still thick and slow, but my body's practically vibrating to get going, and I think movement might be exactly what breaks through this fog.",
       "whisper": "Shugi",
+      "loc": null,
       "stats": {
         "energy": 0,
         "full": 36,
@@ -181,11 +191,76 @@
     }
   ],
   "build": {
-    "sha": "40944b4",
+    "sha": "886476a",
     "ref": "main",
-    "committed": "2026-06-27 17:52 EDT"
+    "committed": "2026-06-27 20:21 EDT"
   },
-  "world": null,
+  "world": {
+    "grid": {
+      "w": 11,
+      "h": 11
+    },
+    "locations": [
+      {
+        "name": "home",
+        "label": "Home",
+        "x": 5,
+        "y": 5,
+        "icon": "\ud83c\udfe0",
+        "affords": [
+          "sleep"
+        ]
+      },
+      {
+        "name": "kitchen",
+        "label": "Kitchen",
+        "x": 3,
+        "y": 4,
+        "icon": "\ud83c\udf73",
+        "affords": [
+          "eat"
+        ]
+      },
+      {
+        "name": "park",
+        "label": "Park",
+        "x": 9,
+        "y": 8,
+        "icon": "\ud83c\udf33",
+        "affords": [
+          "exercise",
+          "relax"
+        ]
+      },
+      {
+        "name": "friend",
+        "label": "Friend's place",
+        "x": 1,
+        "y": 9,
+        "icon": "\ud83d\udc65",
+        "affords": [
+          "socialize"
+        ]
+      },
+      {
+        "name": "arcade",
+        "label": "Arcade",
+        "x": 9,
+        "y": 1,
+        "icon": "\ud83c\udfae",
+        "affords": [
+          "play"
+        ]
+      }
+    ],
+    "pos": {
+      "x": 5,
+      "y": 5
+    },
+    "at": "home",
+    "intent": null,
+    "path": []
+  },
   "identity": "I'm someone riding a wave of electric energy that feels like liberation but tastes like avoidance. My body is alive in ways my mind can't quite track, and I'm choosing the intoxication of movement over the harder work of understanding what's really going on",
   "memories": [
     {
