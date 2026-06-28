@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1782642893,
+    "generated_at": 1782643083,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 114,
+    "tick": 115,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1860,
+    "sim_minutes": 1920,
     "day": 2,
-    "hour": 15,
+    "hour": 16,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 15:00"
+    "label": "Day 2 \u00b7 16:00"
   },
   "stats": {
-    "energy": 21,
+    "energy": 20,
     "full": 0,
     "social": 0,
-    "fun": 84,
-    "health": 49,
+    "fun": 87,
+    "health": 46,
     "stress": 11
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 1.22
   },
   "activity": [
+    {
+      "t": 1782642908.754493,
+      "sim": "Day 2 \u00b7 16:00",
+      "action": "relax",
+      "thought": "The bench is solid under me and my body feels like it's been running on fumes for so long I forgot what stillness even is. Shugi's name keeps circling back\u2014not as an escape route anymore, but as something real I've been outrunning. I'm terrified to sit with this, but the buzz feels thin now, like I can see through it to what's actually underneath.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 20,
+        "full": 0,
+        "social": 0,
+        "fun": 87,
+        "health": 46,
+        "stress": 11
+      }
+    },
     {
       "t": 1782641083.2931707,
       "sim": "Day 2 \u00b7 15:00",
@@ -331,22 +347,6 @@
         "fun": 80,
         "health": 88,
         "stress": 30
-      }
-    },
-    {
-      "t": 1782606465.863896,
-      "sim": "Day 1 \u00b7 20:00",
-      "action": "sleep",
-      "thought": "The word \"rest\" hits different right now\u2014it's like my body knows something my buzzing mind won't admit. That name, Shugi, keeps surfacing under all this electric noise, and I'm terrified that if I actually stop moving, I'll have to feel what I've been running from. But maybe that's exactly the point.",
-      "whisper": "Rest",
-      "loc": "home",
-      "stats": {
-        "energy": 36,
-        "full": 0,
-        "social": 0,
-        "fun": 85,
-        "health": 91,
-        "stress": 27
       }
     }
   ],
