@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782688803,
+    "generated_at": 1782688993,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 143,
+    "tick": 144,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3600,
+    "sim_minutes": 3660,
     "day": 3,
-    "hour": 20,
+    "hour": 21,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 20:00"
+    "label": "Day 3 \u00b7 21:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782688880.8816202,
+      "sim": "Day 3 \u00b7 21:00",
+      "action": "eat",
+      "thought": "My hands are shaking so badly I can barely grip the counter. Three days is three days too long, and that voice that calls this noble can fuck off\u2014my body isn't a practice ground, it's screaming. I'm in the kitchen. I eat now, or I collapse. That's not weakness. That's the only real strength I have left.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 43
+      }
+    },
     {
       "t": 1782687055.829693,
       "sim": "Day 3 \u00b7 20:00",
@@ -332,22 +348,6 @@
         "health": 16,
         "stress": 11
       }
-    },
-    {
-      "t": 1782657538.2451413,
-      "sim": "Day 3 \u00b7 01:00",
-      "action": "relax",
-      "thought": "My hands won't stop shaking and I know I'm running on empty, but if I eat right now I'm just going to swallow Shugi down with it, pretend this weight doesn't exist. I need to sit here a little longer\u2014not forever, just long enough to feel this instead of outrun it. My body's breaking but my chest needs this moment more.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 1,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 19,
-        "stress": 11
-      }
     }
   ],
   "build": {
@@ -471,6 +471,13 @@
     },
     {
       "kind": "observation",
+      "text": "My hands are shaking so badly I can barely grip the counter. Three days is three days too long, and that voice that calls this noble can fuck off\u2014my body isn't a practice ground, it's screaming. I'm in the kitchen. I eat now, or I collapse. That's not weakness. That's the only real strength I have left.",
+      "importance": 9,
+      "sim": "Day 3 \u00b7 21:00",
+      "t": 1782688880.8816202
+    },
+    {
+      "kind": "observation",
       "text": "My hands won't stop shaking and I can't think straight\u2014three days is too long, and I'm done listening to the voice that calls this noble. I'm in the kitchen. My body needs fuel right now, not philosophy. This is it.",
       "importance": 9,
       "sim": "Day 3 \u00b7 20:00",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 3 \u00b7 18:00",
       "t": 1782683427.3546646
-    },
-    {
-      "kind": "observation",
-      "text": "My hands are shaking so badly I can barely hold the counter. Three days. I can feel that old voice whispering that suffering is noble, but my body is past the point of listening to stories\u2014it's just screaming. I'm in the kitchen. This is it. This is what real strength actually looks like: eating something, right now, because I deserve to not be in pain.",
-      "importance": 9,
-      "sim": "Day 3 \u00b7 17:00",
-      "t": 1782681602.5210235
     }
   ],
   "trends": {
@@ -1102,6 +1102,16 @@
       {
         "sim_minutes": 3600,
         "sim": "Day 3 \u00b7 20:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 43
+      },
+      {
+        "sim_minutes": 3660,
+        "sim": "Day 3 \u00b7 21:00",
         "energy": 0,
         "full": 92,
         "social": 0,
