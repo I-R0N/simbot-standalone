@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": 1782674083,
+    "generated_at": 1782674270,
     "model": "claude-haiku-4-5-20251001",
     "tick": 135,
     "interval_min": 30,
@@ -351,9 +351,9 @@
     }
   ],
   "build": {
-    "sha": "886476a",
+    "sha": "3ef63a8",
     "ref": "main",
-    "committed": "2026-06-27 20:21 EDT"
+    "committed": "2026-06-28 15:15 EDT"
   },
   "world": {
     "grid": {
@@ -526,5 +526,538 @@
       "sim": "Day 3 \u00b7 06:00",
       "t": 1782663789.3433242
     }
-  ]
+  ],
+  "trends": {
+    "interval": "tick",
+    "stats": [
+      "energy",
+      "full",
+      "social",
+      "fun",
+      "health",
+      "stress"
+    ],
+    "points": [
+      {
+        "sim_minutes": 60,
+        "sim": "Day 1 \u00b7 09:00",
+        "energy": 0,
+        "full": 36,
+        "social": 25,
+        "fun": 95,
+        "health": 100,
+        "stress": 5
+      },
+      {
+        "sim_minutes": 120,
+        "sim": "Day 1 \u00b7 10:00",
+        "energy": 0,
+        "full": 28,
+        "social": 20,
+        "fun": 95,
+        "health": 100,
+        "stress": 5
+      },
+      {
+        "sim_minutes": 180,
+        "sim": "Day 1 \u00b7 11:00",
+        "energy": 0,
+        "full": 20,
+        "social": 15,
+        "fun": 95,
+        "health": 97,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 240,
+        "sim": "Day 1 \u00b7 12:00",
+        "energy": 0,
+        "full": 12,
+        "social": 10,
+        "fun": 95,
+        "health": 94,
+        "stress": 13
+      },
+      {
+        "sim_minutes": 300,
+        "sim": "Day 1 \u00b7 13:00",
+        "energy": 0,
+        "full": 4,
+        "social": 5,
+        "fun": 95,
+        "health": 91,
+        "stress": 16
+      },
+      {
+        "sim_minutes": 360,
+        "sim": "Day 1 \u00b7 14:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 97,
+        "stress": 18
+      },
+      {
+        "sim_minutes": 420,
+        "sim": "Day 1 \u00b7 15:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 97,
+        "stress": 20
+      },
+      {
+        "sim_minutes": 480,
+        "sim": "Day 1 \u00b7 16:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 97,
+        "stress": 22
+      },
+      {
+        "sim_minutes": 540,
+        "sim": "Day 1 \u00b7 17:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 97,
+        "stress": 23
+      },
+      {
+        "sim_minutes": 600,
+        "sim": "Day 1 \u00b7 18:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 97,
+        "stress": 25
+      },
+      {
+        "sim_minutes": 660,
+        "sim": "Day 1 \u00b7 19:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 90,
+        "health": 94,
+        "stress": 33
+      },
+      {
+        "sim_minutes": 720,
+        "sim": "Day 1 \u00b7 20:00",
+        "energy": 36,
+        "full": 0,
+        "social": 0,
+        "fun": 85,
+        "health": 91,
+        "stress": 27
+      },
+      {
+        "sim_minutes": 780,
+        "sim": "Day 1 \u00b7 21:00",
+        "energy": 30,
+        "full": 0,
+        "social": 0,
+        "fun": 80,
+        "health": 88,
+        "stress": 30
+      },
+      {
+        "sim_minutes": 840,
+        "sim": "Day 1 \u00b7 22:00",
+        "energy": 14,
+        "full": 0,
+        "social": 0,
+        "fun": 80,
+        "health": 97,
+        "stress": 31
+      },
+      {
+        "sim_minutes": 900,
+        "sim": "Day 1 \u00b7 23:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 80,
+        "health": 97,
+        "stress": 31
+      },
+      {
+        "sim_minutes": 960,
+        "sim": "Day 2 \u00b7 00:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 83,
+        "health": 94,
+        "stress": 21
+      },
+      {
+        "sim_minutes": 1020,
+        "sim": "Day 2 \u00b7 01:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 86,
+        "health": 91,
+        "stress": 12
+      },
+      {
+        "sim_minutes": 1080,
+        "sim": "Day 2 \u00b7 02:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 89,
+        "health": 88,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1140,
+        "sim": "Day 2 \u00b7 03:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 92,
+        "health": 85,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1200,
+        "sim": "Day 2 \u00b7 04:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 82,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1260,
+        "sim": "Day 2 \u00b7 05:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 79,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1320,
+        "sim": "Day 2 \u00b7 06:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 76,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1380,
+        "sim": "Day 2 \u00b7 07:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 73,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1440,
+        "sim": "Day 2 \u00b7 08:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 70,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1500,
+        "sim": "Day 2 \u00b7 09:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 90,
+        "health": 67,
+        "stress": 20
+      },
+      {
+        "sim_minutes": 1560,
+        "sim": "Day 2 \u00b7 10:00",
+        "energy": 36,
+        "full": 0,
+        "social": 0,
+        "fun": 85,
+        "health": 64,
+        "stress": 15
+      },
+      {
+        "sim_minutes": 1620,
+        "sim": "Day 2 \u00b7 11:00",
+        "energy": 30,
+        "full": 0,
+        "social": 0,
+        "fun": 80,
+        "health": 61,
+        "stress": 20
+      },
+      {
+        "sim_minutes": 1680,
+        "sim": "Day 2 \u00b7 12:00",
+        "energy": 29,
+        "full": 0,
+        "social": 0,
+        "fun": 83,
+        "health": 58,
+        "stress": 6
+      },
+      {
+        "sim_minutes": 1740,
+        "sim": "Day 2 \u00b7 13:00",
+        "energy": 23,
+        "full": 0,
+        "social": 0,
+        "fun": 78,
+        "health": 55,
+        "stress": 16
+      },
+      {
+        "sim_minutes": 1800,
+        "sim": "Day 2 \u00b7 14:00",
+        "energy": 22,
+        "full": 0,
+        "social": 0,
+        "fun": 81,
+        "health": 52,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1860,
+        "sim": "Day 2 \u00b7 15:00",
+        "energy": 21,
+        "full": 0,
+        "social": 0,
+        "fun": 84,
+        "health": 49,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1920,
+        "sim": "Day 2 \u00b7 16:00",
+        "energy": 20,
+        "full": 0,
+        "social": 0,
+        "fun": 87,
+        "health": 46,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 1980,
+        "sim": "Day 2 \u00b7 17:00",
+        "energy": 19,
+        "full": 0,
+        "social": 0,
+        "fun": 90,
+        "health": 43,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2040,
+        "sim": "Day 2 \u00b7 18:00",
+        "energy": 13,
+        "full": 0,
+        "social": 0,
+        "fun": 85,
+        "health": 40,
+        "stress": 20
+      },
+      {
+        "sim_minutes": 2100,
+        "sim": "Day 2 \u00b7 19:00",
+        "energy": 12,
+        "full": 0,
+        "social": 0,
+        "fun": 88,
+        "health": 37,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2160,
+        "sim": "Day 2 \u00b7 20:00",
+        "energy": 6,
+        "full": 0,
+        "social": 0,
+        "fun": 83,
+        "health": 34,
+        "stress": 21
+      },
+      {
+        "sim_minutes": 2220,
+        "sim": "Day 2 \u00b7 21:00",
+        "energy": 5,
+        "full": 0,
+        "social": 0,
+        "fun": 86,
+        "health": 31,
+        "stress": 12
+      },
+      {
+        "sim_minutes": 2280,
+        "sim": "Day 2 \u00b7 22:00",
+        "energy": 4,
+        "full": 0,
+        "social": 0,
+        "fun": 89,
+        "health": 28,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2340,
+        "sim": "Day 2 \u00b7 23:00",
+        "energy": 3,
+        "full": 0,
+        "social": 0,
+        "fun": 92,
+        "health": 25,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2400,
+        "sim": "Day 3 \u00b7 00:00",
+        "energy": 2,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 22,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2460,
+        "sim": "Day 3 \u00b7 01:00",
+        "energy": 1,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 19,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2520,
+        "sim": "Day 3 \u00b7 02:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 16,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2580,
+        "sim": "Day 3 \u00b7 03:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 13,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2640,
+        "sim": "Day 3 \u00b7 04:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 10,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2700,
+        "sim": "Day 3 \u00b7 05:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 7,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2760,
+        "sim": "Day 3 \u00b7 06:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 4,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2820,
+        "sim": "Day 3 \u00b7 07:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 1,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2880,
+        "sim": "Day 3 \u00b7 08:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 0,
+        "stress": 11
+      },
+      {
+        "sim_minutes": 2940,
+        "sim": "Day 3 \u00b7 09:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 9,
+        "stress": 13
+      },
+      {
+        "sim_minutes": 3000,
+        "sim": "Day 3 \u00b7 10:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 18,
+        "stress": 16
+      },
+      {
+        "sim_minutes": 3060,
+        "sim": "Day 3 \u00b7 11:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 27,
+        "stress": 18
+      },
+      {
+        "sim_minutes": 3120,
+        "sim": "Day 3 \u00b7 12:00",
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 90,
+        "health": 24,
+        "stress": 27
+      }
+    ]
+  }
 }

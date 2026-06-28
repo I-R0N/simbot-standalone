@@ -46,15 +46,21 @@
                letter-spacing:.05em; font-size:10px; }
   .mem.observation .kind { color:#9fb4ff; }
   .mem .imp { color:#d8b06a; letter-spacing:1px; font-size:11px; }
-  .wstat { font-size:14px; line-height:1.5; color:#c4cad8; margin-bottom:12px; }
+  .wstat { font-size:14px; line-height:1.5; color:#c4cad8; margin:12px 0 8px; }
   .wstat b { color:#fff; }
-  .grid { display:grid; gap:2px; background:#0f1218; padding:6px; border-radius:10px; }
-  .cell { position:relative; aspect-ratio:1/1; border-radius:3px; background:#141822;
-          display:flex; align-items:center; justify-content:center;
-          font-size:13px; line-height:1; }
-  .cell.loc { background:#1a2030; }
-  .cell.path { background:#23314f; }
-  .cell.here { background:#2b6cff; box-shadow:0 0 0 1px #6f9bff inset; }
+  /* Stage 4: the world is drawn on a canvas (tiles + sprite + path). It sizes
+     to the card width and stays square; rendering/animation is all in JS. */
+  #worldCanvas { display:block; width:100%; height:auto; aspect-ratio:1/1;
+                 border-radius:10px; background:#0f1218; }
+  /* Stage 4: stat trends — inline-SVG sparklines, one small-multiple per stat. */
+  .trends { display:grid; grid-template-columns:repeat(2,1fr); gap:10px 12px; }
+  .trend { background:#0f1218; border-radius:10px; padding:8px 10px; }
+  .trend .thead { display:flex; justify-content:space-between; align-items:baseline;
+                  margin-bottom:4px; }
+  .trend .tlbl { font-size:12px; color:#c4cad8; }
+  .trend .tval { font-variant-numeric:tabular-nums; font-weight:600; font-size:13px; }
+  .trend svg { display:block; width:100%; height:30px; overflow:visible; }
+  .tnote { color:#5b6478; font-size:11px; margin-top:10px; }
   .legend { margin-top:12px; display:flex; flex-wrap:wrap; gap:6px 14px;
             font-size:12px; color:#8b93a7; }
   .legend span b { color:#c4cad8; font-weight:600; }
@@ -69,21 +75,27 @@
   <h1>A small life <span id="badge" class="badge live">…</span></h1>
   <div class="sub" id="sub">loading…</div>
 
+  <div class="card" id="worldCard" style="display:none">
+    <h2>World</h2>
+    <canvas id="worldCanvas" width="320" height="320"></canvas>
+    <div class="wstat" id="wstat"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+
   <div class="card">
     <h2>Body</h2>
     <div id="bars"></div>
   </div>
 
+  <div class="card" id="trendCard" style="display:none">
+    <h2>Trends <span class="tlbl" id="trendspan" style="text-transform:none;letter-spacing:0"></span></h2>
+    <div class="trends" id="trends"></div>
+    <div class="tnote" id="tnote"></div>
+  </div>
+
   <div class="card">
     <h2>Mind</h2>
     <div class="mood" id="mind">…</div>
-  </div>
-
-  <div class="card" id="worldCard" style="display:none">
-    <h2>World</h2>
-    <div class="wstat" id="wstat"></div>
-    <div class="grid" id="grid"></div>
-    <div class="legend" id="legend"></div>
   </div>
 
   <div class="card" id="selfCard" style="display:none">
@@ -147,40 +159,127 @@ function esc(s) {
     ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 }
 
-// World (Stage 3): a lightweight CSS/emoji mini-grid — location icons, the
-// entity at its position, the planned path faintly lit, plus a status line.
-// Heavy 2D canvas rendering is deferred to Stage 4. Degrades to hidden if null.
-function renderWorld(w) {
-  const card = document.getElementById("worldCard");
-  if (!w || !w.grid) { card.style.display = "none"; return; }
-  card.style.display = "";
+// World (Stage 4): the embodied grid, rendered on a <canvas> — location tiles
+// with their icons, the planned route as a dotted trail, and the entity sprite,
+// which slides smoothly to its new cell when a fetch moves it. Vanilla canvas,
+// no assets (emoji glyphs via fillText). Degrades to a hidden card when null,
+// exactly like the Stage 3 placeholder it replaces.
+const WORLD = { data: null, phase: "day", cur: null, from: null, to: null,
+                t0: 0, dur: 700, raf: 0 };
 
-  const W = w.grid.w, H = w.grid.h;
-  const locs = Array.isArray(w.locations) ? w.locations : [];
-  const locByCell = {};
-  locs.forEach(l => { locByCell[l.x + "," + l.y] = l; });
-  const pathSet = new Set((w.path || []).map(p => p.x + "," + p.y));
-  const ex = w.pos ? (w.pos.x|0) : -1, ey = w.pos ? (w.pos.y|0) : -1;
+function roundRect(ctx, x, y, w, h, r) {
+  r = Math.min(r, w / 2, h / 2);
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+}
+function easeOut(p) { return 1 - Math.pow(1 - p, 3); }
 
-  let html = "";
-  for (let y = 0; y < H; y++) {
-    for (let x = 0; x < W; x++) {
-      const key = x + "," + y;
-      const loc = locByCell[key];
-      const here = (x === ex && y === ey);
-      const cls = ["cell"];
-      if (loc) cls.push("loc");
-      if (pathSet.has(key)) cls.push("path");
-      if (here) cls.push("here");
-      const glyph = here ? "🙂" : (loc ? loc.icon : "");
-      const title = loc ? loc.label : "";
-      html += `<div class="${cls.join(" ")}" title="${esc(title)}">${glyph}</div>`;
-    }
+function drawWorld() {
+  const cv = document.getElementById("worldCanvas");
+  const w = WORLD.data;
+  if (!cv || !w || !w.grid || !WORLD.cur) return;
+  const dpr = window.devicePixelRatio || 1;
+  const cssW = cv.clientWidth || 320;
+  const S = Math.max(1, Math.round(cssW * dpr));
+  if (cv.width !== S) { cv.width = S; cv.height = S; }   // keep the backing store square + crisp
+  const ctx = cv.getContext("2d");
+  const GW = w.grid.w, GH = w.grid.h, n = Math.max(GW, GH);
+  const cell = S / n;
+  const cx = c => (c + 0.5) * cell, cy = c => (c + 0.5) * cell;
+  const night = WORLD.phase === "night";
+
+  ctx.clearRect(0, 0, S, S);
+  ctx.fillStyle = night ? "#0c1018" : "#12161f";
+  ctx.fillRect(0, 0, S, S);
+
+  // faint grid lines
+  ctx.strokeStyle = night ? "#161d2b" : "#1b2330";
+  ctx.lineWidth = Math.max(1, dpr);
+  for (let i = 0; i <= n; i++) {
+    const p = Math.round(i * cell) + 0.5;
+    ctx.beginPath(); ctx.moveTo(p, 0); ctx.lineTo(p, GH * cell); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(0, p); ctx.lineTo(GW * cell, p); ctx.stroke();
   }
-  const grid = document.getElementById("grid");
-  grid.style.gridTemplateColumns = `repeat(${W}, 1fr)`;
-  grid.innerHTML = html;
 
+  const locs = Array.isArray(w.locations) ? w.locations : [];
+  const it = w.intent;
+  const goalName = it && it.goal && !it.arrived ? it.goal : null;
+
+  // location tiles + icons
+  const pad = cell * 0.12, rad = cell * 0.22;
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  locs.forEach(l => {
+    const isGoal = l.name === goalName;
+    ctx.fillStyle = isGoal ? "#243456" : "#1a2030";
+    roundRect(ctx, l.x * cell + pad, l.y * cell + pad, cell - 2 * pad, cell - 2 * pad, rad);
+    ctx.fill();
+    if (isGoal) {                                    // ring the destination
+      ctx.strokeStyle = "#6f9bff"; ctx.lineWidth = Math.max(1.5, dpr * 1.2); ctx.stroke();
+    }
+    ctx.font = `${Math.round(cell * 0.56)}px -apple-system,Segoe UI Emoji,Noto Color Emoji,sans-serif`;
+    ctx.fillText(l.icon || "", cx(l.x), cy(l.y));
+  });
+
+  // planned route: a dotted trail of dots from here toward the goal
+  const path = Array.isArray(w.path) ? w.path : [];
+  ctx.fillStyle = night ? "#3a4f7a" : "#41598a";
+  path.forEach(p => {
+    ctx.beginPath(); ctx.arc(cx(p.x), cy(p.y), Math.max(1.5, cell * 0.09), 0, 2 * Math.PI); ctx.fill();
+  });
+
+  // the entity sprite at its (possibly animating) position
+  const ex = WORLD.cur.x, ey = WORLD.cur.y;
+  const px = cx(ex), py = cy(ey), r = cell * 0.34;
+  ctx.beginPath(); ctx.arc(px, py, r, 0, 2 * Math.PI);
+  ctx.fillStyle = "#2b6cff"; ctx.fill();
+  ctx.strokeStyle = "#9bbcff"; ctx.lineWidth = Math.max(1, dpr); ctx.stroke();
+  ctx.font = `${Math.round(cell * 0.46)}px -apple-system,Segoe UI Emoji,Noto Color Emoji,sans-serif`;
+  ctx.fillStyle = "#fff";
+  ctx.fillText("🙂", px, py + cell * 0.02);
+}
+
+function animateWorld() {
+  const p = easeOut(Math.min(1, (performance.now() - WORLD.t0) / WORLD.dur));
+  WORLD.cur = {
+    x: WORLD.from.x + (WORLD.to.x - WORLD.from.x) * p,
+    y: WORLD.from.y + (WORLD.to.y - WORLD.from.y) * p,
+  };
+  drawWorld();
+  if (p < 1) { WORLD.raf = requestAnimationFrame(animateWorld); }
+  else { WORLD.cur = WORLD.to; WORLD.raf = 0; drawWorld(); }
+}
+
+function renderWorld(w, clock) {
+  const card = document.getElementById("worldCard");
+  if (!w || !w.grid) {
+    if (WORLD.raf) { cancelAnimationFrame(WORLD.raf); WORLD.raf = 0; }
+    WORLD.data = null; card.style.display = "none"; return;
+  }
+  card.style.display = "";
+  WORLD.data = w;
+  WORLD.phase = (clock && clock.phase) || "day";
+
+  const target = w.pos ? { x: w.pos.x | 0, y: w.pos.y | 0 } : { x: 0, y: 0 };
+  if (WORLD.raf) { cancelAnimationFrame(WORLD.raf); WORLD.raf = 0; }
+  if (!WORLD.cur) {                          // first paint — drop the sprite in place
+    WORLD.cur = { x: target.x, y: target.y };
+    WORLD.to = target;
+    drawWorld();
+  } else if (WORLD.cur.x !== target.x || WORLD.cur.y !== target.y) {
+    WORLD.from = { x: WORLD.cur.x, y: WORLD.cur.y };   // slide to the new cell
+    WORLD.to = target; WORLD.t0 = performance.now();
+    WORLD.raf = requestAnimationFrame(animateWorld);
+  } else {
+    WORLD.to = target;                       // unchanged position — redraw (path/phase may differ)
+    drawWorld();
+  }
+
+  const locs = Array.isArray(w.locations) ? w.locations : [];
   const labelOf = n => { const l = locs.find(x => x.name === n); return l ? l.label : n; };
   const it = w.intent;
   let status;
@@ -198,6 +297,53 @@ function renderWorld(w) {
     `<span>${l.icon} <b>${esc(l.label)}</b>`
     + (l.affords && l.affords.length ? ` <span class="aff">${esc(l.affords.join(", "))}</span>` : "")
     + `</span>`).join("");
+}
+window.addEventListener("resize", drawWorld);
+
+// Trends (Stage 4): small-multiple sparklines — one per stat, over the recent
+// per-tick history shipped in state.json. Inline SVG (no CDN): the payload is
+// tiny and a handful of polylines render crisply on a phone. Each line is tinted
+// by the stat's latest goodness (green good, red bad) to echo the body bars;
+// stress is inverted (high = bad) just like its bar. Hidden if no history.
+function trendHue(key, val, badHigh) {
+  const goodness = badHigh ? (100 - val) : val;
+  return Math.round(Math.max(0, Math.min(100, goodness)) * 1.2);   // 0 red .. 120 green
+}
+function sparkline(vals, hue) {
+  const W = 100, H = 30, n = vals.length;
+  if (n === 1) vals = [vals[0], vals[0]];          // a single point -> a flat line
+  const m = vals.length;
+  const x = i => (m === 1 ? 0 : (i / (m - 1)) * W);
+  const y = v => H - (Math.max(0, Math.min(100, v)) / 100) * H;
+  const pts = vals.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
+  const area = `0,${H} ${pts} ${W},${H}`;
+  const col = `hsl(${hue},70%,55%)`;
+  const last = vals[vals.length - 1];
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">`
+       + `<polygon points="${area}" fill="hsl(${hue},70%,45%)" opacity="0.14"></polygon>`
+       + `<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.6"`
+       + ` stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"></polyline>`
+       + `<circle cx="${x(m - 1).toFixed(1)}" cy="${y(last).toFixed(1)}" r="2" fill="${col}"`
+       + ` vector-effect="non-scaling-stroke"></circle></svg>`;
+}
+function renderTrends(tr) {
+  const card = document.getElementById("trendCard");
+  const points = tr && Array.isArray(tr.points) ? tr.points : [];
+  if (points.length < 2) { card.style.display = "none"; return; }
+  card.style.display = "";
+  document.getElementById("trends").innerHTML = STATS.map(([k, lbl, bad]) => {
+    const vals = points.map(p => p[k] == null ? 0 : (p[k] | 0));
+    const cur = vals[vals.length - 1];
+    const hue = trendHue(k, cur, bad);
+    return `<div class="trend"><div class="thead">`
+         + `<span class="tlbl">${lbl}</span>`
+         + `<span class="tval" style="color:hsl(${hue},70%,60%)">${cur}</span></div>`
+         + sparkline(vals, hue) + `</div>`;
+  }).join("");
+  const span = points.length, first = points[0].sim, last = points[span - 1].sim;
+  document.getElementById("trendspan").textContent = `· last ${span} ticks`;
+  document.getElementById("tnote").textContent =
+    first && last ? `${first} → ${last}` : "";
 }
 
 function render(s) {
@@ -228,7 +374,8 @@ function render(s) {
     `Feeling <b>${esc(mind.mood || "—")}</b>, thinking <b>${esc(mind.clarity || "—")}</b>`
     + (mind.temp != null ? ` (temperature ${mind.temp}).` : ".");
 
-  renderWorld(s.world);   // Stage 3 — embodied grid + position + intent
+  renderWorld(s.world, s.clock);   // Stage 4 — embodied grid on canvas, day/night tint
+  renderTrends(s.trends);          // Stage 4 — per-stat sparklines over recent history
 
   // Self-identity (Stage 2): a rolling first-person sense of self from reflection.
   const selfCard = document.getElementById("selfCard");
