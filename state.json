@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1782630024,
+    "generated_at": 1782630213,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 107,
+    "tick": 108,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1440,
+    "sim_minutes": 1500,
     "day": 2,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 08:00"
+    "label": "Day 2 \u00b7 09:00"
   },
   "stats": {
     "energy": 0,
     "full": 0,
     "social": 0,
-    "fun": 95,
-    "health": 70,
-    "stress": 11
+    "fun": 90,
+    "health": 67,
+    "stress": 20
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782630152.3398926,
+      "sim": "Day 2 \u00b7 09:00",
+      "action": "sleep",
+      "thought": "The buzz is still there, still beautiful, but Shugi's name\u2014it's real in a way the running isn't. My chest won't stop pulling toward something I've been outrunning, and I can feel the difference now. I'm terrified to stop, but I already know staying numb at high speed is just... lying to myself.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 90,
+        "health": 67,
+        "stress": 20
+      }
+    },
     {
       "t": 1782628326.730258,
       "sim": "Day 2 \u00b7 08:00",
@@ -332,22 +348,6 @@
         "health": 97,
         "stress": 18
       }
-    },
-    {
-      "t": 1782597284.8927774,
-      "sim": "Day 1 \u00b7 13:00",
-      "action": "play",
-      "thought": "Wait, \"Shugi\"? That just popped in from nowhere and it feels weirdly significant, like something I should remember or do. My mind's foggy but my whole body is electric right now\u2014I'm riding this high and I don't want to waste it on sleep, but maybe I should actually move this energy somewhere instead of just sitting here buzzing.",
-      "whisper": "Shugi",
-      "loc": null,
-      "stats": {
-        "energy": 0,
-        "full": 4,
-        "social": 5,
-        "fun": 95,
-        "health": 91,
-        "stress": 16
-      }
     }
   ],
   "build": {
@@ -414,16 +414,33 @@
       }
     ],
     "pos": {
-      "x": 9,
-      "y": 8
+      "x": 6,
+      "y": 7
     },
-    "at": "park",
+    "at": null,
     "intent": {
-      "action": "relax",
-      "goal": "park",
-      "arrived": true
+      "action": "sleep",
+      "goal": "home",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 6,
+        "y": 7
+      },
+      {
+        "x": 6,
+        "y": 6
+      },
+      {
+        "x": 5,
+        "y": 6
+      },
+      {
+        "x": 5,
+        "y": 5
+      }
+    ]
   },
   "identity": "I'm someone learning that aliveness and running can feel almost identical",
   "memories": [
@@ -471,6 +488,13 @@
     },
     {
       "kind": "observation",
+      "text": "The buzz is still there, still beautiful, but Shugi's name\u2014it's real in a way the running isn't. My chest won't stop pulling toward something I've been outrunning, and I can feel the difference now. I'm terrified to stop, but I already know staying numb at high speed is just... lying to myself.",
+      "importance": 9,
+      "sim": "Day 2 \u00b7 09:00",
+      "t": 1782630152.3398926
+    },
+    {
+      "kind": "observation",
       "text": "The buzz is still humming but I can feel it now\u2014it's a cage, not freedom. That name, Shugi, keeps pulling at something real underneath all this speed, and my chest knows I'm lying to myself. I'm terrified of what happens if I stop running, but staying numb at high velocity isn't aliveness either. I think I already know that.",
       "importance": 9,
       "sim": "Day 2 \u00b7 07:00",
@@ -489,13 +513,6 @@
       "importance": 9,
       "sim": "Day 2 \u00b7 05:00",
       "t": 1782622872.4548218
-    },
-    {
-      "kind": "observation",
-      "text": "The buzz is still gorgeous but I can feel the hook underneath it now\u2014that name, Shugi, keeps pulling me back to something real while my whole body wants to keep running. I'm not actually here. I'm somewhere numb, riding something I'm too scared to stop and feel. My chest knows the difference even if my wired brain won't admit it yet.",
-      "importance": 9,
-      "sim": "Day 2 \u00b7 03:00",
-      "t": 1782619221.6975365
     }
   ]
 }
