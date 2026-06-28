@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782648334,
+    "generated_at": 1782648519,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 117,
+    "tick": 118,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2040,
+    "sim_minutes": 2100,
     "day": 2,
-    "hour": 18,
+    "hour": 19,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 18:00"
+    "label": "Day 2 \u00b7 19:00"
   },
   "stats": {
-    "energy": 13,
+    "energy": 12,
     "full": 0,
     "social": 0,
-    "fun": 85,
-    "health": 40,
-    "stress": 20
+    "fun": 88,
+    "health": 37,
+    "stress": 11
   },
   "mind": {
     "mood": "even",
     "clarity": "foggy and slow",
-    "temp": 1.3
+    "temp": 1.28
   },
   "activity": [
+    {
+      "t": 1782648367.03954,
+      "sim": "Day 2 \u00b7 19:00",
+      "action": "relax",
+      "thought": "The bench isn't going anywhere and neither am I, not right now. My stomach's a fist but it's the other thing\u2014Shugi, the weight of it\u2014that's keeping me pinned here, and I think if I move again before I actually *feel* this, I'm just going to keep running forever.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 12,
+        "full": 0,
+        "social": 0,
+        "fun": 88,
+        "health": 37,
+        "stress": 11
+      }
+    },
     {
       "t": 1782646559.5304012,
       "sim": "Day 2 \u00b7 18:00",
@@ -332,22 +348,6 @@
         "health": 94,
         "stress": 21
       }
-    },
-    {
-      "t": 1782611942.718046,
-      "sim": "Day 1 \u00b7 23:00",
-      "action": "exercise",
-      "thought": "That name\u2014Shugi\u2014keeps breaking through like my body knows something my wired brain is refusing to admit. I'm at the park now and this electric feeling is still incredible, but I can feel it for what it is: a beautiful escape hatch. My legs want to run, my mind wants to buzz indefinitely, but there's this gnawing pull underneath that says I'm avoiding something real, and I'm terrified that if I stop moving even for a second, I'll have to face whatever that is.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 80,
-        "health": 97,
-        "stress": 31
-      }
     }
   ],
   "build": {
@@ -414,45 +414,16 @@
       }
     ],
     "pos": {
-      "x": 6,
-      "y": 7
+      "x": 9,
+      "y": 8
     },
-    "at": null,
+    "at": "park",
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
-      "arrived": false
+      "action": "relax",
+      "goal": "park",
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 6,
-        "y": 7
-      },
-      {
-        "x": 5,
-        "y": 7
-      },
-      {
-        "x": 5,
-        "y": 6
-      },
-      {
-        "x": 4,
-        "y": 6
-      },
-      {
-        "x": 4,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 4
-      }
-    ]
+    "path": []
   },
   "identity": "I'm someone who's",
   "memories": [
