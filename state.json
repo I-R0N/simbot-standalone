@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1782663661,
+    "generated_at": 1782663853,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 128,
+    "tick": 129,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2700,
+    "sim_minutes": 2760,
     "day": 3,
-    "hour": 5,
+    "hour": 6,
     "minute": 0,
-    "phase": "night",
-    "label": "Day 3 \u00b7 05:00"
+    "phase": "day",
+    "label": "Day 3 \u00b7 06:00"
   },
   "stats": {
     "energy": 0,
     "full": 0,
     "social": 0,
     "fun": 95,
-    "health": 7,
+    "health": 4,
     "stress": 11
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782663789.3433242,
+      "sim": "Day 3 \u00b7 06:00",
+      "action": "relax",
+      "thought": "My body's breaking but I can't eat through this\u2014I'll just swallow it all down again and keep running. Five more minutes of sitting here, actually feeling the weight instead of outrunning it. This is the hardest thing I've ever done and it matters more than hunger right now.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 0,
+        "full": 0,
+        "social": 0,
+        "fun": 95,
+        "health": 4,
+        "stress": 11
+      }
+    },
     {
       "t": 1782661964.6144285,
       "sim": "Day 3 \u00b7 05:00",
@@ -332,22 +348,6 @@
         "health": 61,
         "stress": 20
       }
-    },
-    {
-      "t": 1782631977.6671212,
-      "sim": "Day 2 \u00b7 10:00",
-      "action": "sleep",
-      "thought": "Three blocks home and I can't stop feeling it\u2014Shugi's name keeps breaking through the buzz like it's calling me back to something I've been running from. The high is still humming but it's hollow now that I can see it, and my chest won't let me pretend anymore that speed equals alive.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 36,
-        "full": 0,
-        "social": 0,
-        "fun": 85,
-        "health": 64,
-        "stress": 15
-      }
     }
   ],
   "build": {
@@ -471,6 +471,13 @@
     },
     {
       "kind": "observation",
+      "text": "My body's breaking but I can't eat through this\u2014I'll just swallow it all down again and keep running. Five more minutes of sitting here, actually feeling the weight instead of outrunning it. This is the hardest thing I've ever done and it matters more than hunger right now.",
+      "importance": 9,
+      "sim": "Day 3 \u00b7 06:00",
+      "t": 1782663789.3433242
+    },
+    {
+      "kind": "observation",
       "text": "My hands won't stop shaking and I'm so hungry it hurts, but my chest\u2014God, my chest is so tight I can barely breathe. If I eat now I'm just going to swallow all of this down again, pretend none of this weight matters. I need to sit here a little longer and actually feel it, even though every part of me is breaking.",
       "importance": 9,
       "sim": "Day 3 \u00b7 05:00",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 3 \u00b7 03:00",
       "t": 1782658314.6975803
-    },
-    {
-      "kind": "observation",
-      "text": "My stomach's clawing at itself but if I move right now I'll just run again, and I'm so tired of running. Shugi sits there like a stone in my chest and I think\u2014I think I need to feel this before I eat, before I do anything else, or it'll just follow me forever.",
-      "importance": 9,
-      "sim": "Day 2 \u00b7 22:00",
-      "t": 1782653823.5191057
     }
   ]
 }
