@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1782655520,
+    "generated_at": 1782655703,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 121,
+    "tick": 122,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2280,
+    "sim_minutes": 2340,
     "day": 2,
-    "hour": 22,
+    "hour": 23,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 22:00"
+    "label": "Day 2 \u00b7 23:00"
   },
   "stats": {
-    "energy": 4,
+    "energy": 3,
     "full": 0,
     "social": 0,
-    "fun": 89,
-    "health": 28,
+    "fun": 92,
+    "health": 25,
     "stress": 11
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782655654.6042264,
+      "sim": "Day 2 \u00b7 23:00",
+      "action": "relax",
+      "thought": "My body's screaming but my chest is screaming louder. If I eat right now I'm just distracting myself again\u2014I'll swallow and keep running. I need to sit with this for five more minutes, even though it hurts, even though I'm starving.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 3,
+        "full": 0,
+        "social": 0,
+        "fun": 92,
+        "health": 25,
+        "stress": 11
+      }
+    },
     {
       "t": 1782653823.5191057,
       "sim": "Day 2 \u00b7 22:00",
@@ -330,22 +346,6 @@
         "social": 0,
         "fun": 95,
         "health": 82,
-        "stress": 11
-      }
-    },
-    {
-      "t": 1782619221.6975365,
-      "sim": "Day 2 \u00b7 03:00",
-      "action": "relax",
-      "thought": "The buzz is still gorgeous but I can feel the hook underneath it now\u2014that name, Shugi, keeps pulling me back to something real while my whole body wants to keep running. I'm not actually here. I'm somewhere numb, riding something I'm too scared to stop and feel. My chest knows the difference even if my wired brain won't admit it yet.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 92,
-        "health": 85,
         "stress": 11
       }
     }
