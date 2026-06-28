@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782639095,
+    "generated_at": 1782639283,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 112,
+    "tick": 113,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1740,
+    "sim_minutes": 1800,
     "day": 2,
-    "hour": 13,
+    "hour": 14,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 13:00"
+    "label": "Day 2 \u00b7 14:00"
   },
   "stats": {
-    "energy": 23,
+    "energy": 22,
     "full": 0,
     "social": 0,
-    "fun": 78,
-    "health": 55,
-    "stress": 16
+    "fun": 81,
+    "health": 52,
+    "stress": 11
   },
   "mind": {
     "mood": "even",
     "clarity": "foggy and slow",
-    "temp": 1.23
+    "temp": 1.21
   },
   "activity": [
+    {
+      "t": 1782639258.091854,
+      "sim": "Day 2 \u00b7 14:00",
+      "action": "relax",
+      "thought": "The park bench is still under me and I can feel my chest doing that thing again\u2014pulling toward Shugi like a rope I've been trying to cut. The buzz is still there humming in my blood but it feels like I'm watching it from the outside now, like I finally see the cage. I don't want to go to Friend's place pretending everything is fine when I'm sitting here falling apart in slow motion.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 22,
+        "full": 0,
+        "social": 0,
+        "fun": 81,
+        "health": 52,
+        "stress": 11
+      }
+    },
     {
       "t": 1782637432.394253,
       "sim": "Day 2 \u00b7 13:00",
@@ -332,22 +348,6 @@
         "health": 94,
         "stress": 33
       }
-    },
-    {
-      "t": 1782604579.7096314,
-      "sim": "Day 1 \u00b7 18:00",
-      "action": "exercise",
-      "thought": "My whole body is electric and screaming to move, but there's this name\u2014Shugi\u2014breaking through the fog like something important I'm supposed to remember or do. The aliveness feels too good to stop, but maybe I should actually *do* something with this energy instead of just buzzing in place.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 97,
-        "stress": 25
-      }
     }
   ],
   "build": {
@@ -414,41 +414,16 @@
       }
     ],
     "pos": {
-      "x": 5,
+      "x": 9,
       "y": 8
     },
-    "at": null,
+    "at": "park",
     "intent": {
-      "action": "socialize",
-      "goal": "friend",
-      "arrived": false
+      "action": "relax",
+      "goal": "park",
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 5,
-        "y": 8
-      },
-      {
-        "x": 4,
-        "y": 8
-      },
-      {
-        "x": 3,
-        "y": 8
-      },
-      {
-        "x": 2,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 9
-      }
-    ]
+    "path": []
   },
   "identity": "I'm someone who's just beginning to see the difference between running and living, between the seductive hum of avoidance and the harder, realer pull of connection. I'm terrified, but I'm stopping.",
   "memories": [
