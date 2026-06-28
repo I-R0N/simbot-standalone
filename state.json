@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782644584,
+    "generated_at": 1782644773,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 115,
+    "tick": 116,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1920,
+    "sim_minutes": 1980,
     "day": 2,
-    "hour": 16,
+    "hour": 17,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 16:00"
+    "label": "Day 2 \u00b7 17:00"
   },
   "stats": {
-    "energy": 20,
+    "energy": 19,
     "full": 0,
     "social": 0,
-    "fun": 87,
-    "health": 46,
+    "fun": 90,
+    "health": 43,
     "stress": 11
   },
   "mind": {
     "mood": "even",
     "clarity": "foggy and slow",
-    "temp": 1.22
+    "temp": 1.23
   },
   "activity": [
+    {
+      "t": 1782644734.151489,
+      "sim": "Day 2 \u00b7 17:00",
+      "action": "relax",
+      "thought": "The bench is holding me and I'm actually still for maybe the first time in\u2014I don't know how long. Shugi's name is there, real and terrifying, and I can feel the difference now between the hollow hum and something that actually matters. I'm starving, my body's running on nothing, and I think I need to stop pretending the motion was ever freedom.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 19,
+        "full": 0,
+        "social": 0,
+        "fun": 90,
+        "health": 43,
+        "stress": 11
+      }
+    },
     {
       "t": 1782642908.754493,
       "sim": "Day 2 \u00b7 16:00",
@@ -331,22 +347,6 @@
         "fun": 80,
         "health": 97,
         "stress": 31
-      }
-    },
-    {
-      "t": 1782608291.3118873,
-      "sim": "Day 1 \u00b7 21:00",
-      "action": "exercise",
-      "thought": "This electric feeling is intoxicating but Shugi keeps breaking through\u2014like my body remembers something my scattered mind is trying to outrun. I can feel the avoidance in this energy, the way I'm using movement to not think, and that scares me more than the buzzing feels good. Maybe I need to actually *do* something real with this aliveness instead of just vibrating in place.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 30,
-        "full": 0,
-        "social": 0,
-        "fun": 80,
-        "health": 88,
-        "stress": 30
       }
     }
   ],
