@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782635504,
+    "generated_at": 1782635693,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 110,
+    "tick": 111,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1620,
+    "sim_minutes": 1680,
     "day": 2,
-    "hour": 11,
+    "hour": 12,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 11:00"
+    "label": "Day 2 \u00b7 12:00"
   },
   "stats": {
-    "energy": 30,
+    "energy": 29,
     "full": 0,
     "social": 0,
-    "fun": 80,
-    "health": 61,
-    "stress": 20
+    "fun": 83,
+    "health": 58,
+    "stress": 6
   },
   "mind": {
     "mood": "even",
     "clarity": "foggy and slow",
-    "temp": 1.2
+    "temp": 1.15
   },
   "activity": [
+    {
+      "t": 1782635606.911523,
+      "sim": "Day 2 \u00b7 12:00",
+      "action": "relax",
+      "thought": "Three blocks to the park and I'm still moving, still humming, but it's hollow now\u2014I can feel it. Shugi's name keeps pulling me back to something real, and my body knows I'm lying even if my wired brain keeps trying to convince me the motion is freedom. I'm terrified of what happens if I actually stop and feel what's underneath this beautiful, terrible buzz.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 29,
+        "full": 0,
+        "social": 0,
+        "fun": 83,
+        "health": 58,
+        "stress": 6
+      }
+    },
     {
       "t": 1782633803.1545236,
       "sim": "Day 2 \u00b7 11:00",
@@ -332,22 +348,6 @@
         "health": 97,
         "stress": 23
       }
-    },
-    {
-      "t": 1782600930.3291063,
-      "sim": "Day 1 \u00b7 16:00",
-      "action": "exercise",
-      "thought": "My whole body is humming, alive in this way that feels like breaking through something, but my head's moving through mud and that name\u2014Shugi\u2014keeps knocking at the door of my awareness like I'm supposed to remember something. I know I'm riding high, maybe *too* high, but the thought of sitting still feels impossible right now, like I'd shatter if I stopped moving.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 97,
-        "stress": 22
-      }
     }
   ],
   "build": {
@@ -414,33 +414,16 @@
       }
     ],
     "pos": {
-      "x": 8,
-      "y": 6
+      "x": 9,
+      "y": 8
     },
-    "at": null,
+    "at": "park",
     "intent": {
       "action": "relax",
       "goal": "park",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 8,
-        "y": 6
-      },
-      {
-        "x": 8,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 8
-      }
-    ]
+    "path": []
   },
   "identity": "I'm someone who's just beginning to see the difference between running and living, between the seductive hum of avoidance and the harder, realer pull of connection. I'm terrified, but I'm stopping.",
   "memories": [
