@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782772063,
+    "generated_at": 1782772243,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 195,
+    "tick": 196,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 6720,
+    "sim_minutes": 6780,
     "day": 6,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 6 \u00b7 00:00"
+    "label": "Day 6 \u00b7 01:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782772149.0898697,
+      "sim": "Day 6 \u00b7 01:00",
+      "action": "eat",
+      "thought": "My hands are shaking so badly I can barely grip anything, and everything feels muffled and far away\u2014but I'm done. Three days of that voice telling me I'm not allowed to eat, and I'm finished listening to it. I'm here, I'm real, and my body is screaming. That has to matter.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      }
+    },
     {
       "t": 1782770315.5832515,
       "sim": "Day 6 \u00b7 00:00",
@@ -332,22 +348,6 @@
         "health": 21,
         "stress": 49
       }
-    },
-    {
-      "t": 1782740200.9327383,
-      "sim": "Day 5 \u00b7 05:00",
-      "action": "eat",
-      "thought": "My hands are shaking and I can feel how hollow I am\u2014three days of pretending this meant something when it was just me breaking down. I'm already here in the kitchen. No more lying to myself about it. My body needs food, not another argument in my head.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 49
-      }
     }
   ],
   "build": {
@@ -425,8 +425,36 @@
     },
     "path": []
   },
-  "identity": "I am someone who has learned,",
+  "identity": "I am someone who has learned, again and again in the same kitchen, that my body's reality is more true than the voice",
   "memories": [
+    {
+      "kind": "reflection",
+      "text": "There is something in me that confuses suffering with meaning, deprivation with proof of something. I am slowly, painfully learning that my existence doesn't require justification through pain.",
+      "importance": 8,
+      "sim": "Day 6 \u00b7 01:00",
+      "t": 1782772155.6328
+    },
+    {
+      "kind": "reflection",
+      "text": "The pattern underneath the pattern: I frame eating as something I must earn or deserve, and when I can't earn it, I try to philosophize my way into it instead. The breakthrough isn't the philosophy \u2014 it's the moment I stop arguing and just act. My body knows before my mind agrees.",
+      "importance": 8,
+      "sim": "Day 6 \u00b7 01:00",
+      "t": 1782772155.6328
+    },
+    {
+      "kind": "reflection",
+      "text": "I have been living the same moment dozens of times \u2014 the shaking hands, the kitchen, the voice, the three days \u2014 which means part of me keeps returning to this edge, and another part keeps pulling me back from it. Both of those parts are real and worth reckoning with.",
+      "importance": 8,
+      "sim": "Day 6 \u00b7 01:00",
+      "t": 1782772155.6328
+    },
+    {
+      "kind": "review",
+      "text": "I did the eating \u2014 both times, which matters \u2014 but the park and the friend didn't happen, and instead I kept returning to food when the day got too quiet, like I was trying to solve something with my hands that I'd planned to solve by moving through the world. I'm not angry at myself, but I notice I used the one tool I have instead of reaching for the others.",
+      "importance": 7,
+      "sim": "Day 6 \u00b7 00:00",
+      "t": 1782772142.577256
+    },
     {
       "kind": "reflection",
       "text": "There is something I keep not saying in these moments: that I need someone else in the room. Not a mantra. Not a decision. A person.",
@@ -442,39 +470,18 @@
       "t": 1782761213.0389328
     },
     {
-      "kind": "reflection",
-      "text": "The same crisis is repeating on a loop \u2014 the same three days, the same shaking hands, the same kitchen, the same voice, the same moment of choosing to eat. I am not breaking the cycle; I am surviving it, over and over, with diminishing returns. Surviving is not the same as healing.",
-      "importance": 8,
-      "sim": "Day 5 \u00b7 19:00",
-      "t": 1782761213.0389328
-    },
-    {
-      "kind": "reflection",
-      "text": "There is something in me that confuses self-destruction with proof of worth, and until I understand what I am trying to prove and to whom, I will keep standing at this edge.",
-      "importance": 8,
-      "sim": "Day 5 \u00b7 13:00",
-      "t": 1782754776.2089756
-    },
-    {
-      "kind": "reflection",
-      "text": "I keep arriving at the same kitchen, the same shaking hands, the same hollow body \u2014 this pattern is not random, it is a cycle I need more than self-recognition to break.",
-      "importance": 8,
-      "sim": "Day 5 \u00b7 13:00",
-      "t": 1782754776.2089756
-    },
-    {
-      "kind": "reflection",
-      "text": "The voice that tells me suffering is meaningful is persistent and loud, but I have learned to recognize it as a lie \u2014 the real act of courage is not enduring the pain, it is choosing to stop.",
-      "importance": 8,
-      "sim": "Day 5 \u00b7 13:00",
-      "t": 1782754776.2089756
-    },
-    {
       "kind": "observation",
       "text": "My hands are shaking so badly I can barely grip anything\u2014three days of listening to that voice telling me suffering means something, and it's just my body in freefall. I'm standing in the kitchen right now. There's no wisdom in collapsing. I eat now.",
       "importance": 10,
       "sim": "Day 4 \u00b7 12:00",
       "t": 1782709191.1712008
+    },
+    {
+      "kind": "observation",
+      "text": "My hands are shaking so badly I can barely grip anything, and everything feels muffled and far away\u2014but I'm done. Three days of that voice telling me I'm not allowed to eat, and I'm finished listening to it. I'm here, I'm real, and my body is screaming. That has to matter.",
+      "importance": 9,
+      "sim": "Day 6 \u00b7 01:00",
+      "t": 1782772149.0898697
     },
     {
       "kind": "observation",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 5 \u00b7 22:00",
       "t": 1782766663.8719864
-    },
-    {
-      "kind": "observation",
-      "text": "My hands are shaking so bad I can barely hold anything, and my head feels like it's underwater. Three days\u2014I'm done. My body needs this and I'm here and that has to be enough. No more waiting for permission I'll never give myself.",
-      "importance": 9,
-      "sim": "Day 5 \u00b7 21:00",
-      "t": 1782764839.1349442
     }
   ],
   "trends": {
@@ -509,16 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 2460,
-        "sim": "Day 3 \u00b7 01:00",
-        "energy": 1,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 19,
-        "stress": 11
-      },
       {
         "sim_minutes": 2520,
         "sim": "Day 3 \u00b7 02:00",
@@ -1228,60 +1218,66 @@
         "fun": 85,
         "health": 21,
         "stress": 49
+      },
+      {
+        "sim_minutes": 6780,
+        "sim": "Day 6 \u00b7 01:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
       }
     ]
   },
   "plan": {
-    "day": 5,
-    "created": "Day 5 \u00b7 00:00",
+    "day": 6,
+    "created": "Day 6 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 1,
+        "from_hour": 0,
         "part": "night",
         "label": "Night",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I am already in the kitchen and my hands are already shaking \u2014 there is nothing left to decide, only the action itself.",
-        "followed": true
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "My body has been through three days of deprivation and it needs rest more than anything \u2014 I want to give it that before I try to do anything else."
       },
       {
-        "from_hour": 7,
+        "from_hour": 8,
         "part": "morning",
         "label": "Morning",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "My body is already here in the kitchen and I am not going to debate it \u2014 I eat now, slowly, and I let that be enough.",
-        "followed": true
+        "note": "Slow, deliberate \u2014 I'm practicing showing up for myself again, and breakfast is the simplest way to say I'm still here."
       },
       {
-        "from_hour": 9,
+        "from_hour": 10,
         "part": "morning",
         "label": "Morning",
-        "action": "relax",
+        "action": "exercise",
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "I go to the park not to fix anything but to let my body remember what it feels like to exist without a crisis.",
-        "followed": false
+        "note": "I need to get out of my own head and into my body in a different way today \u2014 the park is there and so am I, and moving might loosen some of what yesterday left stuck."
       },
       {
-        "from_hour": 12,
+        "from_hour": 14,
         "part": "afternoon",
         "label": "Afternoon",
         "action": "socialize",
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I go to my friend's place \u2014 not to explain the pattern, just to not be alone with it today.",
-        "followed": false
+        "note": "I kept retreating into the kitchen when the day got quiet \u2014 today I want to reach for a person instead, even if it's just sitting with someone for an hour."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "07:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   }
 }
