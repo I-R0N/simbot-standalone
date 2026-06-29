@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782730993,
+    "generated_at": 1782731184,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 170,
+    "tick": 171,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5220,
-    "day": 4,
-    "hour": 23,
+    "sim_minutes": 5280,
+    "day": 5,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 4 \u00b7 23:00"
+    "label": "Day 5 \u00b7 00:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782731079.3051295,
+      "sim": "Day 5 \u00b7 00:00",
+      "action": "eat",
+      "thought": "My body is breaking. The shaking won't stop and I've known for three days that this was coming\u2014I can feel how hollow I am, how wrong this is. I'm already here. There's no more thinking to do, just eating.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      }
+    },
     {
       "t": 1782729253.8749304,
       "sim": "Day 4 \u00b7 23:00",
@@ -332,22 +348,6 @@
         "health": 21,
         "stress": 47
       }
-    },
-    {
-      "t": 1782696374.1009774,
-      "sim": "Day 4 \u00b7 04:00",
-      "action": "eat",
-      "thought": "My hands are shaking and my body is screaming at me\u2014three days is enough. That voice telling me to sleep first is the same one that's been lying to me for days. I'm in the kitchen. I eat now, not later.",
-      "whisper": "Sleep. Your energy is clearly drained.",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 47
-      }
     }
   ],
   "build": {
@@ -509,16 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 960,
-        "sim": "Day 2 \u00b7 00:00",
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 83,
-        "health": 94,
-        "stress": 21
-      },
       {
         "sim_minutes": 1020,
         "sim": "Day 2 \u00b7 01:00",
@@ -1228,6 +1218,16 @@
         "fun": 85,
         "health": 21,
         "stress": 49
+      },
+      {
+        "sim_minutes": 5280,
+        "sim": "Day 5 \u00b7 00:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
       }
     ]
   },
@@ -1275,10 +1275,11 @@
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "My hands are shaking and my body is in crisis \u2014 I eat now, no more negotiating with that voice."
+        "note": "My hands are shaking and my body is in crisis \u2014 I eat now, no more negotiating with that voice.",
+        "followed": true
       }
     ],
-    "active_index": 3,
+    "active_index": null,
     "revision": 3,
     "revised": "11:00"
   }
