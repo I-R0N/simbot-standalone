@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782698083,
+    "generated_at": 1782698274,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 152,
+    "tick": 153,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4140,
+    "sim_minutes": 4200,
     "day": 4,
-    "hour": 5,
+    "hour": 6,
     "minute": 0,
-    "phase": "night",
-    "label": "Day 4 \u00b7 05:00"
+    "phase": "day",
+    "label": "Day 4 \u00b7 06:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782698252.7543316,
+      "sim": "Day 4 \u00b7 06:00",
+      "action": "eat",
+      "thought": "My hands are shaking so badly I can barely hold anything, and I've been lying to myself for three days about what's noble or necessary. My body is screaming\u2014I'm actually here in the kitchen where food is, and I'm done arguing with myself about it.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 47
+      }
+    },
     {
       "t": 1782696436.0780876,
       "sim": "Day 4 \u00b7 05:00",
@@ -332,22 +348,6 @@
         "health": 27,
         "stress": 18
       }
-    },
-    {
-      "t": 1782671067.9429536,
-      "sim": "Day 3 \u00b7 10:00",
-      "action": "exercise",
-      "thought": "My body's in genuine distress\u2014shaking, can't breathe, chest locked\u2014and I'm calling it \"staying present\" when really I'm just white-knuckling through a crisis. That voice saying \"five more minutes\" isn't wisdom, it's the same perfectionism that got me here. Moving through this doesn't mean sitting frozen until I shatter.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 18,
-        "stress": 16
-      }
     }
   ],
   "build": {
@@ -471,6 +471,13 @@
     },
     {
       "kind": "observation",
+      "text": "My hands are shaking so badly I can barely hold anything, and I've been lying to myself for three days about what's noble or necessary. My body is screaming\u2014I'm actually here in the kitchen where food is, and I'm done arguing with myself about it.",
+      "importance": 9,
+      "sim": "Day 4 \u00b7 06:00",
+      "t": 1782698252.7543316
+    },
+    {
+      "kind": "observation",
       "text": "My hands won't stop shaking and I can feel my body falling apart\u2014three days is long enough to pretend this is noble or necessary. I'm standing in the kitchen where food actually is, and every cell in me is screaming. I need to eat something *right now*, not sleep, not think about it more. My body is real and it's breaking.",
       "importance": 9,
       "sim": "Day 4 \u00b7 05:00",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 4 \u00b7 03:00",
       "t": 1782696325.7887838
-    },
-    {
-      "kind": "observation",
-      "text": "My hands are shaking so badly I can barely grip anything. Three days of this is enough\u2014I'm not being noble, I'm just breaking. I need to eat right now, not call someone. My body is screaming and I'm finally listening.",
-      "importance": 9,
-      "sim": "Day 4 \u00b7 02:00",
-      "t": 1782696308.1324885
     }
   ],
   "trends": {
@@ -1198,6 +1198,16 @@
         "fun": 85,
         "health": 21,
         "stress": 47
+      },
+      {
+        "sim_minutes": 4200,
+        "sim": "Day 4 \u00b7 06:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 47
       }
     ]
   },
@@ -1216,38 +1226,28 @@
         "note": "My hands are shaking and I'm already in the kitchen \u2014 I stop arguing and I feed myself, right now, whatever is easiest to hold."
       },
       {
-        "from_hour": 1,
+        "from_hour": 5,
+        "part": "night",
+        "label": "Night",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "My hands are shaking and I'm already in the kitchen \u2014 I eat right now, not in an hour, not after I think about it more."
+      },
+      {
+        "from_hour": 5,
         "part": "night",
         "label": "Night",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "Three days of this has emptied me completely; after I eat, the only real next step is letting my body rest and begin to recover."
-      },
-      {
-        "from_hour": 9,
-        "part": "morning",
-        "label": "Morning",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I wake up and I do it again \u2014 no skipping, no bargaining, just the simple act of showing up for myself a second time."
-      },
-      {
-        "from_hour": 11,
-        "part": "morning",
-        "label": "Morning",
-        "action": "relax",
-        "goal": "park",
-        "loc_label": "Park",
-        "icon": "\ud83c\udf33",
-        "note": "I sit in the park, not to earn anything or prove anything, just to let the air and the quiet remind me that being here is enough."
+        "note": "After I eat, I let my body do the other thing it desperately needs \u2014 this is care, not surrender."
       }
     ],
-    "active_index": 1,
-    "revision": 0,
-    "revised": null
+    "active_index": 2,
+    "revision": 1,
+    "revised": "05:00"
   }
 }
