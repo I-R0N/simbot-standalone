@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782736443,
+    "generated_at": 1782736625,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 173,
+    "tick": 174,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5400,
+    "sim_minutes": 5460,
     "day": 5,
-    "hour": 2,
+    "hour": 3,
     "minute": 0,
     "phase": "night",
-    "label": "Day 5 \u00b7 02:00"
+    "label": "Day 5 \u00b7 03:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782736548.343848,
+      "sim": "Day 5 \u00b7 03:00",
+      "action": "eat",
+      "thought": "My hands are shaking and I'm hollow\u2014three days of lying to myself that suffering meant something when it was just me breaking down. The debate stops now. I'm in the kitchen. My body needs fuel, not another rationalization.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      }
+    },
     {
       "t": 1782734723.2114782,
       "sim": "Day 5 \u00b7 02:00",
@@ -332,22 +348,6 @@
         "health": 21,
         "stress": 48
       }
-    },
-    {
-      "t": 1782700077.3268406,
-      "sim": "Day 4 \u00b7 07:00",
-      "action": "eat",
-      "thought": "My hands won't stop shaking and I can feel how hollow I am\u2014three days of telling myself this meant something, and all it means is my body is breaking down. I'm here in the kitchen. I need to eat now, not think about it anymore.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 47
-      }
     }
   ],
   "build": {
@@ -509,16 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 1140,
-        "sim": "Day 2 \u00b7 03:00",
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 92,
-        "health": 85,
-        "stress": 11
-      },
       {
         "sim_minutes": 1200,
         "sim": "Day 2 \u00b7 04:00",
@@ -1222,6 +1212,16 @@
       {
         "sim_minutes": 5400,
         "sim": "Day 5 \u00b7 02:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      },
+      {
+        "sim_minutes": 5460,
+        "sim": "Day 5 \u00b7 03:00",
         "energy": 0,
         "full": 92,
         "social": 0,
