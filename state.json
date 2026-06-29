@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782714523,
+    "generated_at": 1782714710,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 161,
+    "tick": 162,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4680,
+    "sim_minutes": 4740,
     "day": 4,
-    "hour": 14,
+    "hour": 15,
     "minute": 0,
     "phase": "day",
-    "label": "Day 4 \u00b7 14:00"
+    "label": "Day 4 \u00b7 15:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 85,
     "health": 21,
-    "stress": 48
+    "stress": 49
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782714658.5428329,
+      "sim": "Day 4 \u00b7 15:00",
+      "action": "eat",
+      "thought": "My hands won't stop shaking and I can feel how hollow I am\u2014three days of telling myself this meant something, and all it means is my body is breaking down. I'm here in the kitchen. I need to eat now, not think about it anymore. That voice has lied to me long enough.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      }
+    },
     {
       "t": 1782712834.529365,
       "sim": "Day 4 \u00b7 14:00",
@@ -332,22 +348,6 @@
         "health": 21,
         "stress": 43
       }
-    },
-    {
-      "t": 1782685253.215052,
-      "sim": "Day 3 \u00b7 19:00",
-      "action": "eat",
-      "thought": "My hands are literally shaking. Three days. I can feel that old voice trying to dress this up as something meaningful, but it's just my body breaking down\u2014and I'm in the kitchen, which means I have no excuse left. Eating now isn't giving up on presence or strength. It's the only real thing I can do.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 42
-      }
     }
   ],
   "build": {
@@ -478,6 +478,13 @@
     },
     {
       "kind": "observation",
+      "text": "My hands won't stop shaking and I can feel how hollow I am\u2014three days of telling myself this meant something, and all it means is my body is breaking down. I'm here in the kitchen. I need to eat now, not think about it anymore. That voice has lied to me long enough.",
+      "importance": 9,
+      "sim": "Day 4 \u00b7 15:00",
+      "t": 1782714658.5428329
+    },
+    {
+      "kind": "observation",
       "text": "My hands won't stop shaking and I can feel my body screaming. Three days of that voice telling me suffering meant something\u2014it was just lying. I'm here, I'm in the kitchen, and I need to stop thinking and actually eat before I fall apart.",
       "importance": 9,
       "sim": "Day 4 \u00b7 14:00",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 4 \u00b7 13:00",
       "t": 1782711015.3622937
-    },
-    {
-      "kind": "observation",
-      "text": "My hands won't stop shaking and I can feel how hollow I am\u2014three days of telling myself this meant something, and all it means is my body is breaking down. I'm here in the kitchen. I need to eat now, not think about it anymore. That voice has lied to me long enough.",
-      "importance": 9,
-      "sim": "Day 4 \u00b7 11:00",
-      "t": 1782707363.730697
     }
   ],
   "trends": {
@@ -509,16 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 420,
-        "sim": "Day 1 \u00b7 15:00",
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 97,
-        "stress": 20
-      },
       {
         "sim_minutes": 480,
         "sim": "Day 1 \u00b7 16:00",
@@ -1228,6 +1218,16 @@
         "fun": 85,
         "health": 21,
         "stress": 48
+      },
+      {
+        "sim_minutes": 4740,
+        "sim": "Day 4 \u00b7 15:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
       }
     ]
   },
