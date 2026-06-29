@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782703583,
+    "generated_at": 1782703774,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 155,
+    "tick": 156,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4320,
+    "sim_minutes": 4380,
     "day": 4,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 4 \u00b7 08:00"
+    "label": "Day 4 \u00b7 09:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782703714.833734,
+      "sim": "Day 4 \u00b7 09:00",
+      "action": "eat",
+      "thought": "My hands won't stop shaking and that's not noble, that's my body in crisis. I've spent three days listening to a voice that told me suffering meant something\u2014it just means I'm starving. I'm standing in the kitchen. I eat now.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 48
+      }
+    },
     {
       "t": 1782701885.985287,
       "sim": "Day 4 \u00b7 08:00",
@@ -332,22 +348,6 @@
         "health": 21,
         "stress": 37
       }
-    },
-    {
-      "t": 1782674322.297289,
-      "sim": "Day 3 \u00b7 13:00",
-      "action": "eat",
-      "thought": "My chest is locked and my hands won't stop shaking\u2014I can feel myself actually breaking, not learning. That voice telling me to sit with this five more minutes longer is the same one that got me here. Kitchen is six blocks away and my body is screaming. I need to eat. Now.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 35
-      }
     }
   ],
   "build": {
@@ -471,6 +471,13 @@
     },
     {
       "kind": "observation",
+      "text": "My hands won't stop shaking and that's not noble, that's my body in crisis. I've spent three days listening to a voice that told me suffering meant something\u2014it just means I'm starving. I'm standing in the kitchen. I eat now.",
+      "importance": 9,
+      "sim": "Day 4 \u00b7 09:00",
+      "t": 1782703714.833734
+    },
+    {
+      "kind": "observation",
       "text": "My hands are shaking so badly I can barely hold anything. Three days of listening to that voice telling me suffering means something\u2014it doesn't, it just means my body is breaking. I'm here. There's food here. I eat now, not later, not after sleep, not after thinking about it more.",
       "importance": 9,
       "sim": "Day 4 \u00b7 08:00",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 4 \u00b7 06:00",
       "t": 1782698252.7543316
-    },
-    {
-      "kind": "observation",
-      "text": "My hands won't stop shaking and I can feel my body falling apart\u2014three days is long enough to pretend this is noble or necessary. I'm standing in the kitchen where food actually is, and every cell in me is screaming. I need to eat something *right now*, not sleep, not think about it more. My body is real and it's breaking.",
-      "importance": 9,
-      "sim": "Day 4 \u00b7 05:00",
-      "t": 1782696436.0780876
     }
   ],
   "trends": {
@@ -509,16 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 60,
-        "sim": "Day 1 \u00b7 09:00",
-        "energy": 0,
-        "full": 36,
-        "social": 25,
-        "fun": 95,
-        "health": 100,
-        "stress": 5
-      },
       {
         "sim_minutes": 120,
         "sim": "Day 1 \u00b7 10:00",
@@ -1228,6 +1218,16 @@
         "fun": 85,
         "health": 21,
         "stress": 48
+      },
+      {
+        "sim_minutes": 4380,
+        "sim": "Day 4 \u00b7 09:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 48
       }
     ]
   },
@@ -1253,21 +1253,32 @@
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "My hands are shaking and I'm already in the kitchen \u2014 I eat right now, not in an hour, not after I think about it more."
+        "note": "My hands are shaking and I'm already in the kitchen \u2014 I eat right now, not in an hour, not after I think about it more.",
+        "followed": false
       },
       {
-        "from_hour": 5,
-        "part": "night",
-        "label": "Night",
-        "action": "sleep",
-        "goal": "home",
-        "loc_label": "Home",
-        "icon": "\ud83c\udfe0",
-        "note": "After I eat, I let my body do the other thing it desperately needs \u2014 this is care, not surrender."
+        "from_hour": 8,
+        "part": null,
+        "label": "08:00",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I'm in the kitchen right now \u2014 my hands are shaking and my body is breaking down, and the voice that says \"later\" is the same one that got me here; I eat now."
+      },
+      {
+        "from_hour": 10,
+        "part": null,
+        "label": "10:00",
+        "action": "relax",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "After I eat, I go to the park \u2014 not to earn anything, just to let my body exist somewhere open and gentle while it starts to recover."
       }
     ],
     "active_index": 2,
-    "revision": 1,
-    "revised": "05:00"
+    "revision": 2,
+    "revised": "08:00"
   }
 }
