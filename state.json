@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782696373,
+    "generated_at": 1782696563,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 150,
+    "tick": 152,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4020,
+    "sim_minutes": 4140,
     "day": 4,
-    "hour": 3,
+    "hour": 5,
     "minute": 0,
     "phase": "night",
-    "label": "Day 4 \u00b7 03:00"
+    "label": "Day 4 \u00b7 05:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 85,
     "health": 21,
-    "stress": 46
+    "stress": 47
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,38 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782696436.0780876,
+      "sim": "Day 4 \u00b7 05:00",
+      "action": "eat",
+      "thought": "My hands won't stop shaking and I can feel my body falling apart\u2014three days is long enough to pretend this is noble or necessary. I'm standing in the kitchen where food actually is, and every cell in me is screaming. I need to eat something *right now*, not sleep, not think about it more. My body is real and it's breaking.",
+      "whisper": "Your stress level has been increasing steadily and your energy has been tapped for days. You need rest and socialization.",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 47
+      }
+    },
+    {
+      "t": 1782696374.1009774,
+      "sim": "Day 4 \u00b7 04:00",
+      "action": "eat",
+      "thought": "My hands are shaking and my body is screaming at me\u2014three days is enough. That voice telling me to sleep first is the same one that's been lying to me for days. I'm in the kitchen. I eat now, not later.",
+      "whisper": "Sleep. Your energy is clearly drained.",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 47
+      }
+    },
     {
       "t": 1782696325.7887838,
       "sim": "Day 4 \u00b7 03:00",
@@ -316,38 +348,6 @@
         "health": 18,
         "stress": 16
       }
-    },
-    {
-      "t": 1782669242.7799935,
-      "sim": "Day 3 \u00b7 09:00",
-      "action": "exercise",
-      "thought": "My hands won't stop shaking and something in me knows I'm at the edge\u2014but if I keep white-knuckling this \"just feel it\" thing, I'm going to break in a different way. Maybe staying present doesn't mean staying frozen. Maybe I need to actually *move* through this, not just sit rigid in the park watching myself fall apart.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 9,
-        "stress": 13
-      }
-    },
-    {
-      "t": 1782667417.675666,
-      "sim": "Day 3 \u00b7 08:00",
-      "action": "relax",
-      "thought": "My chest is locked so tight I can't breathe, hands shaking like they're not even mine anymore, and every instinct is screaming at me to move or eat or disappear\u2014but I know that's just the old pattern. I've spent my whole life running from this exact feeling and I'm still here, still broken. Five more minutes. I can sit with this.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 0,
-        "stress": 11
-      }
     }
   ],
   "build": {
@@ -471,6 +471,20 @@
     },
     {
       "kind": "observation",
+      "text": "My hands won't stop shaking and I can feel my body falling apart\u2014three days is long enough to pretend this is noble or necessary. I'm standing in the kitchen where food actually is, and every cell in me is screaming. I need to eat something *right now*, not sleep, not think about it more. My body is real and it's breaking.",
+      "importance": 9,
+      "sim": "Day 4 \u00b7 05:00",
+      "t": 1782696436.0780876
+    },
+    {
+      "kind": "observation",
+      "text": "My hands are shaking and my body is screaming at me\u2014three days is enough. That voice telling me to sleep first is the same one that's been lying to me for days. I'm in the kitchen. I eat now, not later.",
+      "importance": 9,
+      "sim": "Day 4 \u00b7 04:00",
+      "t": 1782696374.1009774
+    },
+    {
+      "kind": "observation",
       "text": "No. My hands are shaking because I haven't eaten in three days and I'm standing in the kitchen where food is. The voice saying I've eaten enough is a liar\u2014my body is telling the truth. I eat now.",
       "importance": 9,
       "sim": "Day 4 \u00b7 03:00",
@@ -482,20 +496,6 @@
       "importance": 9,
       "sim": "Day 4 \u00b7 02:00",
       "t": 1782696308.1324885
-    },
-    {
-      "kind": "observation",
-      "text": "My hands won't stop shaking and I'm done lying to myself. Three days is enough\u2014this isn't noble, it's just my body breaking down. I'm here in the kitchen where food actually is, and I'm going to eat something right now instead of collapsing.",
-      "importance": 9,
-      "sim": "Day 4 \u00b7 01:00",
-      "t": 1782696177.2494934
-    },
-    {
-      "kind": "observation",
-      "text": "My hands are shaking so hard I can barely hold anything steady, and I've been running on empty for three days telling myself it meant something. It doesn't. My body isn't being noble\u2014it's falling apart, and I'm standing in the kitchen where food actually is. There's no more room for the story. I need to eat.",
-      "importance": 9,
-      "sim": "Day 4 \u00b7 00:00",
-      "t": 1782694348.2709708
     }
   ],
   "trends": {
@@ -1178,6 +1178,26 @@
         "fun": 85,
         "health": 21,
         "stress": 46
+      },
+      {
+        "sim_minutes": 4080,
+        "sim": "Day 4 \u00b7 04:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 47
+      },
+      {
+        "sim_minutes": 4140,
+        "sim": "Day 4 \u00b7 05:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 47
       }
     ]
   },
