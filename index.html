@@ -40,6 +40,8 @@
   .mem { background:#0f1218; border-left:3px solid #3a4660; border-radius:8px;
          padding:9px 12px; margin:9px 0; font-size:14px; line-height:1.45; }
   .mem.reflection { border-left-color:#7a6cff; }
+  .mem.review { border-left-color:#e0a83a; }
+  .mem.review .kind { color:#e6c07a; }
   .mem .meta { color:#8b93a7; font-size:12px; margin-bottom:3px;
                display:flex; gap:8px; align-items:center; }
   .mem .kind { color:#b9a6ff; font-weight:600; text-transform:uppercase;
@@ -76,6 +78,12 @@
   .pblock.active .pact { color:#7ee0a6; }
   .pblock .pwhere { color:#c4cad8; }
   .pblock .pnote { color:#8b93a7; font-size:12px; margin-top:3px; }
+  /* Stage 6: a ✓/↯ verdict on each PAST block — did the day follow the plan? */
+  .pblock .pglyph { font-weight:700; margin-right:5px; font-variant-emoji:text; }
+  .pblock .pglyph.ok { color:#46d17f; }
+  .pblock .pglyph.off { color:#e0a83a; }
+  .pblock.deviated { border-left-color:#e0a83a; }
+  .prev { color:#e0a83a; }
   .legend { margin-top:12px; display:flex; flex-wrap:wrap; gap:6px 14px;
             font-size:12px; color:#8b93a7; }
   .legend span b { color:#c4cad8; font-weight:600; }
@@ -377,9 +385,16 @@ function renderPlan(plan) {
   if (!blocks.length) { card.style.display = "none"; return; }
   card.style.display = "";
   const ai = plan.active_index;
-  document.getElementById("planHead").textContent =
-    (plan.day != null ? "Day " + plan.day : "")
-    + (plan.created ? " · set " + plan.created : "");
+  // Head: which day, when it was set, and — if it reacted mid-day (Stage 6) —
+  // when it was last revised and how many revisions deep it is.
+  let head = (plan.day != null ? "Day " + plan.day : "")
+           + (plan.created ? " · set " + plan.created : "");
+  if (plan.revision) {
+    head += ` · <span class="prev">↯ revised`
+          + (plan.revised ? " at " + esc(plan.revised) : "")
+          + (plan.revision > 1 ? " ×" + plan.revision : "") + `</span>`;
+  }
+  document.getElementById("planHead").innerHTML = head;
   document.getElementById("planBlocks").innerHTML = blocks.map((b, i) => {
     const time = b.from_hour != null
       ? String(b.from_hour).padStart(2, "0") + ":00" : "";
@@ -388,9 +403,15 @@ function renderPlan(plan) {
       ? ` <span class="pwhere">${b.icon ? esc(b.icon) + " " : ""}${esc(b.loc_label)}</span>`
       : "";
     const note = b.note ? `<div class="pnote">${esc(b.note)}</div>` : "";
-    return `<div class="pblock${i === ai ? " active" : ""}">`
+    // Past blocks carry a followed/deviated verdict; ✓ stayed on plan, ↯ drifted.
+    const glyph = b.followed === true ? `<span class="pglyph ok" title="followed the plan">✓</span>`
+                : b.followed === false ? `<span class="pglyph off" title="deviated from the plan">↯</span>`
+                : "";
+    const cls = "pblock" + (i === ai ? " active" : "")
+              + (b.followed === false ? " deviated" : "");
+    return `<div class="${cls}">`
          + `<div class="ptime">${esc(time)}</div>`
-         + `<div class="pbody">${part}<span class="pact">${esc(b.action || "")}</span>`
+         + `<div class="pbody">${part}${glyph}<span class="pact">${esc(b.action || "")}</span>`
          + `${where}${note}</div></div>`;
   }).join("");
 }
@@ -439,7 +460,8 @@ function render(s) {
   const mems = Array.isArray(s.memories) ? s.memories : [];
   if (mems.length) {
     document.getElementById("memories").innerHTML = mems.map(m => {
-      const kind = m.kind === "reflection" ? "reflection" : "observation";
+      const kind = m.kind === "reflection" ? "reflection"
+                 : m.kind === "review" ? "review" : "observation";
       const meta = [`<span class="kind">${kind}</span>`];
       if (m.sim) meta.push(esc(m.sim));
       else if (m.t) meta.push(ago(m.t));
