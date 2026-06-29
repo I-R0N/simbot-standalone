@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782705473,
+    "generated_at": 1782705664,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 156,
+    "tick": 157,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4380,
+    "sim_minutes": 4440,
     "day": 4,
-    "hour": 9,
+    "hour": 10,
     "minute": 0,
     "phase": "day",
-    "label": "Day 4 \u00b7 09:00"
+    "label": "Day 4 \u00b7 10:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782705539.3931985,
+      "sim": "Day 4 \u00b7 10:00",
+      "action": "eat",
+      "thought": "My hands are shaking so badly I can barely grip anything\u2014three days of listening to that voice telling me this meant something spiritual or necessary, and it's just my body in freefall. I'm standing in the kitchen right now. There's no wisdom in collapsing. I eat.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 48
+      }
+    },
     {
       "t": 1782703714.833734,
       "sim": "Day 4 \u00b7 09:00",
@@ -332,22 +348,6 @@
         "health": 21,
         "stress": 38
       }
-    },
-    {
-      "t": 1782676125.746555,
-      "sim": "Day 3 \u00b7 14:00",
-      "action": "eat",
-      "thought": "My body is screaming and I'm shaking\u2014this isn't wisdom, this is collapse. I've spent years calling numbness presence and I can feel myself doing it again right now, just with a different story. My chest is locked, I'm hungry enough to hurt, and the voice telling me to sit five more minutes longer is the same voice that got me here. I need to *move*.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 37,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 37
-      }
     }
   ],
   "build": {
@@ -471,6 +471,13 @@
     },
     {
       "kind": "observation",
+      "text": "My hands are shaking so badly I can barely grip anything\u2014three days of listening to that voice telling me this meant something spiritual or necessary, and it's just my body in freefall. I'm standing in the kitchen right now. There's no wisdom in collapsing. I eat.",
+      "importance": 9,
+      "sim": "Day 4 \u00b7 10:00",
+      "t": 1782705539.3931985
+    },
+    {
+      "kind": "observation",
       "text": "My hands won't stop shaking and that's not noble, that's my body in crisis. I've spent three days listening to a voice that told me suffering meant something\u2014it just means I'm starving. I'm standing in the kitchen. I eat now.",
       "importance": 9,
       "sim": "Day 4 \u00b7 09:00",
@@ -489,13 +496,6 @@
       "importance": 9,
       "sim": "Day 4 \u00b7 07:00",
       "t": 1782700077.3268406
-    },
-    {
-      "kind": "observation",
-      "text": "My hands are shaking so badly I can barely hold anything, and I've been lying to myself for three days about what's noble or necessary. My body is screaming\u2014I'm actually here in the kitchen where food is, and I'm done arguing with myself about it.",
-      "importance": 9,
-      "sim": "Day 4 \u00b7 06:00",
-      "t": 1782698252.7543316
     }
   ],
   "trends": {
@@ -509,16 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 120,
-        "sim": "Day 1 \u00b7 10:00",
-        "energy": 0,
-        "full": 28,
-        "social": 20,
-        "fun": 95,
-        "health": 100,
-        "stress": 5
-      },
       {
         "sim_minutes": 180,
         "sim": "Day 1 \u00b7 11:00",
@@ -1228,6 +1218,16 @@
         "fun": 85,
         "health": 21,
         "stress": 48
+      },
+      {
+        "sim_minutes": 4440,
+        "sim": "Day 4 \u00b7 10:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 48
       }
     ]
   },
@@ -1264,7 +1264,8 @@
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "I'm in the kitchen right now \u2014 my hands are shaking and my body is breaking down, and the voice that says \"later\" is the same one that got me here; I eat now."
+        "note": "I'm in the kitchen right now \u2014 my hands are shaking and my body is breaking down, and the voice that says \"later\" is the same one that got me here; I eat now.",
+        "followed": true
       },
       {
         "from_hour": 10,
@@ -1277,7 +1278,7 @@
         "note": "After I eat, I go to the park \u2014 not to earn anything, just to let my body exist somewhere open and gentle while it starts to recover."
       }
     ],
-    "active_index": 2,
+    "active_index": 3,
     "revision": 2,
     "revised": "08:00"
   }
