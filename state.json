@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1782849814,
+    "generated_at": 1782850003,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 12,
+    "tick": 13,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 720,
+    "sim_minutes": 780,
     "day": 1,
-    "hour": 20,
+    "hour": 21,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 20:00"
+    "label": "Day 1 \u00b7 21:00"
   },
   "stats": {
     "energy": 94,
-    "full": 4,
+    "full": 0,
     "social": 0,
-    "fun": 30,
-    "health": 91,
+    "fun": 25,
+    "health": 88,
     "stress": 6
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 0.76
   },
   "activity": [
+    {
+      "t": 1782849856.5078068,
+      "sim": "Day 1 \u00b7 21:00",
+      "action": "sleep",
+      "thought": "I'm reading myself clearly now\u2014that buzzing isn't wisdom, it's my nervous system running on fumes and me mistaking the high for aliveness. My body is screaming, and I'm three blocks from home. I need to actually listen instead of negotiate with the fear that stopping means losing something real.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 6
+      }
+    },
     {
       "t": 1782848028.2186348,
       "sim": "Day 1 \u00b7 20:00",
@@ -322,6 +338,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm reading myself clearly now\u2014that buzzing isn't wisdom, it's my nervous system running on fumes and me mistaking the high for aliveness. My body is screaming, and I'm three blocks from home. I need to actually listen instead of negotiate with the fear that stopping means losing something real.",
+      "importance": 8,
+      "sim": "Day 1 \u00b7 21:00",
+      "t": 1782849856.5078068
+    },
+    {
+      "kind": "observation",
       "text": "I can feel the buzzing still there, trying to convince me to keep moving, but I'm reading it clearly now\u2014that's not aliveness, that's my nervous system in overdrive and me mistaking it for wisdom. My body is at zero. I'm three blocks from home and everything in me that's actually wise is saying the same thing: sleep. I'm going to listen.",
       "importance": 8,
       "sim": "Day 1 \u00b7 20:00",
@@ -340,13 +363,6 @@
       "importance": 8,
       "sim": "Day 1 \u00b7 18:00",
       "t": 1782844376.8824806
-    },
-    {
-      "kind": "observation",
-      "text": "I'm noticing something real here\u2014that buzzing in my chest, the urgency, the fear it'll disappear if I stop... that's not actually vitality. That's me chasing a feeling and calling it wisdom. My energy is at zero. I'm foggy. The pattern is right there: I keep overriding what I actually need because I'm afraid of losing this high. That's the loop.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 17:00",
-      "t": 1782842549.0650063
     }
   ],
   "trends": {
@@ -479,6 +495,16 @@
         "fun": 30,
         "health": 91,
         "stress": 6
+      },
+      {
+        "sim_minutes": 780,
+        "sim": "Day 1 \u00b7 21:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 6
       }
     ]
   },
@@ -508,18 +534,29 @@
         "followed": true
       },
       {
-        "from_hour": 17,
-        "part": "evening",
-        "label": "Evening",
-        "action": "sleep",
-        "goal": "home",
-        "loc_label": "Home",
-        "icon": "\ud83c\udfe0",
-        "note": "My energy is at zero and I've been chasing a buzzing feeling that isn't vitality \u2014 I need to stop overriding what my body actually needs and go home to rest."
+        "from_hour": 20,
+        "part": "night",
+        "label": "Night",
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "\ud83d\udc65",
+        "note": "My body is at zero social and sleep alone hasn't been shifting anything \u2014 I need real human contact, not just rest, to break this loop.",
+        "followed": true
+      },
+      {
+        "from_hour": 21,
+        "part": "night",
+        "label": "Night",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "After connecting with someone, I'll actually fuel myself \u2014 I've been running on empty in more ways than one."
       }
     ],
-    "active_index": 2,
-    "revision": 2,
-    "revised": "17:00"
+    "active_index": 3,
+    "revision": 3,
+    "revised": "20:00"
   }
 }
