@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782833373,
+    "generated_at": 1782833564,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 3,
+    "tick": 4,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 180,
+    "sim_minutes": 240,
     "day": 1,
-    "hour": 11,
+    "hour": 12,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 11:00"
+    "label": "Day 1 \u00b7 12:00"
   },
   "stats": {
-    "energy": 52,
-    "full": 76,
-    "social": 45,
+    "energy": 36,
+    "full": 68,
+    "social": 40,
     "fun": 50,
-    "health": 75,
-    "stress": 18
+    "health": 87,
+    "stress": 9
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.06
+    "temp": 1.12
   },
   "activity": [
+    {
+      "t": 1782833438.3219347,
+      "sim": "Day 1 \u00b7 12:00",
+      "action": "exercise",
+      "thought": "I'm buzzing right now and don't want to waste this energy sitting down to eat when I'm already satisfied. The park's two blocks away and my body's telling me to move\u2014if I overthink this I'll talk myself out of it. Let me go while this bright mood is actually pushing me forward.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 36,
+        "full": 68,
+        "social": 40,
+        "fun": 50,
+        "health": 87,
+        "stress": 9
+      }
+    },
     {
       "t": 1782831613.2403827,
       "sim": "Day 1 \u00b7 11:00",
@@ -142,32 +158,26 @@
       }
     ],
     "pos": {
-      "x": 8,
-      "y": 7
+      "x": 9,
+      "y": 8
     },
-    "at": null,
+    "at": "park",
     "intent": {
       "action": "exercise",
       "goal": "park",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 8,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 8
-      }
-    ]
+    "path": []
   },
   "identity": "",
   "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm buzzing right now and don't want to waste this energy sitting down to eat when I'm already satisfied. The park's two blocks away and my body's telling me to move\u2014if I overthink this I'll talk myself out of it. Let me go while this bright mood is actually pushing me forward.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 12:00",
+      "t": 1782833438.3219347
+    },
     {
       "kind": "observation",
       "text": "I'm already buzzing with this bright energy and my stomach's totally satisfied\u2014if I eat now I'm just killing momentum for no reason. The park's calling and I need to move before my scattered brain talks me out of it.",
@@ -230,6 +240,16 @@
         "fun": 50,
         "health": 75,
         "stress": 18
+      },
+      {
+        "sim_minutes": 240,
+        "sim": "Day 1 \u00b7 12:00",
+        "energy": 36,
+        "full": 68,
+        "social": 40,
+        "fun": 50,
+        "health": 87,
+        "stress": 9
       }
     ]
   },
@@ -255,7 +275,8 @@
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "a walk in the park will clear my head and set a good tone"
+        "note": "a walk in the park will clear my head and set a good tone",
+        "followed": true
       },
       {
         "from_hour": 12,
@@ -278,7 +299,7 @@
         "note": "after a full morning I want to wind down somewhere green and quiet"
       }
     ],
-    "active_index": 1,
+    "active_index": 2,
     "revision": 0,
     "revised": null
   }
