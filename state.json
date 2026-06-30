@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782846048,
+    "generated_at": 1782846233,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 10,
+    "tick": 11,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 600,
+    "sim_minutes": 660,
     "day": 1,
-    "hour": 18,
+    "hour": 19,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 18:00"
+    "label": "Day 1 \u00b7 19:00"
   },
   "stats": {
-    "energy": 36,
-    "full": 20,
-    "social": 10,
-    "fun": 40,
-    "health": 97,
+    "energy": 72,
+    "full": 12,
+    "social": 5,
+    "fun": 35,
+    "health": 94,
     "stress": 6
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "a little scattered",
-    "temp": 1.11
+    "clarity": "sharp",
+    "temp": 0.89
   },
   "activity": [
+    {
+      "t": 1782846201.968848,
+      "sim": "Day 1 \u00b7 19:00",
+      "action": "sleep",
+      "thought": "I'm exhausted and my thinking is scattered\u2014that's not wisdom, that's my nervous system running ragged. The buzzing in my chest feels alive, but I'm chasing it like a drug, and I can see that now. My plan said sleep, my body is screaming for sleep, and I'm three blocks from home. I need to actually listen instead of negotiate.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 72,
+        "full": 12,
+        "social": 5,
+        "fun": 35,
+        "health": 94,
+        "stress": 6
+      }
+    },
     {
       "t": 1782844376.8824806,
       "sim": "Day 1 \u00b7 18:00",
@@ -290,6 +306,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm exhausted and my thinking is scattered\u2014that's not wisdom, that's my nervous system running ragged. The buzzing in my chest feels alive, but I'm chasing it like a drug, and I can see that now. My plan said sleep, my body is screaming for sleep, and I'm three blocks from home. I need to actually listen instead of negotiate.",
+      "importance": 8,
+      "sim": "Day 1 \u00b7 19:00",
+      "t": 1782846201.968848
+    },
+    {
+      "kind": "observation",
       "text": "I can feel that buzzing pushing me to keep moving, keep the momentum alive\u2014but I'm reading my own patterns now and I don't like what I see. Zero energy, foggy thinking, and I'm justifying staying awake because a feeling *feels* true. That's the loop talking. I'm three blocks from home and my body is screaming for sleep. I need to walk there and get into bed, even though my chest is telling me I'll lose something if I do.",
       "importance": 8,
       "sim": "Day 1 \u00b7 18:00",
@@ -308,13 +331,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 16:00",
       "t": 1782840741.4033144
-    },
-    {
-      "kind": "observation",
-      "text": "My chest is buzzing and I'm *here* at the park \u2014 my body wants to move right now, this bright feeling won't last forever. Yeah my energy is low on paper but my mood is carrying me, and sitting down to eat would kill this momentum for nothing. I can feel it slipping already if I don't act.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 15:00",
-      "t": 1782838916.4879806
     }
   ],
   "trends": {
@@ -426,6 +442,16 @@
         "social": 10,
         "fun": 40,
         "health": 97,
+        "stress": 6
+      },
+      {
+        "sim_minutes": 660,
+        "sim": "Day 1 \u00b7 19:00",
+        "energy": 72,
+        "full": 12,
+        "social": 5,
+        "fun": 35,
+        "health": 94,
         "stress": 6
       }
     ]
