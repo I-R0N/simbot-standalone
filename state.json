@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782856993,
+    "generated_at": 1782857181,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 16,
+    "tick": 17,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 960,
+    "sim_minutes": 1020,
     "day": 2,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 00:00"
+    "label": "Day 2 \u00b7 01:00"
   },
   "stats": {
-    "energy": 76,
-    "full": 92,
+    "energy": 70,
+    "full": 84,
     "social": 0,
-    "fun": 25,
+    "fun": 20,
     "health": 88,
-    "stress": 4
+    "stress": 3
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.86
+    "temp": 0.9
   },
   "activity": [
+    {
+      "t": 1782857154.933315,
+      "sim": "Day 2 \u00b7 01:00",
+      "action": "socialize",
+      "thought": "Wait\u2014I'm reading my own notes and something's off. My fullness is 92, I'm already fed. That buzzing isn't hunger, it's my nervous system running hot like it always does. My social meter is at zero though, and that's actually what's screaming at me right now. I'm bright, sharp, hopeful\u2014but I'm alone in the kitchen with all this energy and nowhere to put it. I need people, not more food.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 70,
+        "full": 84,
+        "social": 0,
+        "fun": 20,
+        "health": 88,
+        "stress": 3
+      }
+    },
     {
       "t": 1782855321.616883,
       "sim": "Day 2 \u00b7 00:00",
@@ -350,19 +366,43 @@
       }
     ],
     "pos": {
-      "x": 3,
-      "y": 4
+      "x": 2,
+      "y": 7
     },
-    "at": "kitchen",
+    "at": null,
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
-      "arrived": true
+      "action": "socialize",
+      "goal": "friend",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 2,
+        "y": 7
+      },
+      {
+        "x": 2,
+        "y": 8
+      },
+      {
+        "x": 1,
+        "y": 8
+      },
+      {
+        "x": 1,
+        "y": 9
+      }
+    ]
   },
   "identity": "I am someone who runs hot and loves",
   "memories": [
+    {
+      "kind": "review",
+      "text": "I hit most of what I set out to do \u2014 the food, the walk, the time with my friend \u2014 and that human contact was exactly what I needed, felt it immediately. Where I slipped was around exercise and sleep, which honestly tracks; when I'm running hot socially and emotionally, the body stuff is the first thing I let slide.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782857148.1445587
+    },
     {
       "kind": "reflection",
       "text": "There's something genuine in me that loves movement, energy, and being fully alive \u2014 that's not the problem. The problem is when I use that love to justify not listening to what I actually need. The vitality I want is sustainable; what I was chasing was a spike.",
@@ -394,13 +434,6 @@
     {
       "kind": "reflection",
       "text": "I notice I'm framing impulsivity as wisdom (\"my body knows what it needs\") and planning as a threat (\"my scattered brain will talk me out of it\"). But the scattered brain and the second-guessing might actually be the more grounded part of me trying to speak.",
-      "importance": 8,
-      "sim": "Day 1 \u00b7 16:00",
-      "t": 1782840747.4180198
-    },
-    {
-      "kind": "reflection",
-      "text": "There's a pattern here that's worth sitting with honestly: what I'm calling \"momentum\" and \"bright energy\" is showing up repeatedly as a reason to override plans, skip meals, and push through signals of low energy. That's not momentum \u2014 that's a loop. The same justification appears eight times in a row.",
       "importance": 8,
       "sim": "Day 1 \u00b7 16:00",
       "t": 1782840747.4180198
@@ -604,59 +637,66 @@
         "fun": 25,
         "health": 88,
         "stress": 4
+      },
+      {
+        "sim_minutes": 1020,
+        "sim": "Day 2 \u00b7 01:00",
+        "energy": 70,
+        "full": 84,
+        "social": 0,
+        "fun": 20,
+        "health": 88,
+        "stress": 3
       }
     ]
   },
   "plan": {
-    "day": 1,
-    "created": "Day 1 \u00b7 08:00",
+    "day": 2,
+    "created": "Day 2 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 8,
+        "from_hour": 0,
+        "part": "night",
+        "label": "Night",
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "I'm three blocks from home and I know what the buzzing is now \u2014 I'm not going to negotiate with it tonight, I'm just going to lie down."
+      },
+      {
+        "from_hour": 9,
         "part": "morning",
         "label": "Morning",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "I just woke up and need something in me before the day starts"
+        "note": "I let body stuff slide yesterday; food first, no skipping it to chase the feeling of momentum."
       },
       {
-        "from_hour": 9,
+        "from_hour": 11,
         "part": "morning",
         "label": "Morning",
         "action": "exercise",
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "a walk in the park will clear my head and set a good tone",
-        "followed": true
+        "note": "Movement I actually need, not a spike \u2014 a real walk in the park, not a push past signals."
       },
       {
-        "from_hour": 20,
-        "part": "night",
-        "label": "Night",
+        "from_hour": 14,
+        "part": "afternoon",
+        "label": "Afternoon",
         "action": "socialize",
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "My body is at zero social and sleep alone hasn't been shifting anything \u2014 I need real human contact, not just rest, to break this loop.",
-        "followed": true
-      },
-      {
-        "from_hour": 21,
-        "part": "night",
-        "label": "Night",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "After connecting with someone, I'll actually fuel myself \u2014 I've been running on empty in more ways than one.",
-        "followed": true
+        "note": "Social was low yesterday and I felt the difference immediately when I got it; I want to carry that forward intentionally, not just stumble into it."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "20:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   }
 }
