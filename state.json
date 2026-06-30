@@ -1,34 +1,51 @@
 {
   "meta": {
-    "generated_at": 1782827893,
+    "generated_at": 1782828083,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 0,
+    "tick": 1,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 0,
+    "sim_minutes": 60,
     "day": 1,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 08:00"
+    "label": "Day 1 \u00b7 09:00"
   },
   "stats": {
-    "energy": 70,
-    "full": 70,
-    "social": 60,
+    "energy": 64,
+    "full": 92,
+    "social": 55,
     "fun": 60,
     "health": 75,
-    "stress": 25
+    "stress": 22
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.98
+    "temp": 1.01
   },
-  "activity": [],
+  "activity": [
+    {
+      "t": 1782827961.8519459,
+      "sim": "Day 1 \u00b7 09:00",
+      "action": "eat",
+      "thought": "I'm feeling good right now\u2014sharp and energized. My stomach's not screaming at me, but breakfast does sound nice, and I planned it anyway. Getting food in me before the park later makes sense.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 64,
+        "full": 92,
+        "social": 55,
+        "fun": 60,
+        "health": 75,
+        "stress": 22
+      }
+    }
+  ],
   "build": {
     "sha": "2c79ad7",
     "ref": "main",
@@ -93,15 +110,27 @@
       }
     ],
     "pos": {
-      "x": 5,
-      "y": 5
+      "x": 3,
+      "y": 4
     },
-    "at": "home",
-    "intent": null,
+    "at": "kitchen",
+    "intent": {
+      "action": "eat",
+      "goal": "kitchen",
+      "arrived": true
+    },
     "path": []
   },
   "identity": "",
-  "memories": [],
+  "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm feeling good right now\u2014sharp and energized. My stomach's not screaming at me, but breakfast does sound nice, and I planned it anyway. Getting food in me before the park later makes sense.",
+      "importance": 4,
+      "sim": "Day 1 \u00b7 09:00",
+      "t": 1782827961.8519459
+    }
+  ],
   "trends": {
     "interval": "tick",
     "stats": [
@@ -112,7 +141,66 @@
       "health",
       "stress"
     ],
-    "points": []
+    "points": [
+      {
+        "sim_minutes": 60,
+        "sim": "Day 1 \u00b7 09:00",
+        "energy": 64,
+        "full": 92,
+        "social": 55,
+        "fun": 60,
+        "health": 75,
+        "stress": 22
+      }
+    ]
   },
-  "plan": null
+  "plan": {
+    "day": 1,
+    "created": "Day 1 \u00b7 08:00",
+    "blocks": [
+      {
+        "from_hour": 8,
+        "part": "morning",
+        "label": "Morning",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I just woke up and need something in me before the day starts"
+      },
+      {
+        "from_hour": 9,
+        "part": "morning",
+        "label": "Morning",
+        "action": "exercise",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "a walk in the park will clear my head and set a good tone"
+      },
+      {
+        "from_hour": 12,
+        "part": "afternoon",
+        "label": "Afternoon",
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "\ud83d\udc65",
+        "note": "I've been too much in my own head lately, visiting a friend will help"
+      },
+      {
+        "from_hour": 17,
+        "part": "afternoon",
+        "label": "Afternoon",
+        "action": "relax",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "after a full morning I want to wind down somewhere green and quiet"
+      }
+    ],
+    "active_index": 1,
+    "revision": 0,
+    "revised": null
+  }
 }
