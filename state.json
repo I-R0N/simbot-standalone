@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782813574,
+    "generated_at": 1782813763,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 16,
+    "tick": 17,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 960,
+    "sim_minutes": 1020,
     "day": 2,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 00:00"
+    "label": "Day 2 \u00b7 01:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 45,
     "health": 91,
-    "stress": 41
+    "stress": 42
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782813745.6750205,
+      "sim": "Day 2 \u00b7 01:00",
+      "action": "eat",
+      "thought": "I'm at Kitchen already, which is good\u2014my body is screaming for fuel, energy completely bottomed out, and that golden buzz is just my depletion masquerading as presence. I need to eat something real right now, not philosophize about it.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 45,
+        "health": 91,
+        "stress": 42
+      }
+    },
     {
       "t": 1782811931.834845,
       "sim": "Day 2 \u00b7 00:00",
@@ -364,6 +380,13 @@
   "identity": "I am Shugi \u2014 someone with a vivid inner life and a strong pull toward intensity and aliveness, who is learning, slowly and with some struggle, to tell the difference between genuine",
   "memories": [
     {
+      "kind": "review",
+      "text": "I got the morning right \u2014 ate, walked, saw my friend \u2014 but by the time evening came I was circling back to exercise and food like they were answers to something they weren't the question for, and I never actually rested the way I told myself I would.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782813738.9538343
+    },
+    {
       "kind": "reflection",
       "text": "What I call \"aliveness\" and what I call \"depletion\" can feel identical from the inside \u2014 this is the central confusion I'm working with. My feelings are real, but they are not always reliable reporters",
       "importance": 8,
@@ -399,18 +422,18 @@
       "t": 1782799177.7106678
     },
     {
-      "kind": "reflection",
-      "text": "I have a powerful pattern of mistaking depletion for aliveness \u2014 when my body is running on empty, it generates a buzzing, electric feeling that I interpret as momentum and possibility, when it's actually a warning signal dressed up as inspiration.",
-      "importance": 8,
-      "sim": "Day 1 \u00b7 17:00",
-      "t": 1782799177.7106678
-    },
-    {
       "kind": "observation",
       "text": "I'm already here at Kitchen and my body is screaming\u2014zero energy, foggy brain, that familiar golden buzz trying to convince me I'm present when I'm actually depleted. I need to eat *now*, something real and substantial, before the rationalization loop pulls me back into mistaking emptiness for aliveness.",
       "importance": 8,
       "sim": "Day 2 \u00b7 00:00",
       "t": 1782811931.834845
+    },
+    {
+      "kind": "observation",
+      "text": "I'm at Kitchen already, which is good\u2014my body is screaming for fuel, energy completely bottomed out, and that golden buzz is just my depletion masquerading as presence. I need to eat something real right now, not philosophize about it.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 01:00",
+      "t": 1782813745.6750205
     },
     {
       "kind": "observation",
@@ -425,13 +448,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 22:00",
       "t": 1782808282.6941803
-    },
-    {
-      "kind": "observation",
-      "text": "I'm at Kitchen already\u2014why am I still here? The fog is thick and that electric buzz keeps whispering that I'm fine, that this moment is enough, but my body is at zero and my thinking is soupy. I need to eat *now*, before the rationalization loop pulls me back into that familiar trap of mistaking emptiness for aliveness.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 21:00",
-      "t": 1782806458.0783217
     }
   ],
   "trends": {
@@ -604,13 +620,33 @@
         "fun": 45,
         "health": 91,
         "stress": 41
+      },
+      {
+        "sim_minutes": 1020,
+        "sim": "Day 2 \u00b7 01:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 45,
+        "health": 91,
+        "stress": 42
       }
     ]
   },
   "plan": {
-    "day": 1,
-    "created": "Day 1 \u00b7 08:00",
+    "day": 2,
+    "created": "Day 2 \u00b7 00:00",
     "blocks": [
+      {
+        "from_hour": 0,
+        "part": "night",
+        "label": "Night",
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "My energy is at zero and the golden buzz is not aliveness right now \u2014 I know this pattern, and the only honest answer to it at midnight is to lie down."
+      },
       {
         "from_hour": 8,
         "part": "morning",
@@ -619,44 +655,31 @@
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "I just woke up and need something in my stomach before anything else"
+        "note": "Yesterday I got this right and it anchored the whole day; I want to do it again, deliberately, before anything else pulls at me."
       },
       {
-        "from_hour": 9,
+        "from_hour": 10,
         "part": "morning",
         "label": "Morning",
         "action": "exercise",
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "a walk in the park will help me shake off the grogginess and start fresh",
-        "followed": true
+        "note": "A walk in the park, not to chase a feeling but because my body does better when it moves \u2014 kept modest, kept honest."
       },
       {
-        "from_hour": 11,
-        "part": "morning",
-        "label": "Morning",
+        "from_hour": 13,
+        "part": "afternoon",
+        "label": "Afternoon",
         "action": "socialize",
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I want to check in with a friend, it feels like a good day to connect",
-        "followed": false
-      },
-      {
-        "from_hour": 19,
-        "part": "evening",
-        "label": "Evening",
-        "action": "sleep",
-        "goal": "home",
-        "loc_label": "Home",
-        "icon": "\ud83c\udfe0",
-        "note": "I've eaten four times and it hasn't moved the needle \u2014 my body is telling me something different is stuck, and sleep is the only honest answer to energy at zero.",
-        "followed": false
+        "note": "My social need is real and I kept deferring it yesterday evening; seeing my friend while I still have energy means I'm actually present, not just filling a gap."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "19:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   }
 }
