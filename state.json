@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1782793633,
+    "generated_at": 1782793816,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 5,
+    "tick": 6,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 300,
+    "sim_minutes": 360,
     "day": 1,
-    "hour": 13,
+    "hour": 14,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 13:00"
+    "label": "Day 1 \u00b7 14:00"
   },
   "stats": {
     "energy": 0,
-    "full": 30,
-    "social": 35,
+    "full": 22,
+    "social": 30,
     "fun": 55,
-    "health": 100,
-    "stress": 5
+    "health": 97,
+    "stress": 11
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782793688.9227881,
+      "sim": "Day 1 \u00b7 14:00",
+      "action": "exercise",
+      "thought": "I'm already here and feeling *alive* \u2014 the light is perfect, my body is practically buzzing, and I'd kick myself for leaving now. Yeah, my energy score says 0, but that buzzing feeling is real and it's *now*. Sleep can wait; this momentum won't.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 0,
+        "full": 22,
+        "social": 30,
+        "fun": 55,
+        "health": 97,
+        "stress": 11
+      }
+    },
     {
       "t": 1782791862.126908,
       "sim": "Day 1 \u00b7 13:00",
@@ -189,6 +205,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "I'm already here and feeling *alive* \u2014 the light is perfect, my body is practically buzzing, and I'd kick myself for leaving now. Yeah, my energy score says 0, but that buzzing feeling is real and it's *now*. Sleep can wait; this momentum won't.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 14:00",
+      "t": 1782793688.9227881
+    },
+    {
+      "kind": "observation",
       "text": "I'm already here and I feel *alive* \u2014 my body is practically buzzing and the light is perfect right now. Why would I leave to sit at a friend's place when I could channel this energy into moving? My stomach's fine, and I'd honestly kick myself if I wasted this momentum on schedules.",
       "importance": 7,
       "sim": "Day 1 \u00b7 13:00",
@@ -207,13 +230,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 11:00",
       "t": 1782788233.3649511
-    },
-    {
-      "kind": "observation",
-      "text": "I'm feeling sharp and energized\u2014why waste that on sitting in the kitchen when I could get to the park early and actually use this momentum? The light's probably perfect right now, and my stomach can wait another hour or so. Let me ride this.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 10:00",
-      "t": 1782786407.864218
     }
   ],
   "trends": {
@@ -276,6 +292,16 @@
         "fun": 55,
         "health": 100,
         "stress": 5
+      },
+      {
+        "sim_minutes": 360,
+        "sim": "Day 1 \u00b7 14:00",
+        "energy": 0,
+        "full": 22,
+        "social": 30,
+        "fun": 55,
+        "health": 97,
+        "stress": 11
       }
     ]
   },
@@ -319,15 +345,15 @@
         "from_hour": 13,
         "part": "afternoon",
         "label": "Afternoon",
-        "action": "relax",
-        "goal": "park",
-        "loc_label": "Park",
-        "icon": "\ud83c\udf33",
-        "note": "I'll head back to the park to wind down and just breathe for a bit"
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "I've been ignoring the signals all morning \u2014 energy is at zero and no amount of momentum talk changes that; I need to go home and actually rest."
       }
     ],
     "active_index": 3,
-    "revision": 0,
-    "revised": null
+    "revision": 1,
+    "revised": "13:00"
   }
 }
