@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": 1782784063,
+    "generated_at": 1782784254,
     "model": "claude-haiku-4-5-20251001",
     "tick": 207,
     "interval_min": 30,
@@ -351,9 +351,9 @@
     }
   ],
   "build": {
-    "sha": "b0bf8bf",
+    "sha": "09570e2",
     "ref": "main",
-    "committed": "2026-06-28 21:44 EDT"
+    "committed": "2026-06-29 21:50 EDT"
   },
   "world": {
     "grid": {
