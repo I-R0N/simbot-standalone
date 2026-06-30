@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782851513,
+    "generated_at": 1782851703,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 13,
+    "tick": 14,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 780,
+    "sim_minutes": 840,
     "day": 1,
-    "hour": 21,
+    "hour": 22,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 21:00"
+    "label": "Day 1 \u00b7 22:00"
   },
   "stats": {
-    "energy": 94,
-    "full": 0,
+    "energy": 88,
+    "full": 37,
     "social": 0,
     "fun": 25,
     "health": 88,
-    "stress": 6
+    "stress": 5
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.76
+    "temp": 0.79
   },
   "activity": [
+    {
+      "t": 1782851681.406256,
+      "sim": "Day 1 \u00b7 22:00",
+      "action": "eat",
+      "thought": "I can feel that buzzing still pushing me forward, but I'm seeing it clearly now\u2014it's not aliveness, it's my nervous system fried and me chasing the feeling like it's real. My body is at zero on fullness, I'm scattered, and everything honest in me knows what I need: food and rest, not more motion. I'm going home.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 88,
+        "full": 37,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 5
+      }
+    },
     {
       "t": 1782849856.5078068,
       "sim": "Day 1 \u00b7 21:00",
@@ -302,13 +318,13 @@
       }
     ],
     "pos": {
-      "x": 5,
-      "y": 5
+      "x": 3,
+      "y": 4
     },
-    "at": "home",
+    "at": "kitchen",
     "intent": {
-      "action": "sleep",
-      "goal": "home",
+      "action": "eat",
+      "goal": "kitchen",
       "arrived": true
     },
     "path": []
@@ -505,6 +521,16 @@
         "fun": 25,
         "health": 88,
         "stress": 6
+      },
+      {
+        "sim_minutes": 840,
+        "sim": "Day 1 \u00b7 22:00",
+        "energy": 88,
+        "full": 37,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 5
       }
     ]
   },
