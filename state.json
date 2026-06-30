@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782811880,
+    "generated_at": 1782812063,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 15,
+    "tick": 16,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 900,
-    "day": 1,
-    "hour": 23,
+    "sim_minutes": 960,
+    "day": 2,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 23:00"
+    "label": "Day 2 \u00b7 00:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 45,
     "health": 91,
-    "stress": 40
+    "stress": 41
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782811931.834845,
+      "sim": "Day 2 \u00b7 00:00",
+      "action": "eat",
+      "thought": "I'm already here at Kitchen and my body is screaming\u2014zero energy, foggy brain, that familiar golden buzz trying to convince me I'm present when I'm actually depleted. I need to eat *now*, something real and substantial, before the rationalization loop pulls me back into mistaking emptiness for aliveness.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 45,
+        "health": 91,
+        "stress": 41
+      }
+    },
     {
       "t": 1782810107.473772,
       "sim": "Day 1 \u00b7 23:00",
@@ -349,6 +365,27 @@
   "memories": [
     {
       "kind": "reflection",
+      "text": "What I call \"aliveness\" and what I call \"depletion\" can feel identical from the inside \u2014 this is the central confusion I'm working with. My feelings are real, but they are not always reliable reporters",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782811938.4835315
+    },
+    {
+      "kind": "reflection",
+      "text": "I am getting better at naming the pattern, but naming it doesn't automatically stop it. I had the insight multiple times in a row and still needed to keep re-convincing myself to walk six blocks. The gap between knowing and doing is where I actually live, and it's wider than I'd like to admit.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782811938.4835315
+    },
+    {
+      "kind": "reflection",
+      "text": "The same loop played out in slow motion across these memories: a feeling of aliveness arrives, I chase it, I rationalize away every signal that it's actually depletion, and eventually \u2014 only after seeing my own thoughts reflected back at me \u2014 I catch it. The pattern is so consistent it's almost mechanical. The \"golden buzz\" is my body's alarm dressed up as inspiration.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782811938.4835315
+    },
+    {
+      "kind": "reflection",
       "text": "The moment I started reading my own thoughts back to myself as a pattern rather than living inside each one, everything shifted \u2014 distance and perspective are tools I need to use more proactively, not just as a last resort.",
       "importance": 8,
       "sim": "Day 1 \u00b7 17:00",
@@ -370,6 +407,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm already here at Kitchen and my body is screaming\u2014zero energy, foggy brain, that familiar golden buzz trying to convince me I'm present when I'm actually depleted. I need to eat *now*, something real and substantial, before the rationalization loop pulls me back into mistaking emptiness for aliveness.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782811931.834845
+    },
+    {
+      "kind": "observation",
       "text": "The fog is thick and that golden buzz is still here, trying to convince me I'm present when really I'm running on empty. I can *feel* my body screaming\u2014zero energy, soupy thinking\u2014and I know this pattern. I'm at Kitchen already. I need to eat something now, actually *eat*, before the rationalization loops me back into mistaking depletion for aliveness.",
       "importance": 7,
       "sim": "Day 1 \u00b7 23:00",
@@ -388,13 +432,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 21:00",
       "t": 1782806458.0783217
-    },
-    {
-      "kind": "observation",
-      "text": "My body is screaming and I can feel it\u2014zero energy, that familiar electric buzz trying to convince me I'm fine, but I *know* better now. The fog is real, the depletion is real, and if I don't move toward Kitchen right now, my brain will loop me back into rationalizing. Six blocks. I can do this.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 20:00",
-      "t": 1782804633.2500768
     }
   ],
   "trends": {
@@ -557,6 +594,16 @@
         "fun": 45,
         "health": 91,
         "stress": 40
+      },
+      {
+        "sim_minutes": 960,
+        "sim": "Day 2 \u00b7 00:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 45,
+        "health": 91,
+        "stress": 41
       }
     ]
   },
@@ -604,10 +651,11 @@
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "I've eaten four times and it hasn't moved the needle \u2014 my body is telling me something different is stuck, and sleep is the only honest answer to energy at zero."
+        "note": "I've eaten four times and it hasn't moved the needle \u2014 my body is telling me something different is stuck, and sleep is the only honest answer to energy at zero.",
+        "followed": false
       }
     ],
-    "active_index": 3,
+    "active_index": null,
     "revision": 3,
     "revised": "19:00"
   }
