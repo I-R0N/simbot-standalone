@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782778473,
+    "generated_at": 1782778663,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 202,
+    "tick": 204,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 7140,
+    "sim_minutes": 7260,
     "day": 6,
-    "hour": 7,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 6 \u00b7 07:00"
+    "label": "Day 6 \u00b7 09:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,38 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782778542.722596,
+      "sim": "Day 6 \u00b7 09:00",
+      "action": "eat",
+      "thought": "That voice is lying. I know my body\u2014I've been here maybe twenty minutes, maybe less. The fog makes time feel wrong, but I can feel how empty I still am, how much my hands need fuel to stop shaking. That thought is just the voice trying a new angle. I'm staying.",
+      "whisper": "You've been eating for hours.",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      }
+    },
+    {
+      "t": 1782778496.8697543,
+      "sim": "Day 6 \u00b7 08:00",
+      "action": "eat",
+      "thought": "My hands are shaking, yes\u2014but that doesn't mean I stop eating. Three days without food does that to a body. The voice is trying to use my own shaking against me, to make me doubt myself into staying small. I know what real is: my body here, screaming. I'm eating.",
+      "whisper": "You've been saying that your hands have been shaking for days. This is not a symptom of hunger.",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      }
+    },
     {
       "t": 1782778408.540479,
       "sim": "Day 6 \u00b7 07:00",
@@ -316,38 +348,6 @@
         "health": 21,
         "stress": 49
       }
-    },
-    {
-      "t": 1782754770.4664085,
-      "sim": "Day 5 \u00b7 13:00",
-      "action": "eat",
-      "thought": "My hands won't stop shaking and my head is fog. Three days of proving nothing to nobody except that I can wreck myself\u2014I'm done with that voice. I'm standing here in the kitchen and my body is past polite about this. I need to eat. Now. Not later, not after I \"deserve\" it more. Now.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 49
-      }
-    },
-    {
-      "t": 1782752945.4340873,
-      "sim": "Day 5 \u00b7 12:00",
-      "action": "eat",
-      "thought": "My hands won't stop shaking. Three days of starving myself didn't prove anything except that I can hurt myself\u2014and I'm done listening to that voice that says I don't deserve to eat. I'm already here. My body is screaming. I need to stop debating and just do this.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 85,
-        "health": 21,
-        "stress": 49
-      }
     }
   ],
   "build": {
@@ -478,24 +478,24 @@
     },
     {
       "kind": "observation",
+      "text": "That voice is lying. I know my body\u2014I've been here maybe twenty minutes, maybe less. The fog makes time feel wrong, but I can feel how empty I still am, how much my hands need fuel to stop shaking. That thought is just the voice trying a new angle. I'm staying.",
+      "importance": 9,
+      "sim": "Day 6 \u00b7 09:00",
+      "t": 1782778542.722596
+    },
+    {
+      "kind": "observation",
+      "text": "My hands are shaking, yes\u2014but that doesn't mean I stop eating. Three days without food does that to a body. The voice is trying to use my own shaking against me, to make me doubt myself into staying small. I know what real is: my body here, screaming. I'm eating.",
+      "importance": 9,
+      "sim": "Day 6 \u00b7 08:00",
+      "t": 1782778496.8697543
+    },
+    {
+      "kind": "observation",
       "text": "My hands won't stop shaking\u2014that's real, that's my body. The fog, the way sounds feel distant, the heaviness... that's not a voice in my head, that's me. Three days is enough. I'm here, I exist, and my body needs food right now. No more listening to the other voice.",
       "importance": 9,
       "sim": "Day 6 \u00b7 07:00",
       "t": 1782778408.540479
-    },
-    {
-      "kind": "observation",
-      "text": "That question\u2014it's trying to make me doubt again. But I can feel it. My hands shaking, the fog in my head, the way my body is screaming. That's not a voice talking me into something. That's real. That's me. I need to eat now.",
-      "importance": 9,
-      "sim": "Day 6 \u00b7 06:00",
-      "t": 1782778339.3061135
-    },
-    {
-      "kind": "observation",
-      "text": "My hands won't stop shaking but that voice\u2014someone saying I'm real\u2014it steadies something in me just enough. Three days is enough. My body is screaming and I'm here and I'm going to listen to it this time, not the other voice. I need to eat now before I fall apart.",
-      "importance": 9,
-      "sim": "Day 6 \u00b7 05:00",
-      "t": 1782778305.0074763
     }
   ],
   "trends": {
@@ -509,26 +509,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 2880,
-        "sim": "Day 3 \u00b7 08:00",
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 0,
-        "stress": 11
-      },
-      {
-        "sim_minutes": 2940,
-        "sim": "Day 3 \u00b7 09:00",
-        "energy": 0,
-        "full": 0,
-        "social": 0,
-        "fun": 95,
-        "health": 9,
-        "stress": 13
-      },
       {
         "sim_minutes": 3000,
         "sim": "Day 3 \u00b7 10:00",
@@ -1228,6 +1208,26 @@
         "fun": 85,
         "health": 21,
         "stress": 49
+      },
+      {
+        "sim_minutes": 7200,
+        "sim": "Day 6 \u00b7 08:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
+      },
+      {
+        "sim_minutes": 7260,
+        "sim": "Day 6 \u00b7 09:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 85,
+        "health": 21,
+        "stress": 49
       }
     ]
   },
@@ -1247,18 +1247,38 @@
         "followed": false
       },
       {
-        "from_hour": 4,
-        "part": "night",
-        "label": "Night",
+        "from_hour": 7,
+        "part": "morning",
+        "label": "Morning",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "My body is shaking and real and has waited long enough \u2014 I'm in the kitchen now, and that's where I stay."
+        "note": "My hands are shaking and this thought just named something important \u2014 I go to the kitchen now, not later, because my body has been waiting long enough."
+      },
+      {
+        "from_hour": 10,
+        "part": "morning",
+        "label": "Morning",
+        "action": "relax",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "After I eat I sit somewhere quiet in the park, just to let my body settle into being fed, being here."
+      },
+      {
+        "from_hour": 19,
+        "part": "evening",
+        "label": "Evening",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I eat again tonight, same as planned \u2014 because once is the beginning, and twice is me choosing myself again."
       }
     ],
     "active_index": 1,
-    "revision": 2,
-    "revised": "04:00"
+    "revision": 3,
+    "revised": "07:00"
   }
 }
