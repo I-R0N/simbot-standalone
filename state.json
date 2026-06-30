@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782860753,
+    "generated_at": 1782860936,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 18,
+    "tick": 19,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1080,
+    "sim_minutes": 1140,
     "day": 2,
-    "hour": 2,
+    "hour": 3,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 02:00"
+    "label": "Day 2 \u00b7 03:00"
   },
   "stats": {
-    "energy": 64,
-    "full": 76,
-    "social": 30,
-    "fun": 25,
+    "energy": 58,
+    "full": 68,
+    "social": 25,
+    "fun": 20,
     "health": 88,
     "stress": 0
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "sharp",
-    "temp": 0.92
+    "clarity": "a little scattered",
+    "temp": 0.95
   },
   "activity": [
+    {
+      "t": 1782860809.272144,
+      "sim": "Day 2 \u00b7 03:00",
+      "action": "sleep",
+      "thought": "I'm reading the mess in my head\u2014that pull toward my friend's place feels real, but something underneath is off. Sharp mind, zero social energy, and I keep second-guessing myself. My body's running hot and I'm alone, yeah, but that restless buzzing might be my nervous system asking for rest, not connection. I need to actually listen instead of chase the feeling.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 58,
+        "full": 68,
+        "social": 25,
+        "fun": 20,
+        "health": 88,
+        "stress": 0
+      }
+    },
     {
       "t": 1782858980.4750986,
       "sim": "Day 2 \u00b7 02:00",
@@ -382,16 +398,37 @@
       }
     ],
     "pos": {
-      "x": 1,
-      "y": 9
+      "x": 3,
+      "y": 7
     },
-    "at": "friend",
+    "at": null,
     "intent": {
-      "action": "socialize",
-      "goal": "friend",
-      "arrived": true
+      "action": "sleep",
+      "goal": "home",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 3,
+        "y": 7
+      },
+      {
+        "x": 4,
+        "y": 7
+      },
+      {
+        "x": 4,
+        "y": 6
+      },
+      {
+        "x": 5,
+        "y": 6
+      },
+      {
+        "x": 5,
+        "y": 5
+      }
+    ]
   },
   "identity": "I am someone who runs hot and loves",
   "memories": [
@@ -656,6 +693,16 @@
         "fun": 25,
         "health": 88,
         "stress": 0
+      },
+      {
+        "sim_minutes": 1140,
+        "sim": "Day 2 \u00b7 03:00",
+        "energy": 58,
+        "full": 68,
+        "social": 25,
+        "fun": 20,
+        "health": 88,
+        "stress": 0
       }
     ]
   },
@@ -664,48 +711,29 @@
     "created": "Day 2 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 0,
+        "from_hour": 2,
+        "part": "night",
+        "label": "Night",
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "\ud83d\udc65",
+        "note": "I'm three blocks away and my social meter is at zero \u2014 I'm going to walk over and actually be with someone instead of burning this energy alone.",
+        "followed": false
+      },
+      {
+        "from_hour": 3,
         "part": "night",
         "label": "Night",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "I'm three blocks from home and I know what the buzzing is now \u2014 I'm not going to negotiate with it tonight, I'm just going to lie down."
-      },
-      {
-        "from_hour": 9,
-        "part": "morning",
-        "label": "Morning",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I let body stuff slide yesterday; food first, no skipping it to chase the feeling of momentum."
-      },
-      {
-        "from_hour": 11,
-        "part": "morning",
-        "label": "Morning",
-        "action": "exercise",
-        "goal": "park",
-        "loc_label": "Park",
-        "icon": "\ud83c\udf33",
-        "note": "Movement I actually need, not a spike \u2014 a real walk in the park, not a push past signals."
-      },
-      {
-        "from_hour": 14,
-        "part": "afternoon",
-        "label": "Afternoon",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "Social was low yesterday and I felt the difference immediately when I got it; I want to carry that forward intentionally, not just stumble into it."
+        "note": "After I've let the connection land and the nervous system settles, I go home and rest \u2014 that's the sustainable vitality, not the spike."
       }
     ],
-    "active_index": 0,
-    "revision": 0,
-    "revised": null
+    "active_index": 1,
+    "revision": 1,
+    "revised": "02:00"
   }
 }
