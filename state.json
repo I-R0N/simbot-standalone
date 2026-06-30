@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782835084,
+    "generated_at": 1782835273,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 4,
+    "tick": 5,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 240,
+    "sim_minutes": 300,
     "day": 1,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 12:00"
+    "label": "Day 1 \u00b7 13:00"
   },
   "stats": {
-    "energy": 36,
-    "full": 68,
-    "social": 40,
+    "energy": 20,
+    "full": 60,
+    "social": 35,
     "fun": 50,
-    "health": 87,
-    "stress": 9
+    "health": 99,
+    "stress": 6
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "a little scattered",
-    "temp": 1.12
+    "clarity": "foggy and slow",
+    "temp": 1.2
   },
   "activity": [
+    {
+      "t": 1782835263.2477562,
+      "sim": "Day 1 \u00b7 13:00",
+      "action": "exercise",
+      "thought": "I'm already here at the park and I'm buzzing\u2014my energy is begging to be used, not wasted sitting at a table eating when I'm not even hungry. This bright feeling is exactly what I need to push through some real movement before my scattered mind convinces me otherwise.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 20,
+        "full": 60,
+        "social": 35,
+        "fun": 50,
+        "health": 99,
+        "stress": 6
+      }
+    },
     {
       "t": 1782833438.3219347,
       "sim": "Day 1 \u00b7 12:00",
@@ -173,6 +189,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "I'm already here at the park and I'm buzzing\u2014my energy is begging to be used, not wasted sitting at a table eating when I'm not even hungry. This bright feeling is exactly what I need to push through some real movement before my scattered mind convinces me otherwise.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 13:00",
+      "t": 1782835263.2477562
+    },
+    {
+      "kind": "observation",
       "text": "I'm buzzing right now and don't want to waste this energy sitting down to eat when I'm already satisfied. The park's two blocks away and my body's telling me to move\u2014if I overthink this I'll talk myself out of it. Let me go while this bright mood is actually pushing me forward.",
       "importance": 6,
       "sim": "Day 1 \u00b7 12:00",
@@ -191,13 +214,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 10:00",
       "t": 1782829787.2580607
-    },
-    {
-      "kind": "observation",
-      "text": "I'm feeling good right now\u2014sharp and energized. My stomach's not screaming at me, but breakfast does sound nice, and I planned it anyway. Getting food in me before the park later makes sense.",
-      "importance": 4,
-      "sim": "Day 1 \u00b7 09:00",
-      "t": 1782827961.8519459
     }
   ],
   "trends": {
@@ -250,6 +266,16 @@
         "fun": 50,
         "health": 87,
         "stress": 9
+      },
+      {
+        "sim_minutes": 300,
+        "sim": "Day 1 \u00b7 13:00",
+        "energy": 20,
+        "full": 60,
+        "social": 35,
+        "fun": 50,
+        "health": 99,
+        "stress": 6
       }
     ]
   },
