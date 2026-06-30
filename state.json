@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": 1782791734,
+    "generated_at": 1782791923,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 4,
+    "tick": 5,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 240,
+    "sim_minutes": 300,
     "day": 1,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 12:00"
+    "label": "Day 1 \u00b7 13:00"
   },
   "stats": {
-    "energy": 16,
-    "full": 38,
-    "social": 40,
+    "energy": 0,
+    "full": 30,
+    "social": 35,
     "fun": 55,
     "health": 100,
     "stress": 5
@@ -26,9 +26,25 @@
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "foggy and slow",
-    "temp": 1.22
+    "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782791862.126908,
+      "sim": "Day 1 \u00b7 13:00",
+      "action": "exercise",
+      "thought": "I'm already here and I feel *alive* \u2014 my body is practically buzzing and the light is perfect right now. Why would I leave to sit at a friend's place when I could channel this energy into moving? My stomach's fine, and I'd honestly kick myself if I wasted this momentum on schedules.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 0,
+        "full": 30,
+        "social": 35,
+        "fun": 55,
+        "health": 100,
+        "stress": 5
+      }
+    },
     {
       "t": 1782790057.321283,
       "sim": "Day 1 \u00b7 12:00",
@@ -173,6 +189,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "I'm already here and I feel *alive* \u2014 my body is practically buzzing and the light is perfect right now. Why would I leave to sit at a friend's place when I could channel this energy into moving? My stomach's fine, and I'd honestly kick myself if I wasted this momentum on schedules.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 13:00",
+      "t": 1782791862.126908
+    },
+    {
+      "kind": "observation",
       "text": "I'm already here, the energy is *right now*, and my body wants to move\u2014the light is perfect and I'd regret sitting still. My stomach can wait, I'm not hungry yet anyway, and this momentum is exactly what exercise needs. Let me use this.",
       "importance": 6,
       "sim": "Day 1 \u00b7 12:00",
@@ -191,13 +214,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 10:00",
       "t": 1782786407.864218
-    },
-    {
-      "kind": "observation",
-      "text": "Shugi\u2014that's me. It's a good name. I feel clear-headed right now, almost electric with possibility, and my stomach's not demanding anything yet. Maybe I'll skip the kitchen routine and get to the park early, catch some of that morning light while I'm still riding this bright mood.",
-      "importance": 4,
-      "sim": "Day 1 \u00b7 09:00",
-      "t": 1782784594.6554835
     }
   ],
   "trends": {
@@ -250,6 +266,16 @@
         "fun": 55,
         "health": 100,
         "stress": 5
+      },
+      {
+        "sim_minutes": 300,
+        "sim": "Day 1 \u00b7 13:00",
+        "energy": 0,
+        "full": 30,
+        "social": 35,
+        "fun": 55,
+        "health": 100,
+        "stress": 5
       }
     ]
   },
@@ -286,7 +312,8 @@
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I want to check in with a friend, it feels like a good day to connect"
+        "note": "I want to check in with a friend, it feels like a good day to connect",
+        "followed": true
       },
       {
         "from_hour": 13,
@@ -299,7 +326,7 @@
         "note": "I'll head back to the park to wind down and just breathe for a bit"
       }
     ],
-    "active_index": 2,
+    "active_index": 3,
     "revision": 0,
     "revised": null
   }
