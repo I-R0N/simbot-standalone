@@ -128,9 +128,9 @@
     }
   ],
   "build": {
-    "sha": "9f4c9cc",
+    "sha": "0603002",
     "ref": "PR #8",
-    "committed": "2026-06-29 21:31 EDT"
+    "committed": "2026-06-29 21:52 EDT"
   },
   "world": {
     "grid": {
