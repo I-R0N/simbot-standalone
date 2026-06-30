@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782858873,
+    "generated_at": 1782859057,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 17,
+    "tick": 18,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1020,
+    "sim_minutes": 1080,
     "day": 2,
-    "hour": 1,
+    "hour": 2,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 01:00"
+    "label": "Day 2 \u00b7 02:00"
   },
   "stats": {
-    "energy": 70,
-    "full": 84,
-    "social": 0,
-    "fun": 20,
+    "energy": 64,
+    "full": 76,
+    "social": 30,
+    "fun": 25,
     "health": 88,
-    "stress": 3
+    "stress": 0
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.9
+    "temp": 0.92
   },
   "activity": [
+    {
+      "t": 1782858980.4750986,
+      "sim": "Day 2 \u00b7 02:00",
+      "action": "socialize",
+      "thought": "I'm three blocks from my friend's place and I can feel it\u2014that pull toward connection, toward getting this restless energy out into the world with actual people. My mind is sharp, I'm fed, and yeah, my nervous system is running hot like it always does, but that's not the problem right now. The problem is I'm alone and my body knows it. I need to walk those three blocks and be around someone.",
+      "whisper": "",
+      "loc": "friend",
+      "stats": {
+        "energy": 64,
+        "full": 76,
+        "social": 30,
+        "fun": 25,
+        "health": 88,
+        "stress": 0
+      }
+    },
     {
       "t": 1782857154.933315,
       "sim": "Day 2 \u00b7 01:00",
@@ -366,33 +382,16 @@
       }
     ],
     "pos": {
-      "x": 2,
-      "y": 7
+      "x": 1,
+      "y": 9
     },
-    "at": null,
+    "at": "friend",
     "intent": {
       "action": "socialize",
       "goal": "friend",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 2,
-        "y": 7
-      },
-      {
-        "x": 2,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 9
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone who runs hot and loves",
   "memories": [
@@ -647,6 +646,16 @@
         "fun": 20,
         "health": 88,
         "stress": 3
+      },
+      {
+        "sim_minutes": 1080,
+        "sim": "Day 2 \u00b7 02:00",
+        "energy": 64,
+        "full": 76,
+        "social": 30,
+        "fun": 25,
+        "health": 88,
+        "stress": 0
       }
     ]
   },
