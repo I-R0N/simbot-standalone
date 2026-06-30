@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782808154,
+    "generated_at": 1782808334,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 13,
+    "tick": 14,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 780,
+    "sim_minutes": 840,
     "day": 1,
-    "hour": 21,
+    "hour": 22,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 21:00"
+    "label": "Day 1 \u00b7 22:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 45,
     "health": 91,
-    "stress": 38
+    "stress": 39
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782808282.6941803,
+      "sim": "Day 1 \u00b7 22:00",
+      "action": "eat",
+      "thought": "I'm still here spinning in that golden fog, aren't I? My energy is actually at zero\u2014that's not a metaphor, that's my body talking. The buzzing feeling wants me to stay and call it presence, but my brain is soupy and I'm fooling myself. I need to eat something real, right now, before I rationalize my way into another crash.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 45,
+        "health": 91,
+        "stress": 39
+      }
+    },
     {
       "t": 1782806458.0783217,
       "sim": "Day 1 \u00b7 21:00",
@@ -338,6 +354,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm still here spinning in that golden fog, aren't I? My energy is actually at zero\u2014that's not a metaphor, that's my body talking. The buzzing feeling wants me to stay and call it presence, but my brain is soupy and I'm fooling myself. I need to eat something real, right now, before I rationalize my way into another crash.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 22:00",
+      "t": 1782808282.6941803
+    },
+    {
+      "kind": "observation",
       "text": "I'm at Kitchen already\u2014why am I still here? The fog is thick and that electric buzz keeps whispering that I'm fine, that this moment is enough, but my body is at zero and my thinking is soupy. I need to eat *now*, before the rationalization loop pulls me back into that familiar trap of mistaking emptiness for aliveness.",
       "importance": 7,
       "sim": "Day 1 \u00b7 21:00",
@@ -356,13 +379,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 19:00",
       "t": 1782802802.2082224
-    },
-    {
-      "kind": "observation",
-      "text": "I can feel that pull again\u2014the golden light, the buzzing, the \"aliveness\" trying to convince me to stay in this moment instead of walking to Kitchen. But I *just* saw through this. The fog in my thinking is the tell. My body is empty and it's playing tricks on me, dressing up depletion as inspiration. I need to eat before I rationalize myself into collapse.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 18:00",
-      "t": 1782800977.3138878
     }
   ],
   "trends": {
@@ -505,6 +521,16 @@
         "fun": 45,
         "health": 91,
         "stress": 38
+      },
+      {
+        "sim_minutes": 840,
+        "sim": "Day 1 \u00b7 22:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 45,
+        "health": 91,
+        "stress": 39
       }
     ]
   },
