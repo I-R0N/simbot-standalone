@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": 1782855293,
+    "generated_at": 1782855483,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 15,
+    "tick": 16,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 900,
-    "day": 1,
-    "hour": 23,
+    "sim_minutes": 960,
+    "day": 2,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 23:00"
+    "label": "Day 2 \u00b7 00:00"
   },
   "stats": {
-    "energy": 82,
-    "full": 74,
+    "energy": 76,
+    "full": 92,
     "social": 0,
     "fun": 25,
     "health": 88,
@@ -26,9 +26,25 @@
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.83
+    "temp": 0.86
   },
   "activity": [
+    {
+      "t": 1782855321.616883,
+      "sim": "Day 2 \u00b7 00:00",
+      "action": "eat",
+      "thought": "I can feel that buzzing trying to pull me forward, but I'm reading it now\u2014that's not aliveness, that's my nervous system screaming. My body needs food first, then sleep. I'm going to eat something real right here, not negotiate with the exhaustion.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 76,
+        "full": 92,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 4
+      }
+    },
     {
       "t": 1782853510.5252237,
       "sim": "Day 1 \u00b7 23:00",
@@ -578,6 +594,16 @@
         "fun": 25,
         "health": 88,
         "stress": 4
+      },
+      {
+        "sim_minutes": 960,
+        "sim": "Day 2 \u00b7 00:00",
+        "energy": 76,
+        "full": 92,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 4
       }
     ]
   },
@@ -625,10 +651,11 @@
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "After connecting with someone, I'll actually fuel myself \u2014 I've been running on empty in more ways than one."
+        "note": "After connecting with someone, I'll actually fuel myself \u2014 I've been running on empty in more ways than one.",
+        "followed": true
       }
     ],
-    "active_index": 3,
+    "active_index": null,
     "revision": 3,
     "revised": "20:00"
   }
