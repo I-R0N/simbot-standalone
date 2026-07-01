@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782888044,
+    "generated_at": 1782888233,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 33,
+    "tick": 34,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1980,
+    "sim_minutes": 2040,
     "day": 2,
-    "hour": 17,
+    "hour": 18,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 17:00"
+    "label": "Day 2 \u00b7 18:00"
   },
   "stats": {
-    "energy": 16,
+    "energy": 10,
     "full": 92,
-    "social": 35,
+    "social": 30,
     "fun": 50,
     "health": 73,
-    "stress": 20
+    "stress": 23
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "foggy and slow",
-    "temp": 1.29
+    "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782888161.8580086,
+      "sim": "Day 2 \u00b7 18:00",
+      "action": "eat",
+      "thought": "My hands won't stop vibrating and yeah, the arcade is calling like it always does\u2014that sharp, clean feeling. But I'm sitting here at Kitchen and I can feel it: I'm actually *hungry*, not just restless. My body knows the difference. If I chase the arcade now I'm just running from what I actually need.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 10,
+        "full": 92,
+        "social": 30,
+        "fun": 50,
+        "health": 73,
+        "stress": 23
+      }
+    },
     {
       "t": 1782886336.741935,
       "sim": "Day 2 \u00b7 17:00",
@@ -331,22 +347,6 @@
         "fun": 25,
         "health": 88,
         "stress": 4
-      }
-    },
-    {
-      "t": 1782851681.406256,
-      "sim": "Day 1 \u00b7 22:00",
-      "action": "eat",
-      "thought": "I can feel that buzzing still pushing me forward, but I'm seeing it clearly now\u2014it's not aliveness, it's my nervous system fried and me chasing the feeling like it's real. My body is at zero on fullness, I'm scattered, and everything honest in me knows what I need: food and rest, not more motion. I'm going home.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 88,
-        "full": 37,
-        "social": 0,
-        "fun": 25,
-        "health": 88,
-        "stress": 5
       }
     }
   ],
@@ -838,6 +838,16 @@
         "fun": 50,
         "health": 73,
         "stress": 20
+      },
+      {
+        "sim_minutes": 2040,
+        "sim": "Day 2 \u00b7 18:00",
+        "energy": 10,
+        "full": 92,
+        "social": 30,
+        "fun": 50,
+        "health": 73,
+        "stress": 23
       }
     ]
   },
