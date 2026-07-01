@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782922780,
+    "generated_at": 1782922963,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 52,
+    "tick": 53,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3120,
+    "sim_minutes": 3180,
     "day": 3,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 12:00"
+    "label": "Day 3 \u00b7 13:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782922832.1671388,
+      "sim": "Day 3 \u00b7 13:00",
+      "action": "eat",
+      "thought": "My hands are still vibrating like crazy and the arcade is calling, but I can see it now\u2014that's just noise covering up the fact that I'm completely hollow. Energy at zero means sleep, but my body's screaming and I'm already here. Eat something real, sit with it, let myself settle before I do anything else.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 46
+      }
+    },
     {
       "t": 1782921006.7460678,
       "sim": "Day 3 \u00b7 12:00",
@@ -331,22 +347,6 @@
         "fun": 50,
         "health": 73,
         "stress": 23
-      }
-    },
-    {
-      "t": 1782886336.741935,
-      "sim": "Day 2 \u00b7 17:00",
-      "action": "eat",
-      "thought": "My stomach's actually empty despite what the fullness number says\u2014my body knows the difference between full and *fed*. Those vibrating hands are screaming for the arcade's sharp hit, but I can see it now: I'm isolated and starving, and I'm trying to use restless energy instead of actual connection. Eat here. Ground myself. Then get back to people.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 16,
-        "full": 92,
-        "social": 35,
-        "fun": 50,
-        "health": 73,
-        "stress": 20
       }
     }
   ],
@@ -1022,6 +1022,16 @@
       {
         "sim_minutes": 3120,
         "sim": "Day 3 \u00b7 12:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 46
+      },
+      {
+        "sim_minutes": 3180,
+        "sim": "Day 3 \u00b7 13:00",
         "energy": 0,
         "full": 92,
         "social": 0,
