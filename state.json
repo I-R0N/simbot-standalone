@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782873533,
+    "generated_at": 1782873718,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 25,
+    "tick": 26,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1500,
+    "sim_minutes": 1560,
     "day": 2,
-    "hour": 9,
+    "hour": 10,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 09:00"
+    "label": "Day 2 \u00b7 10:00"
   },
   "stats": {
-    "energy": 64,
-    "full": 20,
+    "energy": 58,
+    "full": 12,
     "social": 0,
-    "fun": 50,
-    "health": 85,
-    "stress": 6
+    "fun": 45,
+    "health": 82,
+    "stress": 11
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "sharp",
-    "temp": 0.94
+    "clarity": "a little scattered",
+    "temp": 1.0
   },
   "activity": [
+    {
+      "t": 1782873574.2188888,
+      "sim": "Day 2 \u00b7 10:00",
+      "action": "socialize",
+      "thought": "The arcade is screaming at me, but I've seen this movie before\u2014I'm alone too long, my nervous system gets loud and persuasive, and I convince myself that solo intensity is what I need when really I'm just running from the vulnerability of actually showing up. Social at zero doesn't lie, even if my hands do. Friend's place it is, even though it feels duller right now.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 58,
+        "full": 12,
+        "social": 0,
+        "fun": 45,
+        "health": 82,
+        "stress": 11
+      }
+    },
     {
       "t": 1782871748.5012455,
       "sim": "Day 2 \u00b7 09:00",
@@ -332,22 +348,6 @@
         "health": 100,
         "stress": 5
       }
-    },
-    {
-      "t": 1782837088.1323373,
-      "sim": "Day 1 \u00b7 14:00",
-      "action": "exercise",
-      "thought": "I'm already here at the park, feeling this bright buzz in my chest, and my body is practically vibrating to move\u2014eating would just drain that momentum. My mind's foggy but my mood is carrying me, and I need to use this energy while it's actually here pushing me forward.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 4,
-        "full": 52,
-        "social": 30,
-        "fun": 50,
-        "health": 100,
-        "stress": 5
-      }
     }
   ],
   "build": {
@@ -414,32 +414,16 @@
       }
     ],
     "pos": {
-      "x": 5,
-      "y": 5
+      "x": 3,
+      "y": 7
     },
-    "at": "home",
+    "at": null,
     "intent": {
       "action": "socialize",
       "goal": "friend",
       "arrived": false
     },
     "path": [
-      {
-        "x": 5,
-        "y": 5
-      },
-      {
-        "x": 4,
-        "y": 5
-      },
-      {
-        "x": 4,
-        "y": 6
-      },
-      {
-        "x": 3,
-        "y": 6
-      },
       {
         "x": 3,
         "y": 7
@@ -795,6 +779,16 @@
         "fun": 50,
         "health": 85,
         "stress": 6
+      },
+      {
+        "sim_minutes": 1560,
+        "sim": "Day 2 \u00b7 10:00",
+        "energy": 58,
+        "full": 12,
+        "social": 0,
+        "fun": 45,
+        "health": 82,
+        "stress": 11
       }
     ]
   },
