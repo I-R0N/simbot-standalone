@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "generated_at": 0,
+    "model": "claude-haiku-4-5-20251001",
+    "tick": 6,
+    "interval_min": 30,
+    "paused": false,
+    "has_chat": true,
+    "note": "Sample/offline fallback. The bot overwrites the live copy on simbot-standalone."
+  },
+  "clock": {
+    "sim_minutes": 300,
+    "day": 1,
+    "hour": 13,
+    "minute": 0,
+    "phase": "day",
+    "label": "Day 1 · 13:00"
+  },
+  "stats": {
+    "energy": 64,
+    "full": 58,
+    "social": 71,
+    "fun": 66,
+    "health": 77,
+    "stress": 22
+  },
+  "mind": {
+    "mood": "bright and hopeful",
+    "clarity": "sharp",
+    "temp": 0.74
+  },
+  "activity": [
+    {
+      "t": 0,
+      "sim": "Day 1 · 13:00",
+      "action": "socialize",
+      "loc": "Friend's place",
+      "thought": "A message from a friend pulled me out of my own head — good timing, I was starting to spiral.",
+      "whisper": "your friend just texted you",
+      "stats": {
+        "energy": 64,
+        "full": 58,
+        "social": 71,
+        "fun": 66,
+        "health": 77,
+        "stress": 22
+      }
+    },
+    {
+      "t": 0,
+      "sim": "Day 1 · 12:00",
+      "action": "eat",
+      "loc": "Kitchen",
+      "thought": "I'd been ignoring how hungry I was. Made a real lunch instead of grazing.",
+      "whisper": "",
+      "stats": {
+        "energy": 69,
+        "full": 70,
+        "social": 52,
+        "fun": 61,
+        "health": 76,
+        "stress": 28
+      }
+    },
+    {
+      "t": 0,
+      "sim": "Day 1 · 11:00",
+      "action": "exercise",
+      "loc": "Park",
+      "thought": "A walk to shake off the stiffness. The air helped more than I expected.",
+      "whisper": "",
+      "stats": {
+        "energy": 60,
+        "full": 38,
+        "social": 57,
+        "fun": 56,
+        "health": 75,
+        "stress": 31
+      }
+    },
+    {
+      "t": 0,
+      "sim": "Day 1 · 10:00",
+      "action": "relax",
+      "loc": "Park",
+      "thought": "Slow morning. I let myself sit with a coffee and not do anything for a while.",
+      "whisper": "",
+      "stats": {
+        "energy": 66,
+        "full": 46,
+        "social": 62,
+        "fun": 49,
+        "health": 73,
+        "stress": 40
+      }
+    },
+    {
+      "t": 0,
+      "sim": "Day 1 · 09:00",
+      "action": "work",
+      "loc": "Office",
+      "thought": "Rent's due tomorrow, so I got to the office early while my head was still clear. Tedious, but the pay adds up and I felt the skill sharpen a little.",
+      "whisper": "",
+      "stats": {
+        "energy": 72,
+        "full": 54,
+        "social": 67,
+        "fun": 60,
+        "health": 73,
+        "stress": 47
+      }
+    },
+    {
+      "t": 0,
+      "sim": "Day 1 · 08:00",
+      "action": "relax",
+      "loc": "Home",
+      "thought": "A calm beginning. Just waking into the day, feeling out what I need.",
+      "whisper": "",
+      "stats": {
+        "energy": 70,
+        "full": 62,
+        "social": 60,
+        "fun": 55,
+        "health": 75,
+        "stress": 25
+      }
+    }
+  ],
+  "build": {
+    "sha": "8cb0627",
+    "ref": "PR #10",
+    "committed": "2026-07-01 16:41 EDT"
+  },
+  "world": {
+    "grid": {
+      "w": 11,
+      "h": 11
+    },
+    "locations": [
+      {
+        "name": "home",
+        "label": "Home",
+        "x": 5,
+        "y": 5,
+        "icon": "🏠",
+        "affords": [
+          "sleep"
+        ]
+      },
+      {
+        "name": "kitchen",
+        "label": "Kitchen",
+        "x": 3,
+        "y": 4,
+        "icon": "🍳",
+        "affords": [
+          "eat"
+        ]
+      },
+      {
+        "name": "park",
+        "label": "Park",
+        "x": 9,
+        "y": 8,
+        "icon": "🌳",
+        "affords": [
+          "exercise",
+          "relax"
+        ]
+      },
+      {
+        "name": "friend",
+        "label": "Friend's place",
+        "x": 1,
+        "y": 9,
+        "icon": "👥",
+        "affords": [
+          "socialize"
+        ]
+      },
+      {
+        "name": "arcade",
+        "label": "Arcade",
+        "x": 9,
+        "y": 1,
+        "icon": "🎮",
+        "affords": [
+          "play"
+        ]
+      },
+      {
+        "name": "office",
+        "label": "Office",
+        "x": 1,
+        "y": 1,
+        "icon": "🏢",
+        "affords": [
+          "work"
+        ]
+      }
+    ],
+    "pos": {
+      "x": 1,
+      "y": 9
+    },
+    "at": "friend",
+    "intent": {
+      "action": "socialize",
+      "goal": "friend",
+      "arrived": true
+    },
+    "path": []
+  },
+  "identity": "I'm someone learning to listen to my own needs before they turn into alarms. Mornings are slow but mine; I do better when I let a little play and connection in instead of grinding through.",
+  "memories": [
+    {
+      "kind": "review",
+      "text": "I set out for a steady, restful day and mostly held to it — but I skipped the proper lunch again, and a friend's message pulled the afternoon somewhere better than I'd planned. Worth letting that happen.",
+      "importance": 7,
+      "sim": "Day 1 · 13:00",
+      "t": 0
+    },
+    {
+      "kind": "reflection",
+      "text": "When I let myself rest early in the day, the rest of it goes better — the stress doesn't pile up the way it used to.",
+      "importance": 8,
+      "sim": "Day 1 · 13:00",
+      "t": 0
+    },
+    {
+      "kind": "reflection",
+      "text": "A small message from a friend lands heavier than I expect. I should reach out more, not wait to be pulled out of my own head.",
+      "importance": 8,
+      "sim": "Day 1 · 13:00",
+      "t": 0
+    },
+    {
+      "kind": "observation",
+      "text": "A message from a friend pulled me out of my own head — good timing, I was starting to spiral.",
+      "importance": 7,
+      "sim": "Day 1 · 13:00",
+      "t": 0
+    },
+    {
+      "kind": "observation",
+      "text": "I'd been ignoring how hungry I was. Made a real lunch instead of grazing.",
+      "importance": 5,
+      "sim": "Day 1 · 12:00",
+      "t": 0
+    }
+  ],
+  "plan": {
+    "day": 1,
+    "created": "Day 1 · 08:00",
+    "active_index": 2,
+    "revision": 1,
+    "revised": "11:30",
+    "blocks": [
+      {
+        "from_hour": 9,
+        "part": "morning",
+        "label": "Morning",
+        "action": "work",
+        "goal": "office",
+        "loc_label": "Office",
+        "icon": "🏢",
+        "note": "Get a solid block of work in when the office opens — rent's due tomorrow.",
+        "followed": true
+      },
+      {
+        "from_hour": 10,
+        "part": "midday",
+        "label": "Midday",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "🍳",
+        "note": "A real lunch, not grazing — I do better when I actually stop to eat.",
+        "followed": false
+      },
+      {
+        "from_hour": 13,
+        "part": "afternoon",
+        "label": "Afternoon",
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "👥",
+        "note": "A friend texted — reach out instead of staying in my own head."
+      },
+      {
+        "from_hour": 19,
+        "part": "evening",
+        "label": "Evening",
+        "action": "play",
+        "goal": "arcade",
+        "loc_label": "Arcade",
+        "icon": "🎮",
+        "note": "Let off a little steam before winding down for the night."
+      }
+    ]
+  },
+  "trends": {
+    "interval": "tick",
+    "stats": [
+      "energy",
+      "full",
+      "social",
+      "fun",
+      "health",
+      "stress"
+    ],
+    "points": [
+      {
+        "sim_minutes": 0,
+        "sim": "Day 1 · 08:00",
+        "energy": 70,
+        "full": 62,
+        "social": 60,
+        "fun": 55,
+        "health": 75,
+        "stress": 25
+      },
+      {
+        "sim_minutes": 60,
+        "sim": "Day 1 · 09:00",
+        "energy": 72,
+        "full": 54,
+        "social": 67,
+        "fun": 60,
+        "health": 73,
+        "stress": 47
+      },
+      {
+        "sim_minutes": 120,
+        "sim": "Day 1 · 10:00",
+        "energy": 66,
+        "full": 46,
+        "social": 62,
+        "fun": 49,
+        "health": 73,
+        "stress": 40
+      },
+      {
+        "sim_minutes": 180,
+        "sim": "Day 1 · 11:00",
+        "energy": 60,
+        "full": 38,
+        "social": 57,
+        "fun": 56,
+        "health": 75,
+        "stress": 31
+      },
+      {
+        "sim_minutes": 240,
+        "sim": "Day 1 · 12:00",
+        "energy": 69,
+        "full": 70,
+        "social": 52,
+        "fun": 61,
+        "health": 76,
+        "stress": 28
+      },
+      {
+        "sim_minutes": 300,
+        "sim": "Day 1 · 13:00",
+        "energy": 64,
+        "full": 58,
+        "social": 71,
+        "fun": 66,
+        "health": 77,
+        "stress": 22
+      }
+    ]
+  },
+  "work": {
+    "money": 58,
+    "currency": "⊙",
+    "job": {
+      "title": "Junior",
+      "level": 2
+    },
+    "skill": 2.8,
+    "skill_max": 10.0,
+    "rent": 30,
+    "work_hours": [
+      9,
+      17
+    ],
+    "overdue": 0,
+    "days_to_bill": 1
+  }
+}
