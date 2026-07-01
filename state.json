@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782886164,
+    "generated_at": 1782886353,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 32,
+    "tick": 33,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1920,
+    "sim_minutes": 1980,
     "day": 2,
-    "hour": 16,
+    "hour": 17,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 16:00"
+    "label": "Day 2 \u00b7 17:00"
   },
   "stats": {
-    "energy": 22,
+    "energy": 16,
     "full": 92,
-    "social": 40,
+    "social": 35,
     "fun": 50,
     "health": 73,
-    "stress": 17
+    "stress": 20
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "foggy and slow",
-    "temp": 1.24
+    "temp": 1.29
   },
   "activity": [
+    {
+      "t": 1782886336.741935,
+      "sim": "Day 2 \u00b7 17:00",
+      "action": "eat",
+      "thought": "My stomach's actually empty despite what the fullness number says\u2014my body knows the difference between full and *fed*. Those vibrating hands are screaming for the arcade's sharp hit, but I can see it now: I'm isolated and starving, and I'm trying to use restless energy instead of actual connection. Eat here. Ground myself. Then get back to people.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 16,
+        "full": 92,
+        "social": 35,
+        "fun": 50,
+        "health": 73,
+        "stress": 20
+      }
+    },
     {
       "t": 1782884511.449091,
       "sim": "Day 2 \u00b7 16:00",
@@ -331,22 +347,6 @@
         "fun": 25,
         "health": 88,
         "stress": 5
-      }
-    },
-    {
-      "t": 1782849856.5078068,
-      "sim": "Day 1 \u00b7 21:00",
-      "action": "sleep",
-      "thought": "I'm reading myself clearly now\u2014that buzzing isn't wisdom, it's my nervous system running on fumes and me mistaking the high for aliveness. My body is screaming, and I'm three blocks from home. I need to actually listen instead of negotiate with the fear that stopping means losing something real.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 25,
-        "health": 88,
-        "stress": 6
       }
     }
   ],
@@ -828,6 +828,16 @@
         "fun": 50,
         "health": 73,
         "stress": 17
+      },
+      {
+        "sim_minutes": 1980,
+        "sim": "Day 2 \u00b7 17:00",
+        "energy": 16,
+        "full": 92,
+        "social": 35,
+        "fun": 50,
+        "health": 73,
+        "stress": 20
       }
     ]
   },
