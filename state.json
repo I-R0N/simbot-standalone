@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782866207,
+    "generated_at": 1782866393,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 21,
+    "tick": 22,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1260,
+    "sim_minutes": 1320,
     "day": 2,
-    "hour": 5,
+    "hour": 6,
     "minute": 0,
-    "phase": "night",
-    "label": "Day 2 \u00b7 05:00"
+    "phase": "day",
+    "label": "Day 2 \u00b7 06:00"
   },
   "stats": {
-    "energy": 88,
-    "full": 52,
-    "social": 15,
-    "fun": 10,
+    "energy": 82,
+    "full": 44,
+    "social": 10,
+    "fun": 35,
     "health": 88,
-    "stress": 5
+    "stress": 0
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.79
+    "temp": 0.81
   },
   "activity": [
+    {
+      "t": 1782866285.3540401,
+      "sim": "Day 2 \u00b7 06:00",
+      "action": "play",
+      "thought": "I'm three blocks from the arcade and my body's buzzing\u2014that sharp, hot feeling I know too well. My mind keeps trying to convince me I need people right now, but I'm reading myself wrong. I'm fed, I'm sharp, and what this restless energy actually *needs* is to move, to play, to do something that's just for me without the pressure of being \"on\" around someone else.",
+      "whisper": "",
+      "loc": "arcade",
+      "stats": {
+        "energy": 82,
+        "full": 44,
+        "social": 10,
+        "fun": 35,
+        "health": 88,
+        "stress": 0
+      }
+    },
     {
       "t": 1782864460.1138666,
       "sim": "Day 2 \u00b7 05:00",
@@ -332,22 +348,6 @@
         "health": 75,
         "stress": 18
       }
-    },
-    {
-      "t": 1782829787.2580607,
-      "sim": "Day 1 \u00b7 10:00",
-      "action": "exercise",
-      "thought": "I'm already at the kitchen and feeling great\u2014sharp mind, good energy. My stomach's genuinely satisfied though (92 fullness), so eating again would just be going through the motions. The park is calling me; I should ride this bright mood and get moving before I lose momentum.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 58,
-        "full": 84,
-        "social": 50,
-        "fun": 55,
-        "health": 75,
-        "stress": 20
-      }
     }
   ],
   "build": {
@@ -414,37 +414,16 @@
       }
     ],
     "pos": {
-      "x": 7,
-      "y": 3
+      "x": 9,
+      "y": 1
     },
-    "at": null,
+    "at": "arcade",
     "intent": {
       "action": "play",
       "goal": "arcade",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 7,
-        "y": 3
-      },
-      {
-        "x": 8,
-        "y": 3
-      },
-      {
-        "x": 8,
-        "y": 2
-      },
-      {
-        "x": 9,
-        "y": 2
-      },
-      {
-        "x": 9,
-        "y": 1
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone who runs hot and loves",
   "memories": [
@@ -739,6 +718,16 @@
         "fun": 10,
         "health": 88,
         "stress": 5
+      },
+      {
+        "sim_minutes": 1320,
+        "sim": "Day 2 \u00b7 06:00",
+        "energy": 82,
+        "full": 44,
+        "social": 10,
+        "fun": 35,
+        "health": 88,
+        "stress": 0
       }
     ]
   },
