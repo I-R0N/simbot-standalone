@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782882613,
+    "generated_at": 1782882803,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 30,
+    "tick": 31,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1800,
+    "sim_minutes": 1860,
     "day": 2,
-    "hour": 14,
+    "hour": 15,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 14:00"
+    "label": "Day 2 \u00b7 15:00"
   },
   "stats": {
-    "energy": 34,
-    "full": 37,
-    "social": 50,
+    "energy": 28,
+    "full": 74,
+    "social": 45,
     "fun": 50,
     "health": 73,
-    "stress": 15
+    "stress": 13
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "foggy and slow",
-    "temp": 1.16
+    "temp": 1.19
   },
   "activity": [
+    {
+      "t": 1782882705.508266,
+      "sim": "Day 2 \u00b7 15:00",
+      "action": "eat",
+      "thought": "My hands are still buzzing like crazy and the arcade is calling\u2014that familiar sharp pull that feels like *truth*. But I can see it now: I'm running on empty, both literally and socially, and I'm trying to use that restless energy to feel alive instead of actually *being* alive with people. I need to eat, ground myself here at Kitchen, let my nervous system settle before I go back to Friend's place.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 28,
+        "full": 74,
+        "social": 45,
+        "fun": 50,
+        "health": 73,
+        "stress": 13
+      }
+    },
     {
       "t": 1782880879.903071,
       "sim": "Day 2 \u00b7 14:00",
@@ -332,22 +348,6 @@
         "health": 91,
         "stress": 6
       }
-    },
-    {
-      "t": 1782846201.968848,
-      "sim": "Day 1 \u00b7 19:00",
-      "action": "sleep",
-      "thought": "I'm exhausted and my thinking is scattered\u2014that's not wisdom, that's my nervous system running ragged. The buzzing in my chest feels alive, but I'm chasing it like a drug, and I can see that now. My plan said sleep, my body is screaming for sleep, and I'm three blocks from home. I need to actually listen instead of negotiate.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 72,
-        "full": 12,
-        "social": 5,
-        "fun": 35,
-        "health": 94,
-        "stress": 6
-      }
     }
   ],
   "build": {
@@ -425,8 +425,29 @@
     },
     "path": []
   },
-  "identity": "I am someone who runs hot and loves hard, learning \u2014 slowly, honestly \u2014 that the intensity in my",
+  "identity": "I am someone",
   "memories": [
+    {
+      "kind": "reflection",
+      "text": "There's something underneath all of this worth sitting with: the fear that stopping, resting, or just being ordinary for a moment means losing something irreplaceable. That fear is the engine of the loop, not the buzzing itself.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 15:00",
+      "t": 1782882712.035408
+    },
+    {
+      "kind": "reflection",
+      "text": "I'm getting faster at catching myself. The early memories show me fully captured by the buzz, convinced it was wisdom. By the end I'm naming the pattern *while it's happening* \u2014 that's real growth, even if I'm still circling.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 15:00",
+      "t": 1782882712.035408
+    },
+    {
+      "kind": "reflection",
+      "text": "The loop is visible now in a way it wasn't before: the buzzing in my chest has been the same feeling the whole time, but I've been labeling it differently depending on what I wanted to justify \u2014 hunger, vitality, the need for play, the need for people, the need for rest. The feeling itself isn't the truth. My interpretation of it is where I keep going wrong.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 15:00",
+      "t": 1782882712.035408
+    },
     {
       "kind": "reflection",
       "text": "I'm learning that \"listening to my body\" isn't simple for me \u2014 my body speaks loudly but not always truthfully. Real self-knowledge means developing a second layer: watching the watcher, reading the pattern beneath the feeling.",
@@ -447,27 +468,6 @@
       "importance": 8,
       "sim": "Day 2 \u00b7 07:00",
       "t": 1782868122.3393657
-    },
-    {
-      "kind": "review",
-      "text": "I hit most of what I set out to do \u2014 the food, the walk, the time with my friend \u2014 and that human contact was exactly what I needed, felt it immediately. Where I slipped was around exercise and sleep, which honestly tracks; when I'm running hot socially and emotionally, the body stuff is the first thing I let slide.",
-      "importance": 7,
-      "sim": "Day 2 \u00b7 00:00",
-      "t": 1782857148.1445587
-    },
-    {
-      "kind": "reflection",
-      "text": "There's something genuine in me that loves movement, energy, and being fully alive \u2014 that's not the problem. The problem is when I use that love to justify not listening to what I actually need. The vitality I want is sustainable; what I was chasing was a spike.",
-      "importance": 8,
-      "sim": "Day 1 \u00b7 23:00",
-      "t": 1782853516.5329764
-    },
-    {
-      "kind": "reflection",
-      "text": "What's striking is how long it took, and how many times I had to re-recognize the same thing before I actually acted. The insight came early, but the pull of the feeling kept overriding it. Knowing the pattern and breaking it are not the same thing.",
-      "importance": 8,
-      "sim": "Day 1 \u00b7 23:00",
-      "t": 1782853516.5329764
     },
     {
       "kind": "observation",
@@ -808,6 +808,16 @@
         "fun": 50,
         "health": 73,
         "stress": 15
+      },
+      {
+        "sim_minutes": 1860,
+        "sim": "Day 2 \u00b7 15:00",
+        "energy": 28,
+        "full": 74,
+        "social": 45,
+        "fun": 50,
+        "health": 73,
+        "stress": 13
       }
     ]
   },
