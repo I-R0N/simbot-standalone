@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782877113,
+    "generated_at": 1782877303,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 27,
+    "tick": 28,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1620,
+    "sim_minutes": 1680,
     "day": 2,
-    "hour": 11,
+    "hour": 12,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 11:00"
+    "label": "Day 2 \u00b7 12:00"
   },
   "stats": {
-    "energy": 52,
-    "full": 4,
-    "social": 30,
-    "fun": 50,
-    "health": 79,
-    "stress": 11
+    "energy": 46,
+    "full": 0,
+    "social": 60,
+    "fun": 55,
+    "health": 76,
+    "stress": 12
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.04
+    "temp": 1.07
   },
   "activity": [
+    {
+      "t": 1782877229.8505938,
+      "sim": "Day 2 \u00b7 12:00",
+      "action": "socialize",
+      "thought": "I'm hungry and my hands won't stop buzzing\u2014that familiar pull toward the arcade feels like clarity but I've learned it's just my nervous system lonely and misfiring urgency as truth. Friend's place is duller, yeah, but my social tank is on empty and I need actual connection more than I need that sharp-edged aliveness the games give me.",
+      "whisper": "",
+      "loc": "friend",
+      "stats": {
+        "energy": 46,
+        "full": 0,
+        "social": 60,
+        "fun": 55,
+        "health": 76,
+        "stress": 12
+      }
+    },
     {
       "t": 1782875403.4685593,
       "sim": "Day 2 \u00b7 11:00",
@@ -331,22 +347,6 @@
         "fun": 45,
         "health": 100,
         "stress": 9
-      }
-    },
-    {
-      "t": 1782840741.4033144,
-      "sim": "Day 1 \u00b7 16:00",
-      "action": "exercise",
-      "thought": "My chest is still buzzing\u2014I can feel it slipping if I stop now. Yeah, my energy's supposed to be dead, but this bright feeling is *real*, it's pushing me to move right now. My body knows what it needs, and it's not sitting down.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 36,
-        "social": 20,
-        "fun": 50,
-        "health": 100,
-        "stress": 5
       }
     }
   ],
@@ -778,6 +778,16 @@
         "fun": 50,
         "health": 79,
         "stress": 11
+      },
+      {
+        "sim_minutes": 1680,
+        "sim": "Day 2 \u00b7 12:00",
+        "energy": 46,
+        "full": 0,
+        "social": 60,
+        "fun": 55,
+        "health": 76,
+        "stress": 12
       }
     ]
   },
