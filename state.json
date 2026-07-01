@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782931783,
+    "generated_at": 1782931974,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 57,
+    "tick": 58,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3420,
+    "sim_minutes": 3480,
     "day": 3,
-    "hour": 17,
+    "hour": 18,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 17:00"
+    "label": "Day 3 \u00b7 18:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782931937.5599668,
+      "sim": "Day 3 \u00b7 18:00",
+      "action": "eat",
+      "thought": "My hands are still vibrating and part of me wants to bolt to the arcade for that noise and distraction, but I can see it clearly now\u2014I'm not restless, I'm completely hollowed out. Energy at zero means I'm chasing escape, not actually living. I'm already here in the kitchen. I need to eat something real and let my body settle before I see my friend.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 47
+      }
+    },
     {
       "t": 1782930112.5778222,
       "sim": "Day 3 \u00b7 17:00",
@@ -331,22 +347,6 @@
         "fun": 50,
         "health": 73,
         "stress": 34
-      }
-    },
-    {
-      "t": 1782895463.0112128,
-      "sim": "Day 2 \u00b7 22:00",
-      "action": "eat",
-      "thought": "My hands are still vibrating and part of me wants to bolt for the arcade\u2014that sharp pull that always feels like it's the answer. But I'm here at Kitchen and I can actually *feel* it now: I'm running on fumes, my social tank is empty, and I'm using this restless energy to avoid what I actually need. If I eat now, ground myself here, maybe I can show up actually present when I get to Friend's place instead of just vibrating with nervous energy.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 10,
-        "fun": 50,
-        "health": 73,
-        "stress": 32
       }
     }
   ],
@@ -1072,6 +1072,16 @@
       {
         "sim_minutes": 3420,
         "sim": "Day 3 \u00b7 17:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 47
+      },
+      {
+        "sim_minutes": 3480,
+        "sim": "Day 3 \u00b7 18:00",
         "energy": 0,
         "full": 92,
         "social": 0,
