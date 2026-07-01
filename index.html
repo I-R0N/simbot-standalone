@@ -84,6 +84,21 @@
   .pblock .pglyph.off { color:#e0a83a; }
   .pblock.deviated { border-left-color:#e0a83a; }
   .prev { color:#e0a83a; }
+  /* Stage 7: Livelihood — wallet, job, skill, and the looming rent. */
+  .work-top { display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+  .money { font-size:26px; font-weight:700; color:#7ee0a6; font-variant-numeric:tabular-nums; }
+  .money.broke { color:#e06a6a; }
+  .job { font-size:13px; color:#c4cad8; text-align:right; }
+  .job b { color:#fff; }
+  .skillrow { display:flex; align-items:center; gap:10px; margin-top:12px; }
+  .skillrow .lbl { width:64px; font-size:13px; color:#c4cad8; }
+  .skilltrack { flex:1; height:8px; background:#0f1218; border-radius:999px; overflow:hidden; }
+  .skillfill { display:block; height:100%; background:#6f9bff; border-radius:999px; transition:width .4s ease; }
+  .skillrow .val { width:56px; text-align:right; font-size:12px; color:#8b93a7;
+                   font-variant-numeric:tabular-nums; }
+  .rentrow { margin-top:12px; font-size:13px; color:#8b93a7; display:flex;
+             justify-content:space-between; gap:10px; }
+  .overdue { color:#e06a6a; font-weight:600; }
   .legend { margin-top:12px; display:flex; flex-wrap:wrap; gap:6px 14px;
             font-size:12px; color:#8b93a7; }
   .legend span b { color:#c4cad8; font-weight:600; }
@@ -109,6 +124,20 @@
     <h2>Today's plan</h2>
     <div class="phead" id="planHead"></div>
     <div id="planBlocks"></div>
+  </div>
+
+  <div class="card" id="workCard" style="display:none">
+    <h2>Livelihood</h2>
+    <div class="work-top">
+      <div class="money" id="money"></div>
+      <div class="job" id="job"></div>
+    </div>
+    <div class="skillrow">
+      <span class="lbl">skill</span>
+      <span class="skilltrack"><span class="skillfill" id="skillfill"></span></span>
+      <span class="val" id="skillval"></span>
+    </div>
+    <div class="rentrow" id="rentrow"></div>
   </div>
 
   <div class="card">
@@ -416,6 +445,38 @@ function renderPlan(plan) {
   }).join("");
 }
 
+// Livelihood (Stage 7): the wallet, job title + level, skill progress, and the
+// looming rent — the first "ratchet" that gives work a point. Overdue rent shows
+// red. Degrades to a hidden card when there's no work block (older state.json).
+function renderWork(work) {
+  const card = document.getElementById("workCard");
+  if (!work || work.money == null) { card.style.display = "none"; return; }
+  card.style.display = "";
+  const cur = work.currency || "";
+  const moneyEl = document.getElementById("money");
+  moneyEl.textContent = cur + (work.money | 0);
+  moneyEl.className = "money" + (work.overdue ? " broke" : "");
+  const job = work.job || {};
+  document.getElementById("job").innerHTML =
+    `<b>${esc(job.title || "—")}</b>` + (job.level ? ` · lvl ${job.level | 0}` : "");
+  const smax = work.skill_max || 10;
+  const pct = Math.max(0, Math.min(100, (work.skill / smax) * 100));
+  document.getElementById("skillfill").style.width = pct + "%";
+  document.getElementById("skillval").textContent = `${(work.skill ?? 0)}/${smax | 0}`;
+  const hrs = Array.isArray(work.work_hours) ? work.work_hours : null;
+  const openTxt = hrs
+    ? `office ${String(hrs[0]).padStart(2, "0")}:00–${String(hrs[1]).padStart(2, "0")}:00` : "";
+  let rent;
+  if (work.overdue) {
+    rent = `<span class="overdue">rent ${cur}${work.rent | 0} overdue ×${work.overdue | 0}</span>`;
+  } else {
+    const d = work.days_to_bill;
+    const due = d === 0 ? "due today" : d === 1 ? "due tomorrow" : `due in ${d} days`;
+    rent = `rent ${cur}${work.rent | 0}/day · ${due}`;
+  }
+  document.getElementById("rentrow").innerHTML = `<span>${rent}</span><span>${openTxt}</span>`;
+}
+
 function render(s) {
   const stats = s.stats || {};
   const meta = s.meta || {};
@@ -446,6 +507,7 @@ function render(s) {
 
   renderWorld(s.world, s.clock);   // Stage 4 — embodied grid on canvas, day/night tint
   renderPlan(s.plan);              // Stage 5 — today's day-plan + active block
+  renderWork(s.work);              // Stage 7 — wallet, job, skill, rent
   renderTrends(s.trends);          // Stage 4 — per-stat sparklines over recent history
 
   // Self-identity (Stage 2): a rolling first-person sense of self from reflection.

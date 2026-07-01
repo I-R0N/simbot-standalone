@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": 1782945022,
+    "generated_at": 1782945214,
     "model": "claude-haiku-4-5-20251001",
     "tick": 65,
     "interval_min": 30,
@@ -351,9 +351,9 @@
     }
   ],
   "build": {
-    "sha": "70ae15f",
+    "sha": "7d63724",
     "ref": "main",
-    "committed": "2026-07-01 18:07 EDT"
+    "committed": "2026-07-01 18:30 EDT"
   },
   "world": {
     "grid": {
@@ -410,6 +410,16 @@
         "icon": "\ud83c\udfae",
         "affords": [
           "play"
+        ]
+      },
+      {
+        "name": "office",
+        "label": "Office",
+        "x": 1,
+        "y": 1,
+        "icon": "\ud83c\udfe2",
+        "affords": [
+          "work"
         ]
       }
     ],
@@ -1209,5 +1219,22 @@
     "active_index": 0,
     "revision": 0,
     "revised": null
+  },
+  "work": {
+    "money": 40,
+    "currency": "\u2299",
+    "job": {
+      "title": "Intern",
+      "level": 1
+    },
+    "skill": 0.0,
+    "skill_max": 10.0,
+    "rent": 30,
+    "work_hours": [
+      9,
+      17
+    ],
+    "overdue": 0,
+    "days_to_bill": 0
   }
 }
