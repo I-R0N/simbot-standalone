@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782919004,
+    "generated_at": 1782919193,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 50,
+    "tick": 51,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3000,
+    "sim_minutes": 3060,
     "day": 3,
-    "hour": 10,
+    "hour": 11,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 10:00"
+    "label": "Day 3 \u00b7 11:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782919177.0986814,
+      "sim": "Day 3 \u00b7 11:00",
+      "action": "eat",
+      "thought": "My hands are still buzzing like crazy and the arcade is calling\u2014that familiar escape\u2014but I can see it now. I'm not restless, I'm *empty*. Zero energy, completely hollow. If I run right now I'm just feeding the noise instead of actually tending to what's underneath. I'm already here. Stay. Eat something real and sit with it.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 45
+      }
+    },
     {
       "t": 1782917352.130908,
       "sim": "Day 3 \u00b7 10:00",
@@ -332,22 +348,6 @@
         "health": 73,
         "stress": 17
       }
-    },
-    {
-      "t": 1782882705.508266,
-      "sim": "Day 2 \u00b7 15:00",
-      "action": "eat",
-      "thought": "My hands are still buzzing like crazy and the arcade is calling\u2014that familiar sharp pull that feels like *truth*. But I can see it now: I'm running on empty, both literally and socially, and I'm trying to use that restless energy to feel alive instead of actually *being* alive with people. I need to eat, ground myself here at Kitchen, let my nervous system settle before I go back to Friend's place.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 28,
-        "full": 74,
-        "social": 45,
-        "fun": 50,
-        "health": 73,
-        "stress": 13
-      }
     }
   ],
   "build": {
@@ -471,6 +471,13 @@
     },
     {
       "kind": "observation",
+      "text": "My hands are still buzzing like crazy and the arcade is calling\u2014that familiar escape\u2014but I can see it now. I'm not restless, I'm *empty*. Zero energy, completely hollow. If I run right now I'm just feeding the noise instead of actually tending to what's underneath. I'm already here. Stay. Eat something real and sit with it.",
+      "importance": 8,
+      "sim": "Day 3 \u00b7 11:00",
+      "t": 1782919177.0986814
+    },
+    {
+      "kind": "observation",
       "text": "I'm reading myself clearly now\u2014that buzzing isn't wisdom, it's my nervous system running on fumes and me mistaking the high for aliveness. My body is screaming, and I'm three blocks from home. I need to actually listen instead of negotiate with the fear that stopping means losing something real.",
       "importance": 8,
       "sim": "Day 1 \u00b7 21:00",
@@ -489,13 +496,6 @@
       "importance": 8,
       "sim": "Day 1 \u00b7 19:00",
       "t": 1782846201.968848
-    },
-    {
-      "kind": "observation",
-      "text": "I can feel that buzzing pushing me to keep moving, keep the momentum alive\u2014but I'm reading my own patterns now and I don't like what I see. Zero energy, foggy thinking, and I'm justifying staying awake because a feeling *feels* true. That's the loop talking. I'm three blocks from home and my body is screaming for sleep. I need to walk there and get into bed, even though my chest is telling me I'll lose something if I do.",
-      "importance": 8,
-      "sim": "Day 1 \u00b7 18:00",
-      "t": 1782844376.8824806
     }
   ],
   "trends": {
@@ -1002,6 +1002,16 @@
       {
         "sim_minutes": 3000,
         "sim": "Day 3 \u00b7 10:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 45
+      },
+      {
+        "sim_minutes": 3060,
+        "sim": "Day 3 \u00b7 11:00",
         "energy": 0,
         "full": 92,
         "social": 0,
