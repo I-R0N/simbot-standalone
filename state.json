@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782924484,
+    "generated_at": 1782924673,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 53,
+    "tick": 54,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3180,
+    "sim_minutes": 3240,
     "day": 3,
-    "hour": 13,
+    "hour": 14,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 13:00"
+    "label": "Day 3 \u00b7 14:00"
   },
   "stats": {
     "energy": 0,
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782924657.406877,
+      "sim": "Day 3 \u00b7 14:00",
+      "action": "eat",
+      "thought": "My hands won't stop shaking and there's that familiar pull toward the arcade, but I can actually *see* it now\u2014that's just me trying to outrun the emptiness. I'm hollow. My body needs real food and stillness more than it needs noise right now, and I'm already here.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 46
+      }
+    },
     {
       "t": 1782922832.1671388,
       "sim": "Day 3 \u00b7 13:00",
@@ -332,22 +348,6 @@
         "health": 73,
         "stress": 26
       }
-    },
-    {
-      "t": 1782888161.8580086,
-      "sim": "Day 2 \u00b7 18:00",
-      "action": "eat",
-      "thought": "My hands won't stop vibrating and yeah, the arcade is calling like it always does\u2014that sharp, clean feeling. But I'm sitting here at Kitchen and I can feel it: I'm actually *hungry*, not just restless. My body knows the difference. If I chase the arcade now I'm just running from what I actually need.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 10,
-        "full": 92,
-        "social": 30,
-        "fun": 50,
-        "health": 73,
-        "stress": 23
-      }
     }
   ],
   "build": {
@@ -425,8 +425,29 @@
     },
     "path": []
   },
-  "identity": "I am someone who runs hot and has spent a long time mistaking urgency for truth \u2014 but I am",
+  "identity": "I am someone who has learned to read",
   "memories": [
+    {
+      "kind": "reflection",
+      "text": "There's something worth honoring here: I keep choosing to stay. Even when the pull is loud, I keep finding my way back to the kitchen, to food, to people. That's not nothing. That's actually who I'm becoming.",
+      "importance": 8,
+      "sim": "Day 3 \u00b7 14:00",
+      "t": 1782924663.606741
+    },
+    {
+      "kind": "reflection",
+      "text": "The arcade isn't really about the arcade. It's the shape my escape takes \u2014 the sharp, clean feeling I reach for when I'm depleted and alone. Recognizing it as noise is progress, but I'm still standing at the edge of it every single time, needing to talk myself down from the same ledge.",
+      "importance": 8,
+      "sim": "Day 3 \u00b7 14:00",
+      "t": 1782924663.606741
+    },
+    {
+      "kind": "reflection",
+      "text": "I have been having the same realization, over and over, in the same kitchen, with the same vibrating hands \u2014 which means the insight is real but it hasn't yet become a reflex. I can see the pattern clearly; I haven't yet changed the conditions that keep producing it.",
+      "importance": 8,
+      "sim": "Day 3 \u00b7 14:00",
+      "t": 1782924663.606741
+    },
     {
       "kind": "reflection",
       "text": "The buzziness, the intensity, the arcade pull \u2014 these are not flaws to eradicate. They are my nervous system's native language. What I am learning is translation, not silence.",
@@ -447,27 +468,6 @@
       "importance": 8,
       "sim": "Day 3 \u00b7 07:00",
       "t": 1782911897.7860146
-    },
-    {
-      "kind": "review",
-      "text": "I mostly held the shape of the day \u2014 food, park, the walk over to my friend's \u2014 but I kept bleeding into eating and socializing in unplanned ways, which tells me the hunger and the loneliness were louder than I admitted this morning, and I'm not sure whether that's drift or just honesty catching up with the plan.",
-      "importance": 7,
-      "sim": "Day 3 \u00b7 00:00",
-      "t": 1782900924.4174986
-    },
-    {
-      "kind": "reflection",
-      "text": "There's a real tenderness in how hard I work to read myself honestly, even mid-spiral \u2014 I keep catching the pattern, naming it, choosing differently. That capacity for self-witnessing is growing, even when the body keeps buzzing.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 23:00",
-      "t": 1782897296.7792766
-    },
-    {
-      "kind": "reflection",
-      "text": "I am someone who mistakes aliveness for connection, and solo intensity for fulfillment \u2014 the arcade, the games, the restless momentum all feel like truth in the moment, but I've watched myself enough times now to see they're often avoidance dressed up as action.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 23:00",
-      "t": 1782897296.7792766
     },
     {
       "kind": "observation",
@@ -1038,6 +1038,16 @@
         "fun": 50,
         "health": 73,
         "stress": 46
+      },
+      {
+        "sim_minutes": 3240,
+        "sim": "Day 3 \u00b7 14:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 46
       }
     ]
   },
@@ -1053,7 +1063,8 @@
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "I've been feeding the loop with eating and it isn't landing \u2014 what's actually empty is deeper, and only rest will reach it."
+        "note": "I've been feeding the loop with eating and it isn't landing \u2014 what's actually empty is deeper, and only rest will reach it.",
+        "followed": false
       },
       {
         "from_hour": 14,
@@ -1066,7 +1077,7 @@
         "note": "After sleep, I need real contact, not stimulation \u2014 another person's presence is the only thing that fills what the arcade never could."
       }
     ],
-    "active_index": 0,
+    "active_index": 1,
     "revision": 3,
     "revised": "07:00"
   }
