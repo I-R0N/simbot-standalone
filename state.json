@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782871645,
+    "generated_at": 1782871833,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 24,
+    "tick": 25,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1440,
+    "sim_minutes": 1500,
     "day": 2,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 08:00"
+    "label": "Day 2 \u00b7 09:00"
   },
   "stats": {
-    "energy": 70,
-    "full": 28,
+    "energy": 64,
+    "full": 20,
     "social": 0,
-    "fun": 55,
-    "health": 88,
-    "stress": 0
+    "fun": 50,
+    "health": 85,
+    "stress": 6
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.88
+    "temp": 0.94
   },
   "activity": [
+    {
+      "t": 1782871748.5012455,
+      "sim": "Day 2 \u00b7 09:00",
+      "action": "socialize",
+      "thought": "The arcade is three blocks away and my hands are already itching\u2014that sharp, hot feeling that always feels like truth. But I know this pattern now. Social at zero isn't a coincidence, and that buzzing isn't telling me to play alone; it's my nervous system screaming that I've been isolated too long and I'm using the arcade to feel alive without actually *connecting*. Friend's place is where I need to be, even though it feels less urgent than the games.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 64,
+        "full": 20,
+        "social": 0,
+        "fun": 50,
+        "health": 85,
+        "stress": 6
+      }
+    },
     {
       "t": 1782869922.7699792,
       "sim": "Day 2 \u00b7 08:00",
@@ -332,22 +348,6 @@
         "health": 100,
         "stress": 5
       }
-    },
-    {
-      "t": 1782835263.2477562,
-      "sim": "Day 1 \u00b7 13:00",
-      "action": "exercise",
-      "thought": "I'm already here at the park and I'm buzzing\u2014my energy is begging to be used, not wasted sitting at a table eating when I'm not even hungry. This bright feeling is exactly what I need to push through some real movement before my scattered mind convinces me otherwise.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 20,
-        "full": 60,
-        "social": 35,
-        "fun": 50,
-        "health": 99,
-        "stress": 6
-      }
     }
   ],
   "build": {
@@ -414,32 +414,16 @@
       }
     ],
     "pos": {
-      "x": 7,
-      "y": 3
+      "x": 5,
+      "y": 5
     },
-    "at": null,
+    "at": "home",
     "intent": {
       "action": "socialize",
       "goal": "friend",
       "arrived": false
     },
     "path": [
-      {
-        "x": 7,
-        "y": 3
-      },
-      {
-        "x": 6,
-        "y": 3
-      },
-      {
-        "x": 6,
-        "y": 4
-      },
-      {
-        "x": 5,
-        "y": 4
-      },
       {
         "x": 5,
         "y": 5
@@ -801,6 +785,16 @@
         "fun": 55,
         "health": 88,
         "stress": 0
+      },
+      {
+        "sim_minutes": 1500,
+        "sim": "Day 2 \u00b7 09:00",
+        "energy": 64,
+        "full": 20,
+        "social": 0,
+        "fun": 50,
+        "health": 85,
+        "stress": 6
       }
     ]
   },
