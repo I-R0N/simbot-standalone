@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782946333,
+    "generated_at": 1782946524,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 65,
+    "tick": 66,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3900,
+    "sim_minutes": 3960,
     "day": 4,
-    "hour": 1,
+    "hour": 2,
     "minute": 0,
     "phase": "night",
-    "label": "Day 4 \u00b7 01:00"
+    "label": "Day 4 \u00b7 02:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 50,
     "health": 73,
-    "stress": 48
+    "stress": 49
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782946484.9321377,
+      "sim": "Day 4 \u00b7 02:00",
+      "action": "eat",
+      "thought": "My hands are still shaking and I can feel that pull toward the arcade, but I know what that is now\u2014escape, noise, anything but this hollow feeling. I'm empty, not restless. If I run now I'm just numbing it. I'm already here in the kitchen, so I need to actually eat something and sit with it, let my body settle instead of bolting.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 49
+      }
+    },
     {
       "t": 1782944666.7061527,
       "sim": "Day 4 \u00b7 01:00",
@@ -331,22 +347,6 @@
         "fun": 50,
         "health": 73,
         "stress": 43
-      }
-    },
-    {
-      "t": 1782910066.0038154,
-      "sim": "Day 3 \u00b7 06:00",
-      "action": "eat",
-      "thought": "My hands are still vibrating like crazy and part of me wants to bolt to the arcade\u2014that old familiar escape route\u2014but I can see it now. I'm not restless, I'm *empty*. Zero energy, completely depleted. If I run now I'm just feeding the noise instead of actually taking care of the person underneath it. I'm already here in the kitchen. I need to eat something real and actually sit with it, let my body settle enough that when I see people later I'm not just raw current pretending to be a person.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 0,
-        "fun": 50,
-        "health": 73,
-        "stress": 42
       }
     }
   ],
@@ -1168,6 +1168,16 @@
         "fun": 50,
         "health": 73,
         "stress": 48
+      },
+      {
+        "sim_minutes": 3960,
+        "sim": "Day 4 \u00b7 02:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 49
       }
     ]
   },
@@ -1176,52 +1186,22 @@
     "created": "Day 4 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 0,
+        "from_hour": 1,
         "part": "night",
         "label": "Night",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "I've been running on empty for days and no amount of eating or insight will fix what only rest can \u2014 I need to stop circling and just lie down."
-      },
-      {
-        "from_hour": 9,
-        "part": "morning",
-        "label": "Morning",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "After real sleep, food will actually mean something; I'll eat slowly and let it be care, not filler."
-      },
-      {
-        "from_hour": 11,
-        "part": "morning",
-        "label": "Morning",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "The social emptiness is real and food can't touch it \u2014 I need to actually show up at my friend's place today, the thing I keep planning and not doing."
-      },
-      {
-        "from_hour": 14,
-        "part": "afternoon",
-        "label": "Afternoon",
-        "action": "relax",
-        "goal": "park",
-        "loc_label": "Park",
-        "icon": "\ud83c\udf33",
-        "note": "Sit in the park after, not to escape but to let the morning settle \u2014 no arcade, just staying with what's already there."
+        "note": "I've been eating in circles and nothing is shifting \u2014 my body is at zero and the only thing I haven't let myself do is actually stop; I need to go home and rest, not think my way through this one more time."
       }
     ],
     "active_index": 0,
-    "revision": 0,
-    "revised": null
+    "revision": 1,
+    "revised": "01:00"
   },
   "work": {
-    "money": 40,
+    "money": 10,
     "currency": "\u2299",
     "job": {
       "title": "Intern",
@@ -1235,6 +1215,6 @@
       17
     ],
     "overdue": 0,
-    "days_to_bill": 0
+    "days_to_bill": 1
   }
 }
