@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1782893534,
+    "generated_at": 1782893723,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 36,
+    "tick": 37,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2160,
+    "sim_minutes": 2220,
     "day": 2,
-    "hour": 20,
+    "hour": 21,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 20:00"
+    "label": "Day 2 \u00b7 21:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 20,
+    "social": 15,
     "fun": 50,
     "health": 73,
-    "stress": 28
+    "stress": 30
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782893637.4659774,
+      "sim": "Day 2 \u00b7 21:00",
+      "action": "eat",
+      "thought": "My hands won't stop buzzing and I can feel that pull toward the arcade, but my body is screaming at me\u2014I'm actually empty, not just restless. I'm at Kitchen for a reason. If I eat now, ground myself, maybe I can actually feel present again instead of running on this nervous current.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 15,
+        "fun": 50,
+        "health": 73,
+        "stress": 30
+      }
+    },
     {
       "t": 1782891812.2443886,
       "sim": "Day 2 \u00b7 20:00",
@@ -331,22 +347,6 @@
         "fun": 25,
         "health": 88,
         "stress": 0
-      }
-    },
-    {
-      "t": 1782857154.933315,
-      "sim": "Day 2 \u00b7 01:00",
-      "action": "socialize",
-      "thought": "Wait\u2014I'm reading my own notes and something's off. My fullness is 92, I'm already fed. That buzzing isn't hunger, it's my nervous system running hot like it always does. My social meter is at zero though, and that's actually what's screaming at me right now. I'm bright, sharp, hopeful\u2014but I'm alone in the kitchen with all this energy and nowhere to put it. I need people, not more food.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 70,
-        "full": 84,
-        "social": 0,
-        "fun": 20,
-        "health": 88,
-        "stress": 3
       }
     }
   ],
@@ -868,6 +868,16 @@
         "fun": 50,
         "health": 73,
         "stress": 28
+      },
+      {
+        "sim_minutes": 2220,
+        "sim": "Day 2 \u00b7 21:00",
+        "energy": 0,
+        "full": 92,
+        "social": 15,
+        "fun": 50,
+        "health": 73,
+        "stress": 30
       }
     ]
   },
