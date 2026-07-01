@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782875225,
+    "generated_at": 1782875413,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 26,
+    "tick": 27,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1560,
+    "sim_minutes": 1620,
     "day": 2,
-    "hour": 10,
+    "hour": 11,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 10:00"
+    "label": "Day 2 \u00b7 11:00"
   },
   "stats": {
-    "energy": 58,
-    "full": 12,
-    "social": 0,
-    "fun": 45,
-    "health": 82,
+    "energy": 52,
+    "full": 4,
+    "social": 30,
+    "fun": 50,
+    "health": 79,
     "stress": 11
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.0
+    "temp": 1.04
   },
   "activity": [
+    {
+      "t": 1782875403.4685593,
+      "sim": "Day 2 \u00b7 11:00",
+      "action": "socialize",
+      "thought": "My hands are still itching and the arcade is right there, but I can feel the pattern\u2014that restless buzz that feels like truth but is really just my nervous system screaming that I've been alone too long. I know this movie. Friend's place feels duller, but dull is exactly what my system needs right now, not another solo intensity spiral.",
+      "whisper": "",
+      "loc": "friend",
+      "stats": {
+        "energy": 52,
+        "full": 4,
+        "social": 30,
+        "fun": 50,
+        "health": 79,
+        "stress": 11
+      }
+    },
     {
       "t": 1782873574.2188888,
       "sim": "Day 2 \u00b7 10:00",
@@ -332,22 +348,6 @@
         "health": 100,
         "stress": 5
       }
-    },
-    {
-      "t": 1782838916.4879806,
-      "sim": "Day 1 \u00b7 15:00",
-      "action": "exercise",
-      "thought": "My chest is buzzing and I'm *here* at the park \u2014 my body wants to move right now, this bright feeling won't last forever. Yeah my energy is low on paper but my mood is carrying me, and sitting down to eat would kill this momentum for nothing. I can feel it slipping already if I don't act.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 44,
-        "social": 25,
-        "fun": 50,
-        "health": 100,
-        "stress": 5
-      }
     }
   ],
   "build": {
@@ -414,37 +414,16 @@
       }
     ],
     "pos": {
-      "x": 3,
-      "y": 7
+      "x": 1,
+      "y": 9
     },
-    "at": null,
+    "at": "friend",
     "intent": {
       "action": "socialize",
       "goal": "friend",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 3,
-        "y": 7
-      },
-      {
-        "x": 2,
-        "y": 7
-      },
-      {
-        "x": 2,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 9
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone who runs hot and loves hard, learning \u2014 slowly, honestly \u2014 that the intensity in my",
   "memories": [
@@ -789,6 +768,16 @@
         "fun": 45,
         "health": 82,
         "stress": 11
+      },
+      {
+        "sim_minutes": 1620,
+        "sim": "Day 2 \u00b7 11:00",
+        "energy": 52,
+        "full": 4,
+        "social": 30,
+        "fun": 50,
+        "health": 79,
+        "stress": 11
       }
     ]
   },
@@ -808,24 +797,24 @@
         "followed": false
       },
       {
-        "from_hour": 6,
-        "part": "morning",
-        "label": "Morning",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "My social need is maxed out and I've been overriding it \u2014 I'm walking those three blocks to my friend's place now, while I'm sharp and fed."
+        "from_hour": 10,
+        "part": null,
+        "label": "10:00",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I'm running on empty and I keep skipping this \u2014 the buzzing isn't wisdom right now, it's hunger, and I need to feed the body before I can trust anything it's telling me."
       },
       {
         "from_hour": 14,
-        "part": "afternoon",
-        "label": "Afternoon",
+        "part": null,
+        "label": "14:00",
         "action": "relax",
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "After real connection I'll let myself decompress at the park so I'm not running on fumes tonight."
+        "note": "I've been white-knuckling through intensity all day; I need to let the nervous system come down before tonight so I actually show up present, not just physically there."
       },
       {
         "from_hour": 20,
@@ -835,11 +824,11 @@
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "This was already set and I'm keeping it \u2014 I'll show up grounded this time, not depleted."
+        "note": "This was already the plan and it's the right one \u2014 social at zero is real, and I want to arrive full enough to actually connect, not just occupy space."
       }
     ],
     "active_index": 1,
-    "revision": 2,
-    "revised": "06:00"
+    "revision": 3,
+    "revised": "10:00"
   }
 }
