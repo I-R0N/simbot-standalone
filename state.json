@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782879013,
+    "generated_at": 1782879203,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 28,
+    "tick": 29,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1680,
+    "sim_minutes": 1740,
     "day": 2,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 12:00"
+    "label": "Day 2 \u00b7 13:00"
   },
   "stats": {
-    "energy": 46,
+    "energy": 40,
     "full": 0,
-    "social": 60,
-    "fun": 55,
-    "health": 76,
-    "stress": 12
+    "social": 55,
+    "fun": 50,
+    "health": 73,
+    "stress": 16
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.07
+    "temp": 1.13
   },
   "activity": [
+    {
+      "t": 1782879054.7771533,
+      "sim": "Day 2 \u00b7 13:00",
+      "action": "eat",
+      "thought": "My stomach is actually empty and my hands are buzzing like crazy, but I can see the pattern now\u2014I'm alone too long and that arcade itch is just my nervous system screaming in a language that feels like truth. I need to eat first, then get back to Friend's place where there are actual people, even if it feels duller than the arcade's sharp pull.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 40,
+        "full": 0,
+        "social": 55,
+        "fun": 50,
+        "health": 73,
+        "stress": 16
+      }
+    },
     {
       "t": 1782877229.8505938,
       "sim": "Day 2 \u00b7 12:00",
@@ -332,22 +348,6 @@
         "health": 97,
         "stress": 6
       }
-    },
-    {
-      "t": 1782842549.0650063,
-      "sim": "Day 1 \u00b7 17:00",
-      "action": "sleep",
-      "thought": "I'm noticing something real here\u2014that buzzing in my chest, the urgency, the fear it'll disappear if I stop... that's not actually vitality. That's me chasing a feeling and calling it wisdom. My energy is at zero. I'm foggy. The pattern is right there: I keep overriding what I actually need because I'm afraid of losing this high. That's the loop.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 0,
-        "full": 28,
-        "social": 15,
-        "fun": 45,
-        "health": 100,
-        "stress": 9
-      }
     }
   ],
   "build": {
@@ -414,16 +414,33 @@
       }
     ],
     "pos": {
-      "x": 1,
-      "y": 9
+      "x": 2,
+      "y": 6
     },
-    "at": "friend",
+    "at": null,
     "intent": {
-      "action": "socialize",
-      "goal": "friend",
-      "arrived": true
+      "action": "eat",
+      "goal": "kitchen",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 2,
+        "y": 6
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 4
+      }
+    ]
   },
   "identity": "I am someone who runs hot and loves hard, learning \u2014 slowly, honestly \u2014 that the intensity in my",
   "memories": [
@@ -788,6 +805,16 @@
         "fun": 55,
         "health": 76,
         "stress": 12
+      },
+      {
+        "sim_minutes": 1740,
+        "sim": "Day 2 \u00b7 13:00",
+        "energy": 40,
+        "full": 0,
+        "social": 55,
+        "fun": 50,
+        "health": 73,
+        "stress": 16
       }
     ]
   },
