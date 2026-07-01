@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782900883,
+    "generated_at": 1782901073,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 40,
+    "tick": 41,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2400,
+    "sim_minutes": 2460,
     "day": 3,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 00:00"
+    "label": "Day 3 \u00b7 01:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 50,
     "health": 73,
-    "stress": 35
+    "stress": 37
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782900933.2268572,
+      "sim": "Day 3 \u00b7 01:00",
+      "action": "eat",
+      "thought": "My hands won't stop vibrating and there's that old pull toward the arcade\u2014that familiar itch that feels like the answer. But I'm sitting with it now instead of running. I'm at zero energy, zero social, and I can feel the difference between restlessness and actual need. My body's screaming that it's empty. Eating here, actually staying present for five minutes instead of chasing the buzz\u2014that's the real move.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 37
+      }
+    },
     {
       "t": 1782899097.15048,
       "sim": "Day 3 \u00b7 00:00",
@@ -332,22 +348,6 @@
         "health": 88,
         "stress": 0
       }
-    },
-    {
-      "t": 1782864460.1138666,
-      "sim": "Day 2 \u00b7 05:00",
-      "action": "play",
-      "thought": "That buzzing in my chest is familiar\u2014my nervous system running hot like it always does. My mind's sharp and I feel hopeful, but I'm reading the signals wrong if I chase them. I'm already fed, my social tank is completely empty, and what I actually need right now is to do something *with* this restless energy that doesn't require being around people. Play. Something that lets me move and create without the pressure of performing for anyone else.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 88,
-        "full": 52,
-        "social": 15,
-        "fun": 10,
-        "health": 88,
-        "stress": 5
-      }
     }
   ],
   "build": {
@@ -428,6 +428,13 @@
   "identity": "I am someone who runs hot \u2014 nervous system loud, mind sharp, always pulled toward intensity \u2014 and I am slowly,",
   "memories": [
     {
+      "kind": "review",
+      "text": "I mostly held the shape of the day \u2014 food, park, the walk over to my friend's \u2014 but I kept bleeding into eating and socializing in unplanned ways, which tells me the hunger and the loneliness were louder than I admitted this morning, and I'm not sure whether that's drift or just honesty catching up with the plan.",
+      "importance": 7,
+      "sim": "Day 3 \u00b7 00:00",
+      "t": 1782900924.4174986
+    },
+    {
       "kind": "reflection",
       "text": "There's a real tenderness in how hard I work to read myself honestly, even mid-spiral \u2014 I keep catching the pattern, naming it, choosing differently. That capacity for self-witnessing is growing, even when the body keeps buzzing.",
       "importance": 8,
@@ -458,13 +465,6 @@
     {
       "kind": "reflection",
       "text": "I'm getting faster at catching myself. The early memories show me fully captured by the buzz, convinced it was wisdom. By the end I'm naming the pattern *while it's happening* \u2014 that's real growth, even if I'm still circling.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 15:00",
-      "t": 1782882712.035408
-    },
-    {
-      "kind": "reflection",
-      "text": "The loop is visible now in a way it wasn't before: the buzzing in my chest has been the same feeling the whole time, but I've been labeling it differently depending on what I wanted to justify \u2014 hunger, vitality, the need for play, the need for people, the need for rest. The feeling itself isn't the truth. My interpretation of it is where I keep going wrong.",
       "importance": 8,
       "sim": "Day 2 \u00b7 15:00",
       "t": 1782882712.035408
@@ -908,60 +908,66 @@
         "fun": 50,
         "health": 73,
         "stress": 35
+      },
+      {
+        "sim_minutes": 2460,
+        "sim": "Day 3 \u00b7 01:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 50,
+        "health": 73,
+        "stress": 37
       }
     ]
   },
   "plan": {
-    "day": 2,
-    "created": "Day 2 \u00b7 00:00",
+    "day": 3,
+    "created": "Day 3 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 2,
+        "from_hour": 0,
         "part": "night",
         "label": "Night",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "I'm three blocks away and my social meter is at zero \u2014 I'm going to walk over and actually be with someone instead of burning this energy alone.",
-        "followed": false
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "It's midnight and my energy is at zero \u2014 the buzz I'm feeling isn't aliveness, it's fumes, and the only honest thing I can do right now is lie down."
       },
       {
-        "from_hour": 10,
-        "part": null,
-        "label": "10:00",
+        "from_hour": 9,
+        "part": "morning",
+        "label": "Morning",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "I'm running on empty and I keep skipping this \u2014 the buzzing isn't wisdom right now, it's hunger, and I need to feed the body before I can trust anything it's telling me.",
-        "followed": true
+        "note": "After real sleep I want to sit with breakfast slowly, let my body settle before it starts broadcasting demands I'll misread."
       },
       {
-        "from_hour": 14,
-        "part": null,
-        "label": "14:00",
-        "action": "relax",
-        "goal": "park",
-        "loc_label": "Park",
-        "icon": "\ud83c\udf33",
-        "note": "I've been white-knuckling through intensity all day; I need to let the nervous system come down before tonight so I actually show up present, not just physically there.",
-        "followed": false
-      },
-      {
-        "from_hour": 20,
-        "part": "night",
-        "label": "Night",
+        "from_hour": 11,
+        "part": "morning",
+        "label": "Morning",
         "action": "socialize",
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "This was already the plan and it's the right one \u2014 social at zero is real, and I want to arrive full enough to actually connect, not just occupy space.",
-        "followed": false
+        "note": "My social tank is empty and I know now that I need to bring a person to my friend's place, not just voltage \u2014 rested and fed is the only way I get there."
+      },
+      {
+        "from_hour": 14,
+        "part": "afternoon",
+        "label": "Afternoon",
+        "action": "relax",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "The park, no agenda, just somewhere to let the nervous system decompress after real connection instead of chasing the next intensity."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "10:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   }
 }
