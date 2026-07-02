@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783019363,
+    "generated_at": 1783019554,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 9,
+    "tick": 10,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 540,
+    "sim_minutes": 600,
     "day": 1,
-    "hour": 17,
+    "hour": 18,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 17:00"
+    "label": "Day 1 \u00b7 18:00"
   },
   "stats": {
     "energy": 0,
-    "full": 28,
-    "social": 15,
-    "fun": 50,
-    "health": 100,
-    "stress": 5
+    "full": 20,
+    "social": 10,
+    "fun": 45,
+    "health": 97,
+    "stress": 15
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783019471.1205373,
+      "sim": "Day 1 \u00b7 18:00",
+      "action": "socialize",
+      "thought": "I need to stop and actually *listen* to what's happening instead of chasing this feeling. My energy is zero, my social need is screaming, and I keep finding reasons to exercise when what I actually need is connection\u2014or sleep. The sun feels good, but that's not the same as what my body needs right now.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 0,
+        "full": 20,
+        "social": 10,
+        "fun": 45,
+        "health": 97,
+        "stress": 15
+      }
+    },
     {
       "t": 1783017644.150459,
       "sim": "Day 1 \u00b7 17:00",
@@ -248,16 +264,41 @@
       }
     ],
     "pos": {
-      "x": 9,
+      "x": 5,
       "y": 8
     },
-    "at": "park",
+    "at": null,
     "intent": {
-      "action": "exercise",
-      "goal": "park",
-      "arrived": true
+      "action": "socialize",
+      "goal": "friend",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 5,
+        "y": 8
+      },
+      {
+        "x": 4,
+        "y": 8
+      },
+      {
+        "x": 3,
+        "y": 8
+      },
+      {
+        "x": 2,
+        "y": 8
+      },
+      {
+        "x": 1,
+        "y": 8
+      },
+      {
+        "x": 1,
+        "y": 9
+      }
+    ]
   },
   "identity": "",
   "memories": [
@@ -284,6 +325,13 @@
     },
     {
       "kind": "observation",
+      "text": "I need to stop and actually *listen* to what's happening instead of chasing this feeling. My energy is zero, my social need is screaming, and I keep finding reasons to exercise when what I actually need is connection\u2014or sleep. The sun feels good, but that's not the same as what my body needs right now.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 18:00",
+      "t": 1783019471.1205373
+    },
+    {
+      "kind": "observation",
       "text": "The sun's warm and something in me is *alive* right now\u2014I can feel it despite what the numbers say. If I go home now I'll just crash hard, and this bright energy won't come back today. I'm already here, might as well use it.",
       "importance": 6,
       "sim": "Day 1 \u00b7 17:00",
@@ -302,13 +350,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 15:00",
       "t": 1783013994.366717
-    },
-    {
-      "kind": "observation",
-      "text": "I'm already here, I feel *good*, and my body's telling me it's not actually hungry yet\u2014just full from earlier. My energy is solid and this bright, hopeful headspace won't last forever. I should use it now while I've got it, burn some of this restless energy, and maybe work through some of the rent stress that's lurking underneath.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 14:00",
-      "t": 1783012165.3827865
     }
   ],
   "trends": {
@@ -411,6 +452,16 @@
         "fun": 50,
         "health": 100,
         "stress": 5
+      },
+      {
+        "sim_minutes": 600,
+        "sim": "Day 1 \u00b7 18:00",
+        "energy": 0,
+        "full": 20,
+        "social": 10,
+        "fun": 45,
+        "health": 97,
+        "stress": 15
       }
     ]
   },
@@ -427,22 +478,42 @@
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
         "note": "I keep second-guessing myself, but my body has energy right now and the park will clear my head \u2014 I'm going before I talk myself out of it again.",
-        "followed": true
+        "followed": false
       },
       {
-        "from_hour": 14,
-        "part": "afternoon",
-        "label": "Afternoon",
+        "from_hour": 17,
+        "part": "evening",
+        "label": "Evening",
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "\ud83d\udc65",
+        "note": "I keep outrunning the crash instead of landing somewhere soft \u2014 a friend's presence is the one thing that might actually break the loop."
+      },
+      {
+        "from_hour": 19,
+        "part": "evening",
+        "label": "Evening",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I've been naming hunger and setting it aside too; time to actually refuel before the night closes in."
+      },
+      {
+        "from_hour": 21,
+        "part": "night",
+        "label": "Night",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "My energy is at 4 and exercise isn't helping \u2014 I need to go home and actually rest before I can do anything useful."
+        "note": "The bright feeling won't last, and I've known that all along \u2014 let it go gracefully instead of chasing it into the dark."
       }
     ],
     "active_index": 1,
-    "revision": 2,
-    "revised": "14:00"
+    "revision": 3,
+    "revised": "17:00"
   },
   "work": {
     "money": 40,
