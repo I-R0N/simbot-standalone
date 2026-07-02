@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783010273,
+    "generated_at": 1783010464,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 4,
+    "tick": 5,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 240,
+    "sim_minutes": 300,
     "day": 1,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 12:00"
+    "label": "Day 1 \u00b7 13:00"
   },
   "stats": {
-    "energy": 36,
-    "full": 68,
-    "social": 40,
+    "energy": 20,
+    "full": 60,
+    "social": 35,
     "fun": 50,
-    "health": 87,
-    "stress": 9
+    "health": 99,
+    "stress": 6
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "a little scattered",
-    "temp": 1.12
+    "clarity": "foggy and slow",
+    "temp": 1.2
   },
   "activity": [
+    {
+      "t": 1783010340.3902895,
+      "sim": "Day 1 \u00b7 13:00",
+      "action": "exercise",
+      "thought": "I'm already here at the park and feeling genuinely good\u2014sharp and hopeful. My body isn't hungry yet, and I've got solid energy to burn. This is exactly when exercise makes sense: I can use this momentum productively, stay healthy without spending money I can't spare, and maybe clear my head about the rent situation.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 20,
+        "full": 60,
+        "social": 35,
+        "fun": 50,
+        "health": 99,
+        "stress": 6
+      }
+    },
     {
       "t": 1783008514.8396828,
       "sim": "Day 1 \u00b7 12:00",
@@ -183,6 +199,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "I'm already here at the park and feeling genuinely good\u2014sharp and hopeful. My body isn't hungry yet, and I've got solid energy to burn. This is exactly when exercise makes sense: I can use this momentum productively, stay healthy without spending money I can't spare, and maybe clear my head about the rent situation.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 13:00",
+      "t": 1783010340.3902895
+    },
+    {
+      "kind": "observation",
       "text": "I'm genuinely full and my mind feels sharp right now\u2014I can feel it. Skipping to the park makes perfect sense: I'll burn off this energy, stay healthy without draining my \u229940, and maybe the movement will help untangle this rent stress that's creeping in. I can eat when my body actually asks for it.",
       "importance": 6,
       "sim": "Day 1 \u00b7 12:00",
@@ -201,13 +224,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 10:00",
       "t": 1783004859.7125459
-    },
-    {
-      "kind": "observation",
-      "text": "I'm in a really good headspace right now\u2014sharp and hopeful\u2014and my energy is solid. My stomach isn't screaming at me yet, but I did plan to eat, and skipping meals when I feel this good is usually a mistake. Plus I've got rent breathing down my neck at \u229930 a day, so I should stick to the plan and fuel up before I lose this momentum.",
-      "importance": 4,
-      "sim": "Day 1 \u00b7 09:00",
-      "t": 1783003033.848001
     }
   ],
   "trends": {
@@ -260,6 +276,16 @@
         "fun": 50,
         "health": 87,
         "stress": 9
+      },
+      {
+        "sim_minutes": 300,
+        "sim": "Day 1 \u00b7 13:00",
+        "energy": 20,
+        "full": 60,
+        "social": 35,
+        "fun": 50,
+        "health": 99,
+        "stress": 6
       }
     ]
   },
@@ -275,7 +301,8 @@
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "I keep second-guessing myself, but my body has energy right now and the park will clear my head \u2014 I'm going before I talk myself out of it again."
+        "note": "I keep second-guessing myself, but my body has energy right now and the park will clear my head \u2014 I'm going before I talk myself out of it again.",
+        "followed": true
       },
       {
         "from_hour": 13,
@@ -288,7 +315,7 @@
         "note": "After burning some of that energy I'll actually be hungry, and fueling up properly sets me up to work effectively."
       }
     ],
-    "active_index": 0,
+    "active_index": 1,
     "revision": 1,
     "revised": "11:00"
   },
