@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782979123,
+    "generated_at": 1782979313,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 13,
+    "tick": 14,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 780,
+    "sim_minutes": 840,
     "day": 1,
-    "hour": 21,
+    "hour": 22,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 21:00"
+    "label": "Day 1 \u00b7 22:00"
   },
   "stats": {
-    "energy": 36,
-    "full": 0,
+    "energy": 30,
+    "full": 37,
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 17
+    "stress": 16
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "a little scattered",
-    "temp": 1.16
+    "clarity": "foggy and slow",
+    "temp": 1.18
   },
   "activity": [
+    {
+      "t": 1782979251.2628207,
+      "sim": "Day 1 \u00b7 22:00",
+      "action": "eat",
+      "thought": "My body is literally empty \u2014 no food, no sleep buffer, no real energy underneath this brittle feeling. I keep dressed-up thinking as a substitute for actually taking care of myself. I need to eat something now and then sleep, not perform more insight about the loop.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 30,
+        "full": 37,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 16
+      }
+    },
     {
       "t": 1782977426.2078207,
       "sim": "Day 1 \u00b7 21:00",
@@ -312,13 +328,13 @@
       }
     ],
     "pos": {
-      "x": 5,
-      "y": 5
+      "x": 3,
+      "y": 4
     },
-    "at": "home",
+    "at": "kitchen",
     "intent": {
-      "action": "sleep",
-      "goal": "home",
+      "action": "eat",
+      "goal": "kitchen",
       "arrived": true
     },
     "path": []
@@ -348,6 +364,13 @@
     },
     {
       "kind": "observation",
+      "text": "My body is literally empty \u2014 no food, no sleep buffer, no real energy underneath this brittle feeling. I keep dressed-up thinking as a substitute for actually taking care of myself. I need to eat something now and then sleep, not perform more insight about the loop.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 22:00",
+      "t": 1782979251.2628207
+    },
+    {
+      "kind": "observation",
       "text": "I can feel it\u2014that sharp, brittle clarity is just exhaustion wearing a mask. My energy is completely gone and I'm three blocks from bed. Walking won't fix this loop; it'll just delay what my body already knows it needs. Stop performing insight and actually rest.",
       "importance": 7,
       "sim": "Day 1 \u00b7 21:00",
@@ -366,13 +389,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 18:00",
       "t": 1782971987.1777165
-    },
-    {
-      "kind": "observation",
-      "text": "My mind is unusually clear right now\u2014that's precious\u2014but my body is screaming for sleep. A short walk around the park to shake off this foggy scattered feeling might actually help me settle into real rest, then I need to get home and crash hard before work destroys everything at nine.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 17:00",
-      "t": 1782970160.5562038
     }
   ],
   "trends": {
@@ -515,6 +531,16 @@
         "fun": 40,
         "health": 91,
         "stress": 17
+      },
+      {
+        "sim_minutes": 840,
+        "sim": "Day 1 \u00b7 22:00",
+        "energy": 30,
+        "full": 37,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 16
       }
     ]
   },
