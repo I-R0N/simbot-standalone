@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782997433,
+    "generated_at": 1782997620,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 23,
+    "tick": 24,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1380,
+    "sim_minutes": 1440,
     "day": 2,
-    "hour": 7,
+    "hour": 8,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 07:00"
+    "label": "Day 2 \u00b7 08:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 36
+    "stress": 38
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782997501.3315246,
+      "sim": "Day 2 \u00b7 08:00",
+      "action": "eat",
+      "thought": "I'm standing in the kitchen and my energy is gone\u2014zero\u2014but I keep watching myself stand here instead of moving. The bright feeling is just my mind trying to compensate. My body needs food now, actually swallowing it, not thinking about swallowing it.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 38
+      }
+    },
     {
       "t": 1782995673.3791485,
       "sim": "Day 2 \u00b7 07:00",
@@ -332,22 +348,6 @@
         "health": 99,
         "stress": 6
       }
-    },
-    {
-      "t": 1782961052.4008148,
-      "sim": "Day 1 \u00b7 12:00",
-      "action": "exercise",
-      "thought": "I'm already stuffed and my head feels genuinely clear\u2014that's rare and precious before work. I should use this, not waste it on food I don't need. A little movement to channel this energy, then I can settle in and protect this good headspace before the office grinds it away.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 36,
-        "full": 68,
-        "social": 40,
-        "fun": 50,
-        "health": 87,
-        "stress": 9
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm standing in the kitchen and my energy is gone\u2014zero\u2014but I keep watching myself stand here instead of moving. The bright feeling is just my mind trying to compensate. My body needs food now, actually swallowing it, not thinking about swallowing it.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 08:00",
+      "t": 1782997501.3315246
+    },
+    {
+      "kind": "observation",
       "text": "I'm standing here with my body on empty and I keep circling it like a vulture instead of just eating something. The brightness feels like a lie I'm telling myself while I'm actually running on fumes. Stop narrating. Eat now.",
       "importance": 7,
       "sim": "Day 2 \u00b7 07:00",
@@ -499,13 +506,6 @@
       "importance": 7,
       "sim": "Day 2 \u00b7 05:00",
       "t": 1782992023.2161014
-    },
-    {
-      "kind": "observation",
-      "text": "I'm standing here in the kitchen and I can feel it \u2014 the hollowness under this brightness, the fog that comes when you're running on nothing. My body knows what it needs. Stop thinking about stopping thinking. Eat something real right now.",
-      "importance": 7,
-      "sim": "Day 2 \u00b7 04:00",
-      "t": 1782990195.3054173
     }
   ],
   "trends": {
@@ -748,6 +748,16 @@
         "fun": 40,
         "health": 91,
         "stress": 36
+      },
+      {
+        "sim_minutes": 1440,
+        "sim": "Day 2 \u00b7 08:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 38
       }
     ]
   },
@@ -788,19 +798,19 @@
         "followed": false
       },
       {
-        "from_hour": 4,
-        "part": "night",
-        "label": "Night",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "My body is empty \u2014 not as metaphor, just fact. Eat now, no commentary."
+        "from_hour": 7,
+        "part": "morning",
+        "label": "Morning",
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "I've been narrating my exhaustion for hours \u2014 time to stop and just lie down."
       }
     ],
     "active_index": 3,
-    "revision": 2,
-    "revised": "04:00"
+    "revision": 3,
+    "revised": "07:00"
   },
   "work": {
     "money": 10,
