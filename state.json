@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783012163,
+    "generated_at": 1783012354,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 5,
+    "tick": 6,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 300,
+    "sim_minutes": 360,
     "day": 1,
-    "hour": 13,
+    "hour": 14,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 13:00"
+    "label": "Day 1 \u00b7 14:00"
   },
   "stats": {
-    "energy": 20,
-    "full": 60,
-    "social": 35,
+    "energy": 4,
+    "full": 52,
+    "social": 30,
     "fun": 50,
-    "health": 99,
-    "stress": 6
+    "health": 100,
+    "stress": 5
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "foggy and slow",
-    "temp": 1.2
+    "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783012165.3827865,
+      "sim": "Day 1 \u00b7 14:00",
+      "action": "exercise",
+      "thought": "I'm already here, I feel *good*, and my body's telling me it's not actually hungry yet\u2014just full from earlier. My energy is solid and this bright, hopeful headspace won't last forever. I should use it now while I've got it, burn some of this restless energy, and maybe work through some of the rent stress that's lurking underneath.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 4,
+        "full": 52,
+        "social": 30,
+        "fun": 50,
+        "health": 100,
+        "stress": 5
+      }
+    },
     {
       "t": 1783010340.3902895,
       "sim": "Day 1 \u00b7 13:00",
@@ -199,6 +215,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "I'm already here, I feel *good*, and my body's telling me it's not actually hungry yet\u2014just full from earlier. My energy is solid and this bright, hopeful headspace won't last forever. I should use it now while I've got it, burn some of this restless energy, and maybe work through some of the rent stress that's lurking underneath.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 14:00",
+      "t": 1783012165.3827865
+    },
+    {
+      "kind": "observation",
       "text": "I'm already here at the park and feeling genuinely good\u2014sharp and hopeful. My body isn't hungry yet, and I've got solid energy to burn. This is exactly when exercise makes sense: I can use this momentum productively, stay healthy without spending money I can't spare, and maybe clear my head about the rent situation.",
       "importance": 6,
       "sim": "Day 1 \u00b7 13:00",
@@ -217,13 +240,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 11:00",
       "t": 1783006685.2970974
-    },
-    {
-      "kind": "observation",
-      "text": "I'm already full, so eating more right now won't actually help\u2014my body doesn't need it. But I'm sharp and hopeful, and I should use this good headspace productively. Work would pay the bills that are crushing me, but the office isn't open yet. Exercise at the park sounds perfect: burn some energy, ride this momentum, and stay healthy without wasting money or time.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 10:00",
-      "t": 1783004859.7125459
     }
   ],
   "trends": {
@@ -286,6 +302,16 @@
         "fun": 50,
         "health": 99,
         "stress": 6
+      },
+      {
+        "sim_minutes": 360,
+        "sim": "Day 1 \u00b7 14:00",
+        "energy": 4,
+        "full": 52,
+        "social": 30,
+        "fun": 50,
+        "health": 100,
+        "stress": 5
       }
     ]
   },
