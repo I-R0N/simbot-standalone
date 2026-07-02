@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782961033,
+    "generated_at": 1782961224,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 3,
+    "tick": 4,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 180,
+    "sim_minutes": 240,
     "day": 1,
-    "hour": 11,
+    "hour": 12,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 11:00"
+    "label": "Day 1 \u00b7 12:00"
   },
   "stats": {
-    "energy": 52,
-    "full": 76,
-    "social": 45,
+    "energy": 36,
+    "full": 68,
+    "social": 40,
     "fun": 50,
-    "health": 75,
-    "stress": 18
+    "health": 87,
+    "stress": 9
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.06
+    "temp": 1.12
   },
   "activity": [
+    {
+      "t": 1782961052.4008148,
+      "sim": "Day 1 \u00b7 12:00",
+      "action": "exercise",
+      "thought": "I'm already stuffed and my head feels genuinely clear\u2014that's rare and precious before work. I should use this, not waste it on food I don't need. A little movement to channel this energy, then I can settle in and protect this good headspace before the office grinds it away.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 36,
+        "full": 68,
+        "social": 40,
+        "fun": 50,
+        "health": 87,
+        "stress": 9
+      }
+    },
     {
       "t": 1782959224.267052,
       "sim": "Day 1 \u00b7 11:00",
@@ -152,32 +168,26 @@
       }
     ],
     "pos": {
-      "x": 8,
-      "y": 7
+      "x": 9,
+      "y": 8
     },
-    "at": null,
+    "at": "park",
     "intent": {
-      "action": "relax",
+      "action": "exercise",
       "goal": "park",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 8,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 8
-      }
-    ]
+    "path": []
   },
   "identity": "",
   "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm already stuffed and my head feels genuinely clear\u2014that's rare and precious before work. I should use this, not waste it on food I don't need. A little movement to channel this energy, then I can settle in and protect this good headspace before the office grinds it away.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 12:00",
+      "t": 1782961052.4008148
+    },
     {
       "kind": "observation",
       "text": "I'm stuffed already\u2014eating more would be ridiculous. My head feels clear and bright right now, which is rare before a workday. I should lean into this feeling, maybe move my body a little or just sit with it, keep myself centered and ready.",
@@ -240,6 +250,16 @@
         "fun": 50,
         "health": 75,
         "stress": 18
+      },
+      {
+        "sim_minutes": 240,
+        "sim": "Day 1 \u00b7 12:00",
+        "energy": 36,
+        "full": 68,
+        "social": 40,
+        "fun": 50,
+        "health": 87,
+        "stress": 9
       }
     ]
   },
@@ -248,39 +268,30 @@
     "created": "Day 1 \u00b7 08:00",
     "blocks": [
       {
-        "from_hour": 8,
-        "part": "morning",
-        "label": "Morning",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I need fuel before a long first day at the office."
+        "from_hour": 11,
+        "part": null,
+        "label": "11:00",
+        "action": "exercise",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "I'm sharp and energized right now, so I'll head to the park and move my body before work pulls me in.",
+        "followed": false
       },
       {
-        "from_hour": 17,
-        "part": "evening",
-        "label": "Evening",
+        "from_hour": 12,
+        "part": null,
+        "label": "12:00",
         "action": "relax",
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "After a full day on the job, I want to decompress at the park before heading home."
-      },
-      {
-        "from_hour": 19,
-        "part": "evening",
-        "label": "Evening",
-        "action": "sleep",
-        "goal": "home",
-        "loc_label": "Home",
-        "icon": "\ud83c\udfe0",
-        "note": "Early night so I can do it all again tomorrow \u2014 I need the rest."
+        "note": "I'll ease down after the movement, stay centered, and keep this rare mental clarity intact."
       }
     ],
-    "active_index": 0,
-    "revision": 0,
-    "revised": null
+    "active_index": 1,
+    "revision": 1,
+    "revised": "11:00"
   },
   "work": {
     "money": 40,
