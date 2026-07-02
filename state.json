@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783030293,
+    "generated_at": 1783030483,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 15,
+    "tick": 16,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 900,
-    "day": 1,
-    "hour": 23,
+    "sim_minutes": 960,
+    "day": 2,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 23:00"
+    "label": "Day 2 \u00b7 00:00"
   },
   "stats": {
     "energy": 0,
-    "full": 74,
-    "social": 20,
+    "full": 92,
+    "social": 15,
     "fun": 40,
     "health": 88,
-    "stress": 39
+    "stress": 40
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783030419.8339608,
+      "sim": "Day 2 \u00b7 00:00",
+      "action": "eat",
+      "thought": "My energy is completely bottomed out and my thinking is so foggy I can barely trust myself right now. I'm already here at the Kitchen\u2014eating something is the only thing that makes sense before I crash completely, even though every part of me wants to just collapse into sleep.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 15,
+        "fun": 40,
+        "health": 88,
+        "stress": 40
+      }
+    },
     {
       "t": 1783028595.2097085,
       "sim": "Day 1 \u00b7 23:00",
@@ -380,6 +396,13 @@
     },
     {
       "kind": "observation",
+      "text": "My energy is completely bottomed out and my thinking is so foggy I can barely trust myself right now. I'm already here at the Kitchen\u2014eating something is the only thing that makes sense before I crash completely, even though every part of me wants to just collapse into sleep.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1783030419.8339608
+    },
+    {
+      "kind": "observation",
       "text": "My body is screaming at me\u2014energy at zero, brain fogged over. I'm at the Kitchen already, and food is the one thing that might actually stop me from falling apart right now. The bright feeling is real, but it's masking how badly I need to eat and sleep.",
       "importance": 7,
       "sim": "Day 1 \u00b7 23:00",
@@ -398,13 +421,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 20:00",
       "t": 1783023120.0758042
-    },
-    {
-      "kind": "observation",
-      "text": "I need to stop and actually *listen* to what's happening instead of chasing this feeling. My energy is zero, my social need is screaming, and I keep finding reasons to exercise when what I actually need is connection\u2014or sleep. The sun feels good, but that's not the same as what my body needs right now.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 18:00",
-      "t": 1783019471.1205373
     }
   ],
   "trends": {
@@ -567,6 +583,16 @@
         "fun": 40,
         "health": 88,
         "stress": 39
+      },
+      {
+        "sim_minutes": 960,
+        "sim": "Day 2 \u00b7 00:00",
+        "energy": 0,
+        "full": 92,
+        "social": 15,
+        "fun": 40,
+        "health": 88,
+        "stress": 40
       }
     ]
   },
@@ -615,10 +641,11 @@
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "The bright feeling won't last, and I've known that all along \u2014 let it go gracefully instead of chasing it into the dark."
+        "note": "The bright feeling won't last, and I've known that all along \u2014 let it go gracefully instead of chasing it into the dark.",
+        "followed": false
       }
     ],
-    "active_index": 3,
+    "active_index": null,
     "revision": 3,
     "revised": "17:00"
   },
@@ -637,6 +664,6 @@
       17
     ],
     "overdue": 0,
-    "days_to_bill": 1
+    "days_to_bill": 0
   }
 }
