@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783006683,
+    "generated_at": 1783006874,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 2,
+    "tick": 3,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 120,
+    "sim_minutes": 180,
     "day": 1,
-    "hour": 10,
+    "hour": 11,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 10:00"
+    "label": "Day 1 \u00b7 11:00"
   },
   "stats": {
-    "energy": 58,
-    "full": 84,
-    "social": 50,
-    "fun": 55,
+    "energy": 52,
+    "full": 76,
+    "social": 45,
+    "fun": 50,
     "health": 75,
-    "stress": 20
+    "stress": 18
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.03
+    "temp": 1.06
   },
   "activity": [
+    {
+      "t": 1783006685.2970974,
+      "sim": "Day 1 \u00b7 11:00",
+      "action": "exercise",
+      "thought": "I'm genuinely full right now\u2014my body's telling me that clearly\u2014and this good feeling is too valuable to waste. Exercise will use this energy productively, keep me healthy without spending money I don't have, and maybe clear my head about the rent stress that's lurking underneath. I can eat later when I actually need it.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 52,
+        "full": 76,
+        "social": 45,
+        "fun": 50,
+        "health": 75,
+        "stress": 18
+      }
+    },
     {
       "t": 1783004859.7125459,
       "sim": "Day 1 \u00b7 10:00",
@@ -136,8 +152,8 @@
       }
     ],
     "pos": {
-      "x": 6,
-      "y": 5
+      "x": 8,
+      "y": 7
     },
     "at": null,
     "intent": {
@@ -146,22 +162,6 @@
       "arrived": false
     },
     "path": [
-      {
-        "x": 6,
-        "y": 5
-      },
-      {
-        "x": 7,
-        "y": 5
-      },
-      {
-        "x": 7,
-        "y": 6
-      },
-      {
-        "x": 8,
-        "y": 6
-      },
       {
         "x": 8,
         "y": 7
@@ -178,6 +178,13 @@
   },
   "identity": "",
   "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm genuinely full right now\u2014my body's telling me that clearly\u2014and this good feeling is too valuable to waste. Exercise will use this energy productively, keep me healthy without spending money I don't have, and maybe clear my head about the rent stress that's lurking underneath. I can eat later when I actually need it.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 11:00",
+      "t": 1783006685.2970974
+    },
     {
       "kind": "observation",
       "text": "I'm already full, so eating more right now won't actually help\u2014my body doesn't need it. But I'm sharp and hopeful, and I should use this good headspace productively. Work would pay the bills that are crushing me, but the office isn't open yet. Exercise at the park sounds perfect: burn some energy, ride this momentum, and stay healthy without wasting money or time.",
@@ -223,6 +230,16 @@
         "fun": 55,
         "health": 75,
         "stress": 20
+      },
+      {
+        "sim_minutes": 180,
+        "sim": "Day 1 \u00b7 11:00",
+        "energy": 52,
+        "full": 76,
+        "social": 45,
+        "fun": 50,
+        "health": 75,
+        "stress": 18
       }
     ]
   },
