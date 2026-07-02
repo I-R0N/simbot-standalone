@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1782988363,
+    "generated_at": 1782988549,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 18,
+    "tick": 19,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1080,
+    "sim_minutes": 1140,
     "day": 2,
-    "hour": 2,
+    "hour": 3,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 02:00"
+    "label": "Day 2 \u00b7 03:00"
   },
   "stats": {
-    "energy": 6,
+    "energy": 0,
     "full": 92,
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 27
+    "stress": 30
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782988370.3633323,
+      "sim": "Day 2 \u00b7 03:00",
+      "action": "eat",
+      "thought": "Stop. I'm at the kitchen. My body is empty and I'm running on fumes dressed up as hope. Eat something now, actually swallow it, then go home and sleep. No narrative, no insight, just do it.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 30
+      }
+    },
     {
       "t": 1782986564.8417242,
       "sim": "Day 2 \u00b7 02:00",
@@ -449,6 +465,13 @@
     },
     {
       "kind": "observation",
+      "text": "Stop. I'm at the kitchen. My body is empty and I'm running on fumes dressed up as hope. Eat something now, actually swallow it, then go home and sleep. No narrative, no insight, just do it.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 03:00",
+      "t": 1782988370.3633323
+    },
+    {
+      "kind": "observation",
       "text": "My body is screaming and I'm dressed up in brightness to ignore it. Energy at 12 is a red alarm\u2014the foggy thinking, the brittleness under this hopeful feeling, that's exhaustion talking. I need to stop performing insight and actually eat something real, then sleep. Everything else is noise.",
       "importance": 7,
       "sim": "Day 2 \u00b7 02:00",
@@ -467,13 +490,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 23:00",
       "t": 1782981076.4622927
-    },
-    {
-      "kind": "observation",
-      "text": "My body is literally empty \u2014 no food, no sleep buffer, no real energy underneath this brittle feeling. I keep dressed-up thinking as a substitute for actually taking care of myself. I need to eat something now and then sleep, not perform more insight about the loop.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 22:00",
-      "t": 1782979251.2628207
     }
   ],
   "trends": {
@@ -666,6 +682,16 @@
         "fun": 40,
         "health": 91,
         "stress": 27
+      },
+      {
+        "sim_minutes": 1140,
+        "sim": "Day 2 \u00b7 03:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 30
       }
     ]
   },
