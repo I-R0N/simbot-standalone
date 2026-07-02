@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783004793,
+    "generated_at": 1783004983,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 1,
+    "tick": 2,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 60,
+    "sim_minutes": 120,
     "day": 1,
-    "hour": 9,
+    "hour": 10,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 09:00"
+    "label": "Day 1 \u00b7 10:00"
   },
   "stats": {
-    "energy": 64,
-    "full": 92,
-    "social": 55,
-    "fun": 60,
+    "energy": 58,
+    "full": 84,
+    "social": 50,
+    "fun": 55,
     "health": 75,
-    "stress": 22
+    "stress": 20
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "sharp",
-    "temp": 1.01
+    "clarity": "a little scattered",
+    "temp": 1.03
   },
   "activity": [
+    {
+      "t": 1783004859.7125459,
+      "sim": "Day 1 \u00b7 10:00",
+      "action": "exercise",
+      "thought": "I'm already full, so eating more right now won't actually help\u2014my body doesn't need it. But I'm sharp and hopeful, and I should use this good headspace productively. Work would pay the bills that are crushing me, but the office isn't open yet. Exercise at the park sounds perfect: burn some energy, ride this momentum, and stay healthy without wasting money or time.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 58,
+        "full": 84,
+        "social": 50,
+        "fun": 55,
+        "health": 75,
+        "stress": 20
+      }
+    },
     {
       "t": 1783003033.848001,
       "sim": "Day 1 \u00b7 09:00",
@@ -120,19 +136,55 @@
       }
     ],
     "pos": {
-      "x": 3,
-      "y": 4
+      "x": 6,
+      "y": 5
     },
-    "at": "kitchen",
+    "at": null,
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
-      "arrived": true
+      "action": "exercise",
+      "goal": "park",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 6,
+        "y": 5
+      },
+      {
+        "x": 7,
+        "y": 5
+      },
+      {
+        "x": 7,
+        "y": 6
+      },
+      {
+        "x": 8,
+        "y": 6
+      },
+      {
+        "x": 8,
+        "y": 7
+      },
+      {
+        "x": 9,
+        "y": 7
+      },
+      {
+        "x": 9,
+        "y": 8
+      }
+    ]
   },
   "identity": "",
   "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm already full, so eating more right now won't actually help\u2014my body doesn't need it. But I'm sharp and hopeful, and I should use this good headspace productively. Work would pay the bills that are crushing me, but the office isn't open yet. Exercise at the park sounds perfect: burn some energy, ride this momentum, and stay healthy without wasting money or time.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 10:00",
+      "t": 1783004859.7125459
+    },
     {
       "kind": "observation",
       "text": "I'm in a really good headspace right now\u2014sharp and hopeful\u2014and my energy is solid. My stomach isn't screaming at me yet, but I did plan to eat, and skipping meals when I feel this good is usually a mistake. Plus I've got rent breathing down my neck at \u229930 a day, so I should stick to the plan and fuel up before I lose this momentum.",
@@ -161,6 +213,16 @@
         "fun": 60,
         "health": 75,
         "stress": 22
+      },
+      {
+        "sim_minutes": 120,
+        "sim": "Day 1 \u00b7 10:00",
+        "energy": 58,
+        "full": 84,
+        "social": 50,
+        "fun": 55,
+        "health": 75,
+        "stress": 20
       }
     ]
   },
