@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782999323,
+    "generated_at": 1782999504,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 24,
+    "tick": 25,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1440,
+    "sim_minutes": 1500,
     "day": 2,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 08:00"
+    "label": "Day 2 \u00b7 09:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 38
+    "stress": 39
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782999326.6021163,
+      "sim": "Day 2 \u00b7 09:00",
+      "action": "eat",
+      "thought": "I'm standing here doing it again\u2014narrating instead of moving. Energy zero, fog everywhere, and I keep circling it like I'm watching myself from outside. My hand needs to reach for something. Now.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 39
+      }
+    },
     {
       "t": 1782997501.3315246,
       "sim": "Day 2 \u00b7 08:00",
@@ -332,22 +348,6 @@
         "health": 100,
         "stress": 5
       }
-    },
-    {
-      "t": 1782962877.3617332,
-      "sim": "Day 1 \u00b7 13:00",
-      "action": "exercise",
-      "thought": "My head is genuinely clear right now\u2014that's rare\u2014and I'm already full anyway. I've got energy and this good headspace won't last once work starts grinding on me at nine. I should move a little, shake off this scattered feeling into something purposeful, then settle and protect this clarity.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 20,
-        "full": 60,
-        "social": 35,
-        "fun": 50,
-        "health": 99,
-        "stress": 6
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm standing here doing it again\u2014narrating instead of moving. Energy zero, fog everywhere, and I keep circling it like I'm watching myself from outside. My hand needs to reach for something. Now.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 09:00",
+      "t": 1782999326.6021163
+    },
+    {
+      "kind": "observation",
       "text": "I'm standing in the kitchen and my energy is gone\u2014zero\u2014but I keep watching myself stand here instead of moving. The bright feeling is just my mind trying to compensate. My body needs food now, actually swallowing it, not thinking about swallowing it.",
       "importance": 7,
       "sim": "Day 2 \u00b7 08:00",
@@ -499,13 +506,6 @@
       "importance": 7,
       "sim": "Day 2 \u00b7 06:00",
       "t": 1782993847.903445
-    },
-    {
-      "kind": "observation",
-      "text": "I'm standing here and I can feel the fog pressing down under this bright feeling\u2014my body's empty, screaming for fuel, and I keep circling it with observations instead of just doing it. Eat now, actually eat, then sleep.",
-      "importance": 7,
-      "sim": "Day 2 \u00b7 05:00",
-      "t": 1782992023.2161014
     }
   ],
   "trends": {
@@ -758,6 +758,16 @@
         "fun": 40,
         "health": 91,
         "stress": 38
+      },
+      {
+        "sim_minutes": 1500,
+        "sim": "Day 2 \u00b7 09:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 39
       }
     ]
   },
