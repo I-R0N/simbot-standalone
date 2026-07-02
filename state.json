@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783028423,
+    "generated_at": 1783028613,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 14,
+    "tick": 15,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 840,
+    "sim_minutes": 900,
     "day": 1,
-    "hour": 22,
+    "hour": 23,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 22:00"
+    "label": "Day 1 \u00b7 23:00"
   },
   "stats": {
     "energy": 0,
-    "full": 37,
-    "social": 25,
+    "full": 74,
+    "social": 20,
     "fun": 40,
     "health": 88,
-    "stress": 38
+    "stress": 39
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783028595.2097085,
+      "sim": "Day 1 \u00b7 23:00",
+      "action": "eat",
+      "thought": "My body is screaming at me\u2014energy at zero, brain fogged over. I'm at the Kitchen already, and food is the one thing that might actually stop me from falling apart right now. The bright feeling is real, but it's masking how badly I need to eat and sleep.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 74,
+        "social": 20,
+        "fun": 40,
+        "health": 88,
+        "stress": 39
+      }
+    },
     {
       "t": 1783026770.1986036,
       "sim": "Day 1 \u00b7 22:00",
@@ -364,6 +380,13 @@
     },
     {
       "kind": "observation",
+      "text": "My body is screaming at me\u2014energy at zero, brain fogged over. I'm at the Kitchen already, and food is the one thing that might actually stop me from falling apart right now. The bright feeling is real, but it's masking how badly I need to eat and sleep.",
+      "importance": 7,
+      "sim": "Day 1 \u00b7 23:00",
+      "t": 1783028595.2097085
+    },
+    {
+      "kind": "observation",
       "text": "I'm hitting a wall hard\u2014my brain is fog and my body is running on fumes. Kitchen is three blocks away and I need food *now* before I completely crash. The bright feeling is nice but it won't carry me through the night if I'm this depleted.",
       "importance": 7,
       "sim": "Day 1 \u00b7 22:00",
@@ -382,13 +405,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 18:00",
       "t": 1783019471.1205373
-    },
-    {
-      "kind": "observation",
-      "text": "My brain is screaming at me\u2014energy at zero, thinking like molasses, and I'm at Friend's place already. I can feel the crash coming if I don't eat or sleep soon, but right now what I actually want is to stay here, be around someone, not face this alone. Let me eat something first, get some fuel back, then maybe sleep won't feel so desperate.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 21:00",
-      "t": 1783024945.1415215
     }
   ],
   "trends": {
@@ -541,6 +557,16 @@
         "fun": 40,
         "health": 88,
         "stress": 38
+      },
+      {
+        "sim_minutes": 900,
+        "sim": "Day 1 \u00b7 23:00",
+        "energy": 0,
+        "full": 74,
+        "social": 20,
+        "fun": 40,
+        "health": 88,
+        "stress": 39
       }
     ]
   },
