@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783021243,
+    "generated_at": 1783021433,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 10,
+    "tick": 11,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 600,
+    "sim_minutes": 660,
     "day": 1,
-    "hour": 18,
+    "hour": 19,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 18:00"
+    "label": "Day 1 \u00b7 19:00"
   },
   "stats": {
     "energy": 0,
-    "full": 20,
-    "social": 10,
-    "fun": 45,
-    "health": 97,
-    "stress": 15
+    "full": 12,
+    "social": 5,
+    "fun": 40,
+    "health": 94,
+    "stress": 24
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783021295.700654,
+      "sim": "Day 1 \u00b7 19:00",
+      "action": "socialize",
+      "thought": "My energy is literally at zero and I'm foggy\u2014I can feel it now that I stop rationalizing. I need *something* real right now, and Friend's place is only five blocks away. Let me actually go there instead of chasing the sun like I'm running from something.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 0,
+        "full": 12,
+        "social": 5,
+        "fun": 40,
+        "health": 94,
+        "stress": 24
+      }
+    },
     {
       "t": 1783019471.1205373,
       "sim": "Day 1 \u00b7 18:00",
@@ -264,7 +280,7 @@
       }
     ],
     "pos": {
-      "x": 5,
+      "x": 1,
       "y": 8
     },
     "at": null,
@@ -274,22 +290,6 @@
       "arrived": false
     },
     "path": [
-      {
-        "x": 5,
-        "y": 8
-      },
-      {
-        "x": 4,
-        "y": 8
-      },
-      {
-        "x": 3,
-        "y": 8
-      },
-      {
-        "x": 2,
-        "y": 8
-      },
       {
         "x": 1,
         "y": 8
@@ -332,6 +332,13 @@
     },
     {
       "kind": "observation",
+      "text": "My energy is literally at zero and I'm foggy\u2014I can feel it now that I stop rationalizing. I need *something* real right now, and Friend's place is only five blocks away. Let me actually go there instead of chasing the sun like I'm running from something.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 19:00",
+      "t": 1783021295.700654
+    },
+    {
+      "kind": "observation",
       "text": "The sun's warm and something in me is *alive* right now\u2014I can feel it despite what the numbers say. If I go home now I'll just crash hard, and this bright energy won't come back today. I'm already here, might as well use it.",
       "importance": 6,
       "sim": "Day 1 \u00b7 17:00",
@@ -343,13 +350,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 16:00",
       "t": 1783015819.1117635
-    },
-    {
-      "kind": "observation",
-      "text": "I'm already here, the sun feels good, and something in me needs to *move* right now\u2014this bright feeling won't stick around forever. My body's telling me it's not hungry, and even though my energy reads low on paper, I feel restless and sharp. I should use this momentum while it's here.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 15:00",
-      "t": 1783013994.366717
     }
   ],
   "trends": {
@@ -462,6 +462,16 @@
         "fun": 45,
         "health": 97,
         "stress": 15
+      },
+      {
+        "sim_minutes": 660,
+        "sim": "Day 1 \u00b7 19:00",
+        "energy": 0,
+        "full": 12,
+        "social": 5,
+        "fun": 40,
+        "health": 94,
+        "stress": 24
       }
     ]
   },
@@ -488,7 +498,8 @@
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I keep outrunning the crash instead of landing somewhere soft \u2014 a friend's presence is the one thing that might actually break the loop."
+        "note": "I keep outrunning the crash instead of landing somewhere soft \u2014 a friend's presence is the one thing that might actually break the loop.",
+        "followed": true
       },
       {
         "from_hour": 19,
@@ -511,7 +522,7 @@
         "note": "The bright feeling won't last, and I've known that all along \u2014 let it go gracefully instead of chasing it into the dark."
       }
     ],
-    "active_index": 1,
+    "active_index": 2,
     "revision": 3,
     "revised": "17:00"
   },
