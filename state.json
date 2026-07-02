@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783008393,
+    "generated_at": 1783008583,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 3,
+    "tick": 4,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 180,
+    "sim_minutes": 240,
     "day": 1,
-    "hour": 11,
+    "hour": 12,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 11:00"
+    "label": "Day 1 \u00b7 12:00"
   },
   "stats": {
-    "energy": 52,
-    "full": 76,
-    "social": 45,
+    "energy": 36,
+    "full": 68,
+    "social": 40,
     "fun": 50,
-    "health": 75,
-    "stress": 18
+    "health": 87,
+    "stress": 9
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "a little scattered",
-    "temp": 1.06
+    "temp": 1.12
   },
   "activity": [
+    {
+      "t": 1783008514.8396828,
+      "sim": "Day 1 \u00b7 12:00",
+      "action": "exercise",
+      "thought": "I'm genuinely full and my mind feels sharp right now\u2014I can feel it. Skipping to the park makes perfect sense: I'll burn off this energy, stay healthy without draining my \u229940, and maybe the movement will help untangle this rent stress that's creeping in. I can eat when my body actually asks for it.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 36,
+        "full": 68,
+        "social": 40,
+        "fun": 50,
+        "health": 87,
+        "stress": 9
+      }
+    },
     {
       "t": 1783006685.2970974,
       "sim": "Day 1 \u00b7 11:00",
@@ -152,32 +168,26 @@
       }
     ],
     "pos": {
-      "x": 8,
-      "y": 7
+      "x": 9,
+      "y": 8
     },
-    "at": null,
+    "at": "park",
     "intent": {
       "action": "exercise",
       "goal": "park",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 8,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 7
-      },
-      {
-        "x": 9,
-        "y": 8
-      }
-    ]
+    "path": []
   },
   "identity": "",
   "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm genuinely full and my mind feels sharp right now\u2014I can feel it. Skipping to the park makes perfect sense: I'll burn off this energy, stay healthy without draining my \u229940, and maybe the movement will help untangle this rent stress that's creeping in. I can eat when my body actually asks for it.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 12:00",
+      "t": 1783008514.8396828
+    },
     {
       "kind": "observation",
       "text": "I'm genuinely full right now\u2014my body's telling me that clearly\u2014and this good feeling is too valuable to waste. Exercise will use this energy productively, keep me healthy without spending money I don't have, and maybe clear my head about the rent stress that's lurking underneath. I can eat later when I actually need it.",
@@ -240,6 +250,16 @@
         "fun": 50,
         "health": 75,
         "stress": 18
+      },
+      {
+        "sim_minutes": 240,
+        "sim": "Day 1 \u00b7 12:00",
+        "energy": 36,
+        "full": 68,
+        "social": 40,
+        "fun": 50,
+        "health": 87,
+        "stress": 9
       }
     ]
   },
@@ -248,39 +268,29 @@
     "created": "Day 1 \u00b7 08:00",
     "blocks": [
       {
-        "from_hour": 8,
-        "part": "morning",
-        "label": "Morning",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I need fuel before a long day, and rent won't pay itself."
-      },
-      {
-        "from_hour": 17,
-        "part": "afternoon",
-        "label": "Afternoon",
+        "from_hour": 11,
+        "part": null,
+        "label": "11:00",
         "action": "exercise",
         "goal": "park",
         "loc_label": "Park",
         "icon": "\ud83c\udf33",
-        "note": "After sitting all day I need to move, and the park is free."
+        "note": "I keep second-guessing myself, but my body has energy right now and the park will clear my head \u2014 I'm going before I talk myself out of it again."
       },
       {
-        "from_hour": 18,
-        "part": "evening",
-        "label": "Evening",
+        "from_hour": 13,
+        "part": null,
+        "label": "13:00",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "Long day, I'm hungry, and I should wind down before bed."
+        "note": "After burning some of that energy I'll actually be hungry, and fueling up properly sets me up to work effectively."
       }
     ],
     "active_index": 0,
-    "revision": 0,
-    "revised": null
+    "revision": 1,
+    "revised": "11:00"
   },
   "work": {
     "money": 40,
