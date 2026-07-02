@@ -1,34 +1,51 @@
 {
   "meta": {
-    "generated_at": 1782955543,
+    "generated_at": 1782955734,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 0,
+    "tick": 1,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 0,
+    "sim_minutes": 60,
     "day": 1,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 08:00"
+    "label": "Day 1 \u00b7 09:00"
   },
   "stats": {
-    "energy": 70,
-    "full": 70,
-    "social": 60,
+    "energy": 64,
+    "full": 92,
+    "social": 55,
     "fun": 60,
     "health": 75,
-    "stress": 25
+    "stress": 22
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.98
+    "temp": 1.01
   },
-  "activity": [],
+  "activity": [
+    {
+      "t": 1782955574.4992752,
+      "sim": "Day 1 \u00b7 09:00",
+      "action": "eat",
+      "thought": "I'm feeling pretty good right now \u2014 sharp and hopeful \u2014 and my energy is solid. I planned to eat at the Kitchen this morning, and honestly, with fullness at 70 I'm not ravenous, but I should stick to the routine and grab something light. Plus I've got work in a couple hours and I want to stay sharp.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 64,
+        "full": 92,
+        "social": 55,
+        "fun": 60,
+        "health": 75,
+        "stress": 22
+      }
+    }
+  ],
   "build": {
     "sha": "7d63724",
     "ref": "main",
@@ -103,15 +120,27 @@
       }
     ],
     "pos": {
-      "x": 5,
-      "y": 5
+      "x": 3,
+      "y": 4
     },
-    "at": "home",
-    "intent": null,
+    "at": "kitchen",
+    "intent": {
+      "action": "eat",
+      "goal": "kitchen",
+      "arrived": true
+    },
     "path": []
   },
   "identity": "",
-  "memories": [],
+  "memories": [
+    {
+      "kind": "observation",
+      "text": "I'm feeling pretty good right now \u2014 sharp and hopeful \u2014 and my energy is solid. I planned to eat at the Kitchen this morning, and honestly, with fullness at 70 I'm not ravenous, but I should stick to the routine and grab something light. Plus I've got work in a couple hours and I want to stay sharp.",
+      "importance": 4,
+      "sim": "Day 1 \u00b7 09:00",
+      "t": 1782955574.4992752
+    }
+  ],
   "trends": {
     "interval": "tick",
     "stats": [
@@ -122,9 +151,58 @@
       "health",
       "stress"
     ],
-    "points": []
+    "points": [
+      {
+        "sim_minutes": 60,
+        "sim": "Day 1 \u00b7 09:00",
+        "energy": 64,
+        "full": 92,
+        "social": 55,
+        "fun": 60,
+        "health": 75,
+        "stress": 22
+      }
+    ]
   },
-  "plan": null,
+  "plan": {
+    "day": 1,
+    "created": "Day 1 \u00b7 08:00",
+    "blocks": [
+      {
+        "from_hour": 8,
+        "part": "morning",
+        "label": "Morning",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I need fuel before a long first day at the office."
+      },
+      {
+        "from_hour": 17,
+        "part": "evening",
+        "label": "Evening",
+        "action": "relax",
+        "goal": "park",
+        "loc_label": "Park",
+        "icon": "\ud83c\udf33",
+        "note": "After a full day on the job, I want to decompress at the park before heading home."
+      },
+      {
+        "from_hour": 19,
+        "part": "evening",
+        "label": "Evening",
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "Early night so I can do it all again tomorrow \u2014 I need the rest."
+      }
+    ],
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
+  },
   "work": {
     "money": 40,
     "currency": "\u2299",
@@ -140,6 +218,6 @@
       17
     ],
     "overdue": 0,
-    "days_to_bill": 0
+    "days_to_bill": 1
   }
 }
