@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": 1783015753,
+    "generated_at": 1783015943,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 7,
+    "tick": 8,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 420,
+    "sim_minutes": 480,
     "day": 1,
-    "hour": 15,
+    "hour": 16,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 15:00"
+    "label": "Day 1 \u00b7 16:00"
   },
   "stats": {
     "energy": 0,
-    "full": 44,
-    "social": 25,
+    "full": 36,
+    "social": 20,
     "fun": 50,
     "health": 100,
     "stress": 5
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783015819.1117635,
+      "sim": "Day 1 \u00b7 16:00",
+      "action": "exercise",
+      "thought": "My energy meter says zero but my body feels alive\u2014the sun's warm, my mind's clear, and something in me *needs* to move right now. This bright feeling is temporary, and I'm already here; if I leave for home now I'll just crash. Let me use this momentum while it's real.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 0,
+        "full": 36,
+        "social": 20,
+        "fun": 50,
+        "health": 100,
+        "stress": 5
+      }
+    },
     {
       "t": 1783013994.366717,
       "sim": "Day 1 \u00b7 15:00",
@@ -231,6 +247,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "My energy meter says zero but my body feels alive\u2014the sun's warm, my mind's clear, and something in me *needs* to move right now. This bright feeling is temporary, and I'm already here; if I leave for home now I'll just crash. Let me use this momentum while it's real.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 16:00",
+      "t": 1783015819.1117635
+    },
+    {
+      "kind": "observation",
       "text": "I'm already here, the sun feels good, and something in me needs to *move* right now\u2014this bright feeling won't stick around forever. My body's telling me it's not hungry, and even though my energy reads low on paper, I feel restless and sharp. I should use this momentum while it's here.",
       "importance": 6,
       "sim": "Day 1 \u00b7 15:00",
@@ -249,13 +272,6 @@
       "importance": 6,
       "sim": "Day 1 \u00b7 13:00",
       "t": 1783010340.3902895
-    },
-    {
-      "kind": "observation",
-      "text": "I'm genuinely full and my mind feels sharp right now\u2014I can feel it. Skipping to the park makes perfect sense: I'll burn off this energy, stay healthy without draining my \u229940, and maybe the movement will help untangle this rent stress that's creeping in. I can eat when my body actually asks for it.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 12:00",
-      "t": 1783008514.8396828
     }
   ],
   "trends": {
@@ -335,6 +351,16 @@
         "energy": 0,
         "full": 44,
         "social": 25,
+        "fun": 50,
+        "health": 100,
+        "stress": 5
+      },
+      {
+        "sim_minutes": 480,
+        "sim": "Day 1 \u00b7 16:00",
+        "energy": 0,
+        "full": 36,
+        "social": 20,
         "fun": 50,
         "health": 100,
         "stress": 5
