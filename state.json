@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782962723,
+    "generated_at": 1782962914,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 4,
+    "tick": 5,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 240,
+    "sim_minutes": 300,
     "day": 1,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 1 \u00b7 12:00"
+    "label": "Day 1 \u00b7 13:00"
   },
   "stats": {
-    "energy": 36,
-    "full": 68,
-    "social": 40,
+    "energy": 20,
+    "full": 60,
+    "social": 35,
     "fun": 50,
-    "health": 87,
-    "stress": 9
+    "health": 99,
+    "stress": 6
   },
   "mind": {
     "mood": "bright and hopeful",
-    "clarity": "a little scattered",
-    "temp": 1.12
+    "clarity": "foggy and slow",
+    "temp": 1.2
   },
   "activity": [
+    {
+      "t": 1782962877.3617332,
+      "sim": "Day 1 \u00b7 13:00",
+      "action": "exercise",
+      "thought": "My head is genuinely clear right now\u2014that's rare\u2014and I'm already full anyway. I've got energy and this good headspace won't last once work starts grinding on me at nine. I should move a little, shake off this scattered feeling into something purposeful, then settle and protect this clarity.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 20,
+        "full": 60,
+        "social": 35,
+        "fun": 50,
+        "health": 99,
+        "stress": 6
+      }
+    },
     {
       "t": 1782961052.4008148,
       "sim": "Day 1 \u00b7 12:00",
@@ -183,6 +199,13 @@
   "memories": [
     {
       "kind": "observation",
+      "text": "My head is genuinely clear right now\u2014that's rare\u2014and I'm already full anyway. I've got energy and this good headspace won't last once work starts grinding on me at nine. I should move a little, shake off this scattered feeling into something purposeful, then settle and protect this clarity.",
+      "importance": 6,
+      "sim": "Day 1 \u00b7 13:00",
+      "t": 1782962877.3617332
+    },
+    {
+      "kind": "observation",
       "text": "I'm already stuffed and my head feels genuinely clear\u2014that's rare and precious before work. I should use this, not waste it on food I don't need. A little movement to channel this energy, then I can settle in and protect this good headspace before the office grinds it away.",
       "importance": 6,
       "sim": "Day 1 \u00b7 12:00",
@@ -201,13 +224,6 @@
       "importance": 4,
       "sim": "Day 1 \u00b7 10:00",
       "t": 1782957399.2275338
-    },
-    {
-      "kind": "observation",
-      "text": "I'm feeling pretty good right now \u2014 sharp and hopeful \u2014 and my energy is solid. I planned to eat at the Kitchen this morning, and honestly, with fullness at 70 I'm not ravenous, but I should stick to the routine and grab something light. Plus I've got work in a couple hours and I want to stay sharp.",
-      "importance": 4,
-      "sim": "Day 1 \u00b7 09:00",
-      "t": 1782955574.4992752
     }
   ],
   "trends": {
@@ -260,6 +276,16 @@
         "fun": 50,
         "health": 87,
         "stress": 9
+      },
+      {
+        "sim_minutes": 300,
+        "sim": "Day 1 \u00b7 13:00",
+        "energy": 20,
+        "full": 60,
+        "social": 35,
+        "fun": 50,
+        "health": 99,
+        "stress": 6
       }
     ]
   },
