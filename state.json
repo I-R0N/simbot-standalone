@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1782982900,
+    "generated_at": 1782983094,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 15,
+    "tick": 16,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 900,
-    "day": 1,
-    "hour": 23,
+    "sim_minutes": 960,
+    "day": 2,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 1 \u00b7 23:00"
+    "label": "Day 2 \u00b7 00:00"
   },
   "stats": {
-    "energy": 24,
-    "full": 74,
+    "energy": 18,
+    "full": 92,
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 19
+    "stress": 22
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "foggy and slow",
-    "temp": 1.23
+    "temp": 1.28
   },
   "activity": [
+    {
+      "t": 1782982901.3118203,
+      "sim": "Day 2 \u00b7 00:00",
+      "action": "eat",
+      "thought": "My body is right\u2014I'm empty and running on fumes, just dressing it up in hopeful thoughts. I need to eat something real right now, then get to bed. No more thinking about the loop. Just fuel and rest.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 18,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 22
+      }
+    },
     {
       "t": 1782981076.4622927,
       "sim": "Day 1 \u00b7 23:00",
@@ -380,6 +396,13 @@
     },
     {
       "kind": "observation",
+      "text": "My body is right\u2014I'm empty and running on fumes, just dressing it up in hopeful thoughts. I need to eat something real right now, then get to bed. No more thinking about the loop. Just fuel and rest.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 00:00",
+      "t": 1782982901.3118203
+    },
+    {
+      "kind": "observation",
       "text": "I'm standing in the kitchen and my body is screaming at me \u2014 I haven't eaten, I'm running on fumes, and I'm using clever thoughts like a drug to feel less empty. Stop talking about the loop and actually feed myself. Then sleep.",
       "importance": 7,
       "sim": "Day 1 \u00b7 23:00",
@@ -398,13 +421,6 @@
       "importance": 7,
       "sim": "Day 1 \u00b7 21:00",
       "t": 1782977426.2078207
-    },
-    {
-      "kind": "observation",
-      "text": "I'm spiraling again\u2014calling it \"clarity\" when really I'm just exhausted and anxious, dressed up in pretty language. My body is screaming for sleep, and I know a walk won't fix the loop I'm stuck in. I need to stop analyzing and just *rest*.",
-      "importance": 6,
-      "sim": "Day 1 \u00b7 20:00",
-      "t": 1782975618.8982027
     }
   ],
   "trends": {
@@ -567,6 +583,16 @@
         "fun": 40,
         "health": 91,
         "stress": 19
+      },
+      {
+        "sim_minutes": 960,
+        "sim": "Day 2 \u00b7 00:00",
+        "energy": 18,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 22
       }
     ]
   },
@@ -593,10 +619,11 @@
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "I'm at zero energy and exercise clearly isn't fixing it \u2014 I need to stop fighting it and just crash hard at home."
+        "note": "I'm at zero energy and exercise clearly isn't fixing it \u2014 I need to stop fighting it and just crash hard at home.",
+        "followed": false
       }
     ],
-    "active_index": 1,
+    "active_index": null,
     "revision": 3,
     "revised": "17:00"
   },
@@ -615,6 +642,6 @@
       17
     ],
     "overdue": 0,
-    "days_to_bill": 1
+    "days_to_bill": 0
   }
 }
