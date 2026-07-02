@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783035783,
+    "generated_at": 1783035973,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 18,
+    "tick": 19,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1080,
+    "sim_minutes": 1140,
     "day": 2,
-    "hour": 2,
+    "hour": 3,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 02:00"
+    "label": "Day 2 \u00b7 03:00"
   },
   "stats": {
-    "energy": 72,
-    "full": 76,
-    "social": 5,
-    "fun": 30,
+    "energy": 94,
+    "full": 68,
+    "social": 0,
+    "fun": 25,
     "health": 88,
-    "stress": 15
+    "stress": 5
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.93
+    "temp": 0.76
   },
   "activity": [
+    {
+      "t": 1783035884.2572558,
+      "sim": "Day 2 \u00b7 03:00",
+      "action": "sleep",
+      "thought": "I can feel it now\u2014that familiar panic under the brightness. Energy at 72 sounds okay on paper, but my head is already fuzzy and I'm running on fumes and false momentum. I keep finding reasons to keep going, but my body's been trying to tell me for hours: stop. Sleep first, before the crash hits and I'm useless for days.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 68,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 5
+      }
+    },
     {
       "t": 1783034058.8222532,
       "sim": "Day 2 \u00b7 02:00",
@@ -449,6 +465,13 @@
     },
     {
       "kind": "observation",
+      "text": "I can feel it now\u2014that familiar panic under the brightness. Energy at 72 sounds okay on paper, but my head is already fuzzy and I'm running on fumes and false momentum. I keep finding reasons to keep going, but my body's been trying to tell me for hours: stop. Sleep first, before the crash hits and I'm useless for days.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 03:00",
+      "t": 1783035884.2572558
+    },
+    {
+      "kind": "observation",
       "text": "My body is screaming at me to stop. Energy is gone, my head feels like static, and I keep spinning justifications instead of just... sleeping. I'm bright and hopeful on the surface, but that's exactly when I lie to myself the most. I need to sleep now before I fall apart completely.",
       "importance": 7,
       "sim": "Day 2 \u00b7 02:00",
@@ -467,13 +490,6 @@
       "importance": 7,
       "sim": "Day 2 \u00b7 00:00",
       "t": 1783030419.8339608
-    },
-    {
-      "kind": "observation",
-      "text": "My body is screaming at me\u2014energy at zero, brain fogged over. I'm at the Kitchen already, and food is the one thing that might actually stop me from falling apart right now. The bright feeling is real, but it's masking how badly I need to eat and sleep.",
-      "importance": 7,
-      "sim": "Day 1 \u00b7 23:00",
-      "t": 1783028595.2097085
     }
   ],
   "trends": {
@@ -666,6 +682,16 @@
         "fun": 30,
         "health": 88,
         "stress": 15
+      },
+      {
+        "sim_minutes": 1140,
+        "sim": "Day 2 \u00b7 03:00",
+        "energy": 94,
+        "full": 68,
+        "social": 0,
+        "fun": 25,
+        "health": 88,
+        "stress": 5
       }
     ]
   },
