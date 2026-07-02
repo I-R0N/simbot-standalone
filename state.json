@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782995543,
+    "generated_at": 1782995733,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 22,
+    "tick": 23,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1320,
+    "sim_minutes": 1380,
     "day": 2,
-    "hour": 6,
+    "hour": 7,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 06:00"
+    "label": "Day 2 \u00b7 07:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 35
+    "stress": 36
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782995673.3791485,
+      "sim": "Day 2 \u00b7 07:00",
+      "action": "eat",
+      "thought": "I'm standing here with my body on empty and I keep circling it like a vulture instead of just eating something. The brightness feels like a lie I'm telling myself while I'm actually running on fumes. Stop narrating. Eat now.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 36
+      }
+    },
     {
       "t": 1782993847.903445,
       "sim": "Day 2 \u00b7 06:00",
@@ -332,22 +348,6 @@
         "health": 87,
         "stress": 9
       }
-    },
-    {
-      "t": 1782959224.267052,
-      "sim": "Day 1 \u00b7 11:00",
-      "action": "relax",
-      "thought": "I'm stuffed already\u2014eating more would be ridiculous. My head feels clear and bright right now, which is rare before a workday. I should lean into this feeling, maybe move my body a little or just sit with it, keep myself centered and ready.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 52,
-        "full": 76,
-        "social": 45,
-        "fun": 50,
-        "health": 75,
-        "stress": 18
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm standing here with my body on empty and I keep circling it like a vulture instead of just eating something. The brightness feels like a lie I'm telling myself while I'm actually running on fumes. Stop narrating. Eat now.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 07:00",
+      "t": 1782995673.3791485
+    },
+    {
+      "kind": "observation",
       "text": "I'm standing in the kitchen and my body is empty\u2014energy at zero, thinking foggy despite this bright feeling. I keep narrating instead of acting. Eat something now, actually swallow it, then sleep. No more circling.",
       "importance": 7,
       "sim": "Day 2 \u00b7 06:00",
@@ -499,13 +506,6 @@
       "importance": 7,
       "sim": "Day 2 \u00b7 04:00",
       "t": 1782990195.3054173
-    },
-    {
-      "kind": "observation",
-      "text": "Stop. I'm at the kitchen. My body is empty and I'm running on fumes dressed up as hope. Eat something now, actually swallow it, then go home and sleep. No narrative, no insight, just do it.",
-      "importance": 7,
-      "sim": "Day 2 \u00b7 03:00",
-      "t": 1782988370.3633323
     }
   ],
   "trends": {
@@ -738,6 +738,16 @@
         "fun": 40,
         "health": 91,
         "stress": 35
+      },
+      {
+        "sim_minutes": 1380,
+        "sim": "Day 2 \u00b7 07:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 36
       }
     ]
   },
