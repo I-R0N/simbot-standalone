@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": 1782991943,
+    "generated_at": 1782992133,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 20,
+    "tick": 21,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1200,
+    "sim_minutes": 1260,
     "day": 2,
-    "hour": 4,
+    "hour": 5,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 04:00"
+    "label": "Day 2 \u00b7 05:00"
   },
   "stats": {
     "energy": 0,
@@ -21,7 +21,7 @@
     "social": 0,
     "fun": 40,
     "health": 91,
-    "stress": 32
+    "stress": 33
   },
   "mind": {
     "mood": "bright and hopeful",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1782992023.2161014,
+      "sim": "Day 2 \u00b7 05:00",
+      "action": "eat",
+      "thought": "I'm standing here and I can feel the fog pressing down under this bright feeling\u2014my body's empty, screaming for fuel, and I keep circling it with observations instead of just doing it. Eat now, actually eat, then sleep.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 33
+      }
+    },
     {
       "t": 1782990195.3054173,
       "sim": "Day 2 \u00b7 04:00",
@@ -332,22 +348,6 @@
         "health": 75,
         "stress": 20
       }
-    },
-    {
-      "t": 1782955574.4992752,
-      "sim": "Day 1 \u00b7 09:00",
-      "action": "eat",
-      "thought": "I'm feeling pretty good right now \u2014 sharp and hopeful \u2014 and my energy is solid. I planned to eat at the Kitchen this morning, and honestly, with fullness at 70 I'm not ravenous, but I should stick to the routine and grab something light. Plus I've got work in a couple hours and I want to stay sharp.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 64,
-        "full": 92,
-        "social": 55,
-        "fun": 60,
-        "health": 75,
-        "stress": 22
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I'm standing here and I can feel the fog pressing down under this bright feeling\u2014my body's empty, screaming for fuel, and I keep circling it with observations instead of just doing it. Eat now, actually eat, then sleep.",
+      "importance": 7,
+      "sim": "Day 2 \u00b7 05:00",
+      "t": 1782992023.2161014
+    },
+    {
+      "kind": "observation",
       "text": "I'm standing here in the kitchen and I can feel it \u2014 the hollowness under this brightness, the fog that comes when you're running on nothing. My body knows what it needs. Stop thinking about stopping thinking. Eat something real right now.",
       "importance": 7,
       "sim": "Day 2 \u00b7 04:00",
@@ -499,13 +506,6 @@
       "importance": 7,
       "sim": "Day 2 \u00b7 02:00",
       "t": 1782986564.8417242
-    },
-    {
-      "kind": "observation",
-      "text": "My body is right\u2014I'm empty and running on fumes, just dressing it up in hopeful thoughts. I need to eat something real right now, then get to bed. No more thinking about the loop. Just fuel and rest.",
-      "importance": 7,
-      "sim": "Day 2 \u00b7 00:00",
-      "t": 1782982901.3118203
     }
   ],
   "trends": {
@@ -718,6 +718,16 @@
         "fun": 40,
         "health": 91,
         "stress": 32
+      },
+      {
+        "sim_minutes": 1260,
+        "sim": "Day 2 \u00b7 05:00",
+        "energy": 0,
+        "full": 92,
+        "social": 0,
+        "fun": 40,
+        "health": 91,
+        "stress": 33
       }
     ]
   },
@@ -758,19 +768,19 @@
         "followed": false
       },
       {
-        "from_hour": 2,
+        "from_hour": 4,
         "part": "night",
         "label": "Night",
-        "action": "sleep",
-        "goal": "home",
-        "loc_label": "Home",
-        "icon": "\ud83c\udfe0",
-        "note": "The loop doesn't get solved tonight \u2014 I put it down and let my body actually recover."
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "My body is empty \u2014 not as metaphor, just fact. Eat now, no commentary."
       }
     ],
     "active_index": 3,
-    "revision": 1,
-    "revised": "01:00"
+    "revision": 2,
+    "revised": "04:00"
   },
   "work": {
     "money": 10,
