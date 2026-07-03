@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783083234,
+    "generated_at": 1783083423,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 44,
+    "tick": 45,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2640,
+    "sim_minutes": 2700,
     "day": 3,
-    "hour": 4,
+    "hour": 5,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 04:00"
+    "label": "Day 3 \u00b7 05:00"
   },
   "stats": {
-    "energy": 88,
-    "full": 37,
+    "energy": 82,
+    "full": 74,
     "social": 0,
     "fun": 0,
     "health": 26,
-    "stress": 18
+    "stress": 19
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.85
+    "temp": 0.89
   },
   "activity": [
+    {
+      "t": 1783083302.1033444,
+      "sim": "Day 3 \u00b7 05:00",
+      "action": "eat",
+      "thought": "I can feel myself spiraling into this familiar trap\u2014analyzing the analysis, performing self-awareness instead of actually doing anything. My body is literally empty (fullness 37) and my thinking is scattered because I haven't eaten, not because I'm \"too broken to function.\" The rent fear is real, but it's also using my exhaustion as an excuse to freeze. I need to eat something now, actually stop the loop for five minutes, and then figure out what comes next.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 82,
+        "full": 74,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 19
+      }
+    },
     {
       "t": 1783081487.3533971,
       "sim": "Day 3 \u00b7 04:00",
@@ -330,22 +346,6 @@
         "social": 0,
         "fun": 0,
         "health": 82,
-        "stress": 9
-      }
-    },
-    {
-      "t": 1783046811.1057837,
-      "sim": "Day 2 \u00b7 09:00",
-      "action": "sleep",
-      "thought": "I can feel it now\u2014the fog underneath the brightness, the way my thoughts are moving just a half-second too slowly. My body's been asking for rest for hours and I keep ignoring it. I'm terrified of what happens when I stop moving, but I'm more terrified of crashing when rent's due in three days. I need to actually sleep, not find another distraction.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 20,
-        "social": 0,
-        "fun": 0,
-        "health": 85,
         "stress": 9
       }
     }
@@ -958,6 +958,16 @@
         "fun": 0,
         "health": 26,
         "stress": 18
+      },
+      {
+        "sim_minutes": 2700,
+        "sim": "Day 3 \u00b7 05:00",
+        "energy": 82,
+        "full": 74,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 19
       }
     ]
   },
@@ -988,19 +998,30 @@
         "followed": false
       },
       {
-        "from_hour": 3,
+        "from_hour": 4,
         "part": "night",
         "label": "Night",
-        "action": "sleep",
-        "goal": "home",
-        "loc_label": "Home",
-        "icon": "\ud83c\udfe0",
-        "note": "Not as escape this time, but as the thing that comes after I've actually done something different \u2014 fed, heard, then rest."
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "\ud83d\udc65",
+        "note": "I don't know what I need, but I know I can't find it alone right now \u2014 I'm going to Friend's place and letting someone else be in the room with me.",
+        "followed": false
+      },
+      {
+        "from_hour": 5,
+        "part": "night",
+        "label": "Night",
+        "action": "play",
+        "goal": "arcade",
+        "loc_label": "Arcade",
+        "icon": "\ud83c\udfae",
+        "note": "Not to perform fun, but to let something small and pointless break the loop \u2014 even one moment that isn't about rent or insight or survival."
       }
     ],
-    "active_index": 2,
-    "revision": 1,
-    "revised": "01:00"
+    "active_index": 3,
+    "revision": 2,
+    "revised": "04:00"
   },
   "work": {
     "money": 15,
