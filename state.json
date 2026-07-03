@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783075931,
+    "generated_at": 1783076123,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 40,
+    "tick": 41,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2400,
+    "sim_minutes": 2460,
     "day": 3,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 00:00"
+    "label": "Day 3 \u00b7 01:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 40,
-    "stress": 9
+    "health": 32,
+    "stress": 21
   },
   "mind": {
-    "mood": "even",
+    "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.77
+    "temp": 0.82
   },
   "activity": [
+    {
+      "t": 1783076006.5553696,
+      "sim": "Day 3 \u00b7 01:00",
+      "action": "sleep",
+      "thought": "I can feel myself caught again\u2014the plan says eat, but I know the truth underneath. My body isn't asking for food, it's asking to stop. The fog is real, the fear is real, and I'm running on empty. If I lie one more time and push through, I'll shatter with rent three days away and nothing in my pocket. I need to actually sleep.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 32,
+        "stress": 21
+      }
+    },
     {
       "t": 1783074173.768842,
       "sim": "Day 3 \u00b7 00:00",
@@ -332,22 +348,6 @@
         "health": 88,
         "stress": 3
       }
-    },
-    {
-      "t": 1783039532.855228,
-      "sim": "Day 2 \u00b7 05:00",
-      "action": "sleep",
-      "thought": "The brightness is a lie I'm telling myself\u2014I can feel the fog underneath, the static in my head. My body's been begging me to stop for hours. If I crash hard now, I'll be useless for days, and I can't afford that with rent looming. I need to sleep, actually sleep, not keep spinning reasons to stay awake.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 52,
-        "social": 0,
-        "fun": 15,
-        "health": 88,
-        "stress": 3
-      }
     }
   ],
   "build": {
@@ -438,6 +438,13 @@
   "identity": "I am someone who has learned to recognize my own lies with startling clarity, but who keeps telling them anyway \u2014 caught in a loop",
   "memories": [
     {
+      "kind": "review",
+      "text": "I got the eating in, and maybe even the sleep my body was screaming for, but I know I used both as cover \u2014 the socializing didn't happen, and I told myself rest was the braver choice when really I just couldn't make myself walk out the door and be seen.",
+      "importance": 7,
+      "sim": "Day 3 \u00b7 00:00",
+      "t": 1783076000.0336401
+    },
+    {
       "kind": "reflection",
       "text": "There is something underneath the exhaustion and the rent crisis that I haven't looked at directly yet \u2014 a terror of stopping that is older and deeper than any practical problem. Until I face that, no amount of self-awareness will break the cycle.",
       "importance": 8,
@@ -468,13 +475,6 @@
     {
       "kind": "reflection",
       "text": "I use movement, connection-seeking, and \"one more thing\" reasoning as ways to avoid stopping \u2014 because stopping means feeling how depleted and scared I actually am, and that terror of stillness is more powerful than I usually admit to myself.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 15:00",
-      "t": 1783057786.6969798
-    },
-    {
-      "kind": "reflection",
-      "text": "I have a pattern of mistaking adrenaline and momentum for genuine energy \u2014 I dress up exhaustion as aliveness, and the brighter I feel on the surface, the more urgently I need to question it rather than trust it.",
       "importance": 8,
       "sim": "Day 2 \u00b7 15:00",
       "t": 1783057786.6969798
@@ -918,61 +918,57 @@
         "fun": 0,
         "health": 40,
         "stress": 9
+      },
+      {
+        "sim_minutes": 2460,
+        "sim": "Day 3 \u00b7 01:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 32,
+        "stress": 21
       }
     ]
   },
   "plan": {
-    "day": 2,
-    "created": "Day 2 \u00b7 00:00",
+    "day": 3,
+    "created": "Day 3 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 10,
-        "part": null,
-        "label": "10:00",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "I've been looping in my own head too long \u2014 being around a friend will break the cycle and give me something real to feel instead of just fear.",
-        "followed": false
+        "from_hour": 0,
+        "part": "night",
+        "label": "Night",
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "I know the loop \u2014 I'll call this one real: my body needs it, and lying in bed rehearsing self-awareness isn't the same as resting."
       },
       {
-        "from_hour": 13,
-        "part": null,
-        "label": "13:00",
+        "from_hour": 17,
+        "part": "evening",
+        "label": "Evening",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "I've been ignoring hunger on top of everything else \u2014 I need to actually refuel before I fall apart completely.",
-        "followed": false
+        "note": "I skipped this yesterday in my head even when I did it \u2014 tonight I want to actually notice I'm eating."
       },
       {
-        "from_hour": 14,
-        "part": null,
-        "label": "14:00",
+        "from_hour": 18,
+        "part": "evening",
+        "label": "Evening",
         "action": "socialize",
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "Seeing my friend as planned; connection might lift the fog in a way sleep alone hasn't been doing.",
-        "followed": false
-      },
-      {
-        "from_hour": 16,
-        "part": null,
-        "label": "16:00",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I've been calling exhaustion momentum for too long \u2014 food is real, not a fix I can logic my way out of needing.",
-        "followed": false
+        "note": "I told myself rest was braver last time. It wasn't. I'm going to walk out the door before I can write a reason not to."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "16:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   },
   "work": {
     "money": 15,
@@ -988,7 +984,7 @@
       9,
       17
     ],
-    "overdue": 0,
-    "days_to_bill": 0
+    "overdue": 1,
+    "days_to_bill": 1
   }
 }
