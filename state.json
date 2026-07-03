@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783102463,
+    "generated_at": 1783102654,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 55,
+    "tick": 56,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3300,
+    "sim_minutes": 3360,
     "day": 3,
-    "hour": 15,
+    "hour": 16,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 15:00"
+    "label": "Day 3 \u00b7 16:00"
   },
   "stats": {
-    "energy": 79,
-    "full": 20,
+    "energy": 73,
+    "full": 12,
     "social": 0,
-    "fun": 4,
-    "health": 23,
-    "stress": 11
+    "fun": 0,
+    "health": 20,
+    "stress": 19
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.87
+    "temp": 0.94
   },
   "activity": [
+    {
+      "t": 1783102475.2929003,
+      "sim": "Day 3 \u00b7 16:00",
+      "action": "socialize",
+      "thought": "I'm five blocks away and my friend is there, and right now being alone with this spiraling feels worse than anything. I know the rent is screaming at me, but I can feel myself coming apart\u2014scattered, heavy, running on pure panic. If I show up to work tomorrow like this, I'll crash or fail anyway. I need to actually stop and let someone else be in the room with me for a while.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 73,
+        "full": 12,
+        "social": 0,
+        "fun": 0,
+        "health": 20,
+        "stress": 19
+      }
+    },
     {
       "t": 1783100650.125515,
       "sim": "Day 3 \u00b7 15:00",
@@ -332,22 +348,6 @@
         "health": 49,
         "stress": 9
       }
-    },
-    {
-      "t": 1783066888.2017136,
-      "sim": "Day 2 \u00b7 20:00",
-      "action": "sleep",
-      "thought": "The plan says eat, but I can feel the lie now\u2014that brightness isn't real, it's the last gasp before the crash. My thoughts are already getting foggy, and I have three days before rent is due with almost nothing. If I collapse now, I'm actually finished. I need to sleep while I still can.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 52,
-        "stress": 9
-      }
     }
   ],
   "build": {
@@ -424,7 +424,7 @@
       }
     ],
     "pos": {
-      "x": 5,
+      "x": 1,
       "y": 8
     },
     "at": null,
@@ -434,22 +434,6 @@
       "arrived": false
     },
     "path": [
-      {
-        "x": 5,
-        "y": 8
-      },
-      {
-        "x": 4,
-        "y": 8
-      },
-      {
-        "x": 3,
-        "y": 8
-      },
-      {
-        "x": 2,
-        "y": 8
-      },
       {
         "x": 1,
         "y": 8
@@ -1093,6 +1077,16 @@
         "fun": 4,
         "health": 23,
         "stress": 11
+      },
+      {
+        "sim_minutes": 3360,
+        "sim": "Day 3 \u00b7 16:00",
+        "energy": 73,
+        "full": 12,
+        "social": 0,
+        "fun": 0,
+        "health": 20,
+        "stress": 19
       }
     ]
   },
