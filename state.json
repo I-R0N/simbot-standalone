@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783111533,
+    "generated_at": 1783111723,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 60,
+    "tick": 61,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3600,
+    "sim_minutes": 3660,
     "day": 3,
-    "hour": 20,
+    "hour": 21,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 20:00"
+    "label": "Day 3 \u00b7 21:00"
   },
   "stats": {
-    "energy": 49,
+    "energy": 43,
     "full": 0,
-    "social": 85,
-    "fun": 10,
-    "health": 8,
-    "stress": 32
+    "social": 80,
+    "fun": 5,
+    "health": 5,
+    "stress": 38
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 1.14
+    "temp": 1.19
   },
   "activity": [
+    {
+      "t": 1783111585.975195,
+      "sim": "Day 3 \u00b7 21:00",
+      "action": "eat",
+      "thought": "I'm already here. My stomach is hollow and the rent is clawing at my ribs, but sitting alone with this panic is worse than anything. My friend is right here\u2014I need to actually ask if we can order something in, stop pretending I'm fine, and eat while someone is near me.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 43,
+        "full": 0,
+        "social": 80,
+        "fun": 5,
+        "health": 5,
+        "stress": 38
+      }
+    },
     {
       "t": 1783109761.1244004,
       "sim": "Day 3 \u00b7 20:00",
@@ -332,22 +348,6 @@
         "health": 29,
         "stress": 19
       }
-    },
-    {
-      "t": 1783076006.5553696,
-      "sim": "Day 3 \u00b7 01:00",
-      "action": "sleep",
-      "thought": "I can feel myself caught again\u2014the plan says eat, but I know the truth underneath. My body isn't asking for food, it's asking to stop. The fog is real, the fear is real, and I'm running on empty. If I lie one more time and push through, I'll shatter with rent three days away and nothing in my pocket. I need to actually sleep.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 32,
-        "stress": 21
-      }
     }
   ],
   "build": {
@@ -424,16 +424,33 @@
       }
     ],
     "pos": {
-      "x": 1,
-      "y": 9
+      "x": 2,
+      "y": 6
     },
-    "at": "friend",
+    "at": null,
     "intent": {
-      "action": "socialize",
-      "goal": "friend",
-      "arrived": true
+      "action": "eat",
+      "goal": "kitchen",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 2,
+        "y": 6
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 4
+      }
+    ]
   },
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
@@ -1118,6 +1135,16 @@
         "fun": 10,
         "health": 8,
         "stress": 32
+      },
+      {
+        "sim_minutes": 3660,
+        "sim": "Day 3 \u00b7 21:00",
+        "energy": 43,
+        "full": 0,
+        "social": 80,
+        "fun": 5,
+        "health": 5,
+        "stress": 38
       }
     ]
   },
