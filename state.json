@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783096998,
+    "generated_at": 1783097185,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 52,
+    "tick": 53,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3120,
+    "sim_minutes": 3180,
     "day": 3,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 12:00"
+    "label": "Day 3 \u00b7 13:00"
   },
   "stats": {
-    "energy": 87,
-    "full": 44,
+    "energy": 86,
+    "full": 36,
     "social": 0,
-    "fun": 3,
+    "fun": 6,
     "health": 26,
     "stress": 3
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.79
+    "temp": 0.8
   },
   "activity": [
+    {
+      "t": 1783096999.536982,
+      "sim": "Day 3 \u00b7 13:00",
+      "action": "relax",
+      "thought": "I'm spiraling again\u2014caught between what I know I should do and what I actually need. The rent is screaming, my brain is scattered, and I'm terrified of crashing tomorrow when I need to work. But I can feel myself fraying right now. If I push into work like this, I'll either fail at it or break. I need to actually stop and let myself settle, even though it feels irresponsible.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 86,
+        "full": 36,
+        "social": 0,
+        "fun": 6,
+        "health": 26,
+        "stress": 3
+      }
+    },
     {
       "t": 1783095174.797978,
       "sim": "Day 3 \u00b7 12:00",
@@ -330,22 +346,6 @@
         "social": 0,
         "fun": 0,
         "health": 58,
-        "stress": 9
-      }
-    },
-    {
-      "t": 1783061413.440341,
-      "sim": "Day 2 \u00b7 17:00",
-      "action": "sleep",
-      "thought": "The brightness is cracking and I know it now. I can feel that fog underneath, the static creeping in\u2014I've been running on pure fear and adrenaline, ignoring my body's screams, and I'm about to hit a wall hard. If I crash with rent due in three days and only \u229915 to my name, I'm finished. I need to actually sleep, not convince myself I'm sharp enough to keep the momentum going.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 61,
         "stress": 9
       }
     }
@@ -1036,6 +1036,16 @@
         "full": 44,
         "social": 0,
         "fun": 3,
+        "health": 26,
+        "stress": 3
+      },
+      {
+        "sim_minutes": 3180,
+        "sim": "Day 3 \u00b7 13:00",
+        "energy": 86,
+        "full": 36,
+        "social": 0,
+        "fun": 6,
         "health": 26,
         "stress": 3
       }
