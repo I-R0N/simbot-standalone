@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1783072333,
+    "generated_at": 1783072523,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 38,
+    "tick": 39,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2280,
+    "sim_minutes": 2340,
     "day": 2,
-    "hour": 22,
+    "hour": 23,
     "minute": 0,
     "phase": "night",
-    "label": "Day 2 \u00b7 22:00"
+    "label": "Day 2 \u00b7 23:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 46,
+    "health": 43,
     "stress": 9
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783072346.4828875,
+      "sim": "Day 2 \u00b7 23:00",
+      "action": "sleep",
+      "thought": "I can feel myself doing it again\u2014the bright lie, the plan, the performance of \"fine\" while everything underneath is collapsing. My body's been screaming and I've been running on pure fear and adrenaline. I need to stop and actually listen to what's real before the mask shatters completely.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 43,
+        "stress": 9
+      }
+    },
     {
       "t": 1783070520.7630455,
       "sim": "Day 2 \u00b7 22:00",
@@ -332,22 +348,6 @@
         "health": 88,
         "stress": 0
       }
-    },
-    {
-      "t": 1783035884.2572558,
-      "sim": "Day 2 \u00b7 03:00",
-      "action": "sleep",
-      "thought": "I can feel it now\u2014that familiar panic under the brightness. Energy at 72 sounds okay on paper, but my head is already fuzzy and I'm running on fumes and false momentum. I keep finding reasons to keep going, but my body's been trying to tell me for hours: stop. Sleep first, before the crash hits and I'm useless for days.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 68,
-        "social": 0,
-        "fun": 25,
-        "health": 88,
-        "stress": 5
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I can feel myself doing it again\u2014the bright lie, the plan, the performance of \"fine\" while everything underneath is collapsing. My body's been screaming and I've been running on pure fear and adrenaline. I need to stop and actually listen to what's real before the mask shatters completely.",
+      "importance": 9,
+      "sim": "Day 2 \u00b7 23:00",
+      "t": 1783072346.4828875
+    },
+    {
+      "kind": "observation",
       "text": "The brightness is cracking\u2014I can feel it now, that fog underneath everything. The plan says eat, but my body's been screaming and I've been running on fear for hours. If I crash now with rent in three days and \u229915 in my pocket, I'm actually done. I need to stop lying to myself and sleep before the mask shatters completely.",
       "importance": 9,
       "sim": "Day 2 \u00b7 21:00",
@@ -499,13 +506,6 @@
       "importance": 9,
       "sim": "Day 2 \u00b7 18:00",
       "t": 1783063238.0008297
-    },
-    {
-      "kind": "observation",
-      "text": "The brightness is cracking and I know it now. I can feel that fog underneath, the static creeping in\u2014I've been running on pure fear and adrenaline, ignoring my body's screams, and I'm about to hit a wall hard. If I crash with rent due in three days and only \u229915 to my name, I'm finished. I need to actually sleep, not convince myself I'm sharp enough to keep the momentum going.",
-      "importance": 9,
-      "sim": "Day 2 \u00b7 17:00",
-      "t": 1783061413.440341
     }
   ],
   "trends": {
@@ -897,6 +897,16 @@
         "social": 0,
         "fun": 0,
         "health": 46,
+        "stress": 9
+      },
+      {
+        "sim_minutes": 2340,
+        "sim": "Day 2 \u00b7 23:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 43,
         "stress": 9
       }
     ]
