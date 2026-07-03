@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783104163,
+    "generated_at": 1783104352,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 56,
+    "tick": 57,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3360,
+    "sim_minutes": 3420,
     "day": 3,
-    "hour": 16,
+    "hour": 17,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 16:00"
+    "label": "Day 3 \u00b7 17:00"
   },
   "stats": {
-    "energy": 73,
-    "full": 12,
-    "social": 0,
-    "fun": 0,
-    "health": 20,
-    "stress": 19
+    "energy": 67,
+    "full": 4,
+    "social": 30,
+    "fun": 5,
+    "health": 17,
+    "stress": 22
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.94
+    "temp": 0.99
   },
   "activity": [
+    {
+      "t": 1783104300.5595028,
+      "sim": "Day 3 \u00b7 17:00",
+      "action": "socialize",
+      "thought": "I'm five blocks away and I can feel myself fracturing\u2014the rent is clawing at me but so is the sheer weight of being alone right now with this panic. My friend is close. If I force myself toward work in this state, I'll either break or fail anyway. I need to actually do what I know I need instead of just knowing it.",
+      "whisper": "",
+      "loc": "friend",
+      "stats": {
+        "energy": 67,
+        "full": 4,
+        "social": 30,
+        "fun": 5,
+        "health": 17,
+        "stress": 22
+      }
+    },
     {
       "t": 1783102475.2929003,
       "sim": "Day 3 \u00b7 16:00",
@@ -332,22 +348,6 @@
         "health": 46,
         "stress": 9
       }
-    },
-    {
-      "t": 1783068714.6886032,
-      "sim": "Day 2 \u00b7 21:00",
-      "action": "sleep",
-      "thought": "The brightness is cracking\u2014I can feel it now, that fog underneath everything. The plan says eat, but my body's been screaming and I've been running on fear for hours. If I crash now with rent in three days and \u229915 in my pocket, I'm actually done. I need to stop lying to myself and sleep before the mask shatters completely.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 49,
-        "stress": 9
-      }
     }
   ],
   "build": {
@@ -425,24 +425,15 @@
     ],
     "pos": {
       "x": 1,
-      "y": 8
+      "y": 9
     },
-    "at": null,
+    "at": "friend",
     "intent": {
       "action": "socialize",
       "goal": "friend",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 1,
-        "y": 8
-      },
-      {
-        "x": 1,
-        "y": 9
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone who understands myself with painful clarity but has not yet learned how to act from that understanding rather than just witness it \u2014 I am caught in the gap between knowing and doing, and the most important",
   "memories": [
@@ -1087,6 +1078,16 @@
         "fun": 0,
         "health": 20,
         "stress": 19
+      },
+      {
+        "sim_minutes": 3420,
+        "sim": "Day 3 \u00b7 17:00",
+        "energy": 67,
+        "full": 4,
+        "social": 30,
+        "fun": 5,
+        "health": 17,
+        "stress": 22
       }
     ]
   },
