@@ -1,23 +1,23 @@
 {
   "meta": {
-    "generated_at": 1783091533,
+    "generated_at": 1783091721,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 49,
+    "tick": 50,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2940,
+    "sim_minutes": 3000,
     "day": 3,
-    "hour": 9,
+    "hour": 10,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 09:00"
+    "label": "Day 3 \u00b7 10:00"
   },
   "stats": {
     "energy": 94,
-    "full": 68,
+    "full": 60,
     "social": 0,
     "fun": 0,
     "health": 26,
@@ -29,6 +29,22 @@
     "temp": 0.75
   },
   "activity": [
+    {
+      "t": 1783091542.1037278,
+      "sim": "Day 3 \u00b7 10:00",
+      "action": "sleep",
+      "thought": "The thought keeps circling back\u2014work, earn, survive the rent deadline. But I can feel myself fraying at the edges. My thinking is scattered, my body is heavy, and I'm running on terror, not fuel. If I push to work right now in this state, I'll either crash mid-shift or make mistakes that cost me the job. I need to actually stop and let myself rest, even though every anxious part of me screams that I don't have time.",
+      "whisper": "Make some money",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 60,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 3
+      }
+    },
     {
       "t": 1783090592.3493602,
       "sim": "Day 3 \u00b7 09:00",
@@ -330,22 +346,6 @@
         "social": 0,
         "fun": 0,
         "health": 67,
-        "stress": 9
-      }
-    },
-    {
-      "t": 1783055946.4738698,
-      "sim": "Day 2 \u00b7 14:00",
-      "action": "sleep",
-      "thought": "The brightness is fake and I know it now\u2014I can feel the fog creeping in, that half-second delay in my thoughts. My body's been screaming and I've been running on pure adrenaline and fear, but if I crash hard with rent due in three days, I'm actually finished. I need to sleep now, actually sleep, before the mask cracks completely.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 70,
         "stress": 9
       }
     }
@@ -1004,6 +1004,16 @@
         "sim": "Day 3 \u00b7 09:00",
         "energy": 94,
         "full": 68,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 3
+      },
+      {
+        "sim_minutes": 3000,
+        "sim": "Day 3 \u00b7 10:00",
+        "energy": 94,
+        "full": 60,
         "social": 0,
         "fun": 0,
         "health": 26,
