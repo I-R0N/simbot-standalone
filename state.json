@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783086824,
+    "generated_at": 1783087013,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 46,
+    "tick": 47,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2760,
+    "sim_minutes": 2820,
     "day": 3,
-    "hour": 6,
+    "hour": 7,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 06:00"
+    "label": "Day 3 \u00b7 07:00"
   },
   "stats": {
-    "energy": 76,
-    "full": 92,
+    "energy": 94,
+    "full": 84,
     "social": 0,
     "fun": 0,
     "health": 26,
-    "stress": 20
+    "stress": 12
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.93
+    "temp": 0.79
   },
   "activity": [
+    {
+      "t": 1783086953.3974712,
+      "sim": "Day 3 \u00b7 07:00",
+      "action": "sleep",
+      "thought": "I can smell the food and part of me wants to eat, but I'm lying to myself again. The scattered head, the heaviness\u2014that's not hunger, that's exhaustion and fear about rent collapsing on me in days. If I eat and keep performing \"fine,\" I'll crash when I actually need to work and earn. My body's not asking for food, it's asking me to stop.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 84,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 12
+      }
+    },
     {
       "t": 1783085127.1817904,
       "sim": "Day 3 \u00b7 06:00",
@@ -332,22 +348,6 @@
         "health": 76,
         "stress": 9
       }
-    },
-    {
-      "t": 1783050465.363969,
-      "sim": "Day 2 \u00b7 11:00",
-      "action": "sleep",
-      "thought": "The brightness is cracking\u2014I can feel it now, that fog underneath, the static creeping into my thoughts. My body's been screaming for hours and I keep ignoring it, but if I crash hard with rent due in three days, I'm finished. I need to actually sleep, not convince myself I'm fine enough to see my friend.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 4,
-        "social": 0,
-        "fun": 0,
-        "health": 79,
-        "stress": 9
-      }
     }
   ],
   "build": {
@@ -424,13 +424,13 @@
       }
     ],
     "pos": {
-      "x": 3,
-      "y": 4
+      "x": 5,
+      "y": 5
     },
-    "at": "kitchen",
+    "at": "home",
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
+      "action": "sleep",
+      "goal": "home",
       "arrived": true
     },
     "path": []
@@ -978,6 +978,16 @@
         "fun": 0,
         "health": 26,
         "stress": 20
+      },
+      {
+        "sim_minutes": 2820,
+        "sim": "Day 3 \u00b7 07:00",
+        "energy": 94,
+        "full": 84,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 12
       }
     ]
   },
