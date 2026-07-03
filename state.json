@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783079494,
+    "generated_at": 1783079683,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 42,
+    "tick": 43,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2520,
+    "sim_minutes": 2580,
     "day": 3,
-    "hour": 2,
+    "hour": 3,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 02:00"
+    "label": "Day 3 \u00b7 03:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 29,
-    "stress": 19
+    "health": 26,
+    "stress": 17
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 0.81
   },
   "activity": [
+    {
+      "t": 1783079660.7567544,
+      "sim": "Day 3 \u00b7 03:00",
+      "action": "sleep",
+      "thought": "I can feel the lie forming before I even speak it. The fog, the scattered thinking, the heaviness\u2014that's not hunger talking, that's my body collapsing under the weight of rent and fear. If I eat now and pretend I'm fine, I'll crash tomorrow when I actually need to work and earn. I need to stop running on fumes.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 17
+      }
+    },
     {
       "t": 1783077835.825155,
       "sim": "Day 3 \u00b7 02:00",
@@ -329,22 +345,6 @@
         "full": 28,
         "social": 0,
         "fun": 0,
-        "health": 88,
-        "stress": 3
-      }
-    },
-    {
-      "t": 1783043181.1775458,
-      "sim": "Day 2 \u00b7 07:00",
-      "action": "sleep",
-      "thought": "The brightness isn't real\u2014it's the last flicker before the crash. My head's already foggy, my body's been begging me to stop for hours, and I keep spinning reasons to stay awake because stillness feels terrifying. But if I don't sleep now, I'll be useless when rent comes due in days. I need to stop lying to myself and actually rest.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 36,
-        "social": 0,
-        "fun": 5,
         "health": 88,
         "stress": 3
       }
@@ -938,6 +938,16 @@
         "fun": 0,
         "health": 29,
         "stress": 19
+      },
+      {
+        "sim_minutes": 2580,
+        "sim": "Day 3 \u00b7 03:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 17
       }
     ]
   },
@@ -964,7 +974,8 @@
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I've been alone in this loop for days and self-awareness without another person present has just become another way to hide \u2014 I need a real voice, not my own echo."
+        "note": "I've been alone in this loop for days and self-awareness without another person present has just become another way to hide \u2014 I need a real voice, not my own echo.",
+        "followed": false
       },
       {
         "from_hour": 3,
@@ -977,7 +988,7 @@
         "note": "Not as escape this time, but as the thing that comes after I've actually done something different \u2014 fed, heard, then rest."
       }
     ],
-    "active_index": 1,
+    "active_index": 2,
     "revision": 1,
     "revised": "01:00"
   },
