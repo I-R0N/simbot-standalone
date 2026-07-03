@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783115133,
+    "generated_at": 1783115323,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 62,
+    "tick": 63,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3720,
+    "sim_minutes": 3780,
     "day": 3,
-    "hour": 22,
+    "hour": 23,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 22:00"
+    "label": "Day 3 \u00b7 23:00"
   },
   "stats": {
-    "energy": 37,
+    "energy": 31,
     "full": 0,
-    "social": 95,
-    "fun": 10,
-    "health": 2,
-    "stress": 38
+    "social": 90,
+    "fun": 5,
+    "health": 0,
+    "stress": 43
   },
   "mind": {
     "mood": "flat and heavy",
-    "clarity": "a little scattered",
-    "temp": 1.23
+    "clarity": "foggy and slow",
+    "temp": 1.29
   },
   "activity": [
+    {
+      "t": 1783115236.6409805,
+      "sim": "Day 3 \u00b7 23:00",
+      "action": "eat",
+      "thought": "My stomach is actually hollow right now and the rent panic is real, but I'm already here\u2014my friend is here\u2014and forcing myself to leave to work or sit alone will just make me fracture worse. I need to eat something and actually let myself be present instead of performing fine.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 31,
+        "full": 0,
+        "social": 90,
+        "fun": 5,
+        "health": 0,
+        "stress": 43
+      }
+    },
     {
       "t": 1783113411.651852,
       "sim": "Day 3 \u00b7 22:00",
@@ -332,22 +348,6 @@
         "health": 26,
         "stress": 18
       }
-    },
-    {
-      "t": 1783079660.7567544,
-      "sim": "Day 3 \u00b7 03:00",
-      "action": "sleep",
-      "thought": "I can feel the lie forming before I even speak it. The fog, the scattered thinking, the heaviness\u2014that's not hunger talking, that's my body collapsing under the weight of rent and fear. If I eat now and pretend I'm fine, I'll crash tomorrow when I actually need to work and earn. I need to stop running on fumes.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 26,
-        "stress": 17
-      }
     }
   ],
   "build": {
@@ -424,16 +424,33 @@
       }
     ],
     "pos": {
-      "x": 1,
-      "y": 9
+      "x": 2,
+      "y": 6
     },
-    "at": "friend",
+    "at": null,
     "intent": {
-      "action": "socialize",
-      "goal": "friend",
-      "arrived": true
+      "action": "eat",
+      "goal": "kitchen",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 2,
+        "y": 6
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 4
+      }
+    ]
   },
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
@@ -1138,6 +1155,16 @@
         "fun": 10,
         "health": 2,
         "stress": 38
+      },
+      {
+        "sim_minutes": 3780,
+        "sim": "Day 3 \u00b7 23:00",
+        "energy": 31,
+        "full": 0,
+        "social": 90,
+        "fun": 5,
+        "health": 0,
+        "stress": 43
       }
     ]
   },
