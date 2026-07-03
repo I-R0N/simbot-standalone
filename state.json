@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1783052163,
+    "generated_at": 1783052353,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 27,
+    "tick": 28,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1620,
+    "sim_minutes": 1680,
     "day": 2,
-    "hour": 11,
+    "hour": 12,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 11:00"
+    "label": "Day 2 \u00b7 12:00"
   },
   "stats": {
     "energy": 94,
-    "full": 4,
+    "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 79,
+    "health": 76,
     "stress": 9
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783052289.2743335,
+      "sim": "Day 2 \u00b7 12:00",
+      "action": "sleep",
+      "thought": "The brightness is cracking. I can feel it now\u2014that fog underneath, the static creeping in. My body's been screaming for hours and I keep ignoring it, but if I crash hard with rent due in three days, I'm finished. I need to actually sleep, not convince myself I'm fine enough to see my friend.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 76,
+        "stress": 9
+      }
+    },
     {
       "t": 1783050465.363969,
       "sim": "Day 2 \u00b7 11:00",
@@ -332,22 +348,6 @@
         "health": 100,
         "stress": 5
       }
-    },
-    {
-      "t": 1783015819.1117635,
-      "sim": "Day 1 \u00b7 16:00",
-      "action": "exercise",
-      "thought": "My energy meter says zero but my body feels alive\u2014the sun's warm, my mind's clear, and something in me *needs* to move right now. This bright feeling is temporary, and I'm already here; if I leave for home now I'll just crash. Let me use this momentum while it's real.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 36,
-        "social": 20,
-        "fun": 50,
-        "health": 100,
-        "stress": 5
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "The brightness is cracking. I can feel it now\u2014that fog underneath, the static creeping in. My body's been screaming for hours and I keep ignoring it, but if I crash hard with rent due in three days, I'm finished. I need to actually sleep, not convince myself I'm fine enough to see my friend.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 12:00",
+      "t": 1783052289.2743335
+    },
+    {
+      "kind": "observation",
       "text": "The brightness is cracking\u2014I can feel it now, that fog underneath, the static creeping into my thoughts. My body's been screaming for hours and I keep ignoring it, but if I crash hard with rent due in three days, I'm finished. I need to actually sleep, not convince myself I'm fine enough to see my friend.",
       "importance": 8,
       "sim": "Day 2 \u00b7 11:00",
@@ -499,13 +506,6 @@
       "importance": 8,
       "sim": "Day 2 \u00b7 09:00",
       "t": 1783046811.1057837
-    },
-    {
-      "kind": "observation",
-      "text": "I'm fooling myself. This brightness is just the crash coming\u2014my head's already cotton, my body's been screaming for hours, and I'm terrified of stopping because stopping means feeling how exhausted I actually am. But I can't afford to collapse with rent due in days. I need to sleep now, actually sleep, not find one more reason to stay awake.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 08:00",
-      "t": 1783045005.3965485
     }
   ],
   "trends": {
@@ -787,6 +787,16 @@
         "social": 0,
         "fun": 0,
         "health": 79,
+        "stress": 9
+      },
+      {
+        "sim_minutes": 1680,
+        "sim": "Day 2 \u00b7 12:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 76,
         "stress": 9
       }
     ]
