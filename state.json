@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783046693,
+    "generated_at": 1783046883,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 24,
+    "tick": 25,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1440,
+    "sim_minutes": 1500,
     "day": 2,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 08:00"
+    "label": "Day 2 \u00b7 09:00"
   },
   "stats": {
     "energy": 94,
-    "full": 28,
+    "full": 20,
     "social": 0,
     "fun": 0,
-    "health": 88,
-    "stress": 3
+    "health": 85,
+    "stress": 9
   },
   "mind": {
     "mood": "bright and hopeful",
     "clarity": "sharp",
-    "temp": 0.75
+    "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783046811.1057837,
+      "sim": "Day 2 \u00b7 09:00",
+      "action": "sleep",
+      "thought": "I can feel it now\u2014the fog underneath the brightness, the way my thoughts are moving just a half-second too slowly. My body's been asking for rest for hours and I keep ignoring it. I'm terrified of what happens when I stop moving, but I'm more terrified of crashing when rent's due in three days. I need to actually sleep, not find another distraction.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 20,
+        "social": 0,
+        "fun": 0,
+        "health": 85,
+        "stress": 9
+      }
+    },
     {
       "t": 1783045005.3965485,
       "sim": "Day 2 \u00b7 08:00",
@@ -332,22 +348,6 @@
         "health": 100,
         "stress": 5
       }
-    },
-    {
-      "t": 1783010340.3902895,
-      "sim": "Day 1 \u00b7 13:00",
-      "action": "exercise",
-      "thought": "I'm already here at the park and feeling genuinely good\u2014sharp and hopeful. My body isn't hungry yet, and I've got solid energy to burn. This is exactly when exercise makes sense: I can use this momentum productively, stay healthy without spending money I can't spare, and maybe clear my head about the rent situation.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 20,
-        "full": 60,
-        "social": 35,
-        "fun": 50,
-        "health": 99,
-        "stress": 6
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I can feel it now\u2014the fog underneath the brightness, the way my thoughts are moving just a half-second too slowly. My body's been asking for rest for hours and I keep ignoring it. I'm terrified of what happens when I stop moving, but I'm more terrified of crashing when rent's due in three days. I need to actually sleep, not find another distraction.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 09:00",
+      "t": 1783046811.1057837
+    },
+    {
+      "kind": "observation",
       "text": "I'm fooling myself. This brightness is just the crash coming\u2014my head's already cotton, my body's been screaming for hours, and I'm terrified of stopping because stopping means feeling how exhausted I actually am. But I can't afford to collapse with rent due in days. I need to sleep now, actually sleep, not find one more reason to stay awake.",
       "importance": 8,
       "sim": "Day 2 \u00b7 08:00",
@@ -499,13 +506,6 @@
       "importance": 8,
       "sim": "Day 2 \u00b7 06:00",
       "t": 1783041356.8523414
-    },
-    {
-      "kind": "observation",
-      "text": "The brightness is a lie I'm telling myself\u2014I can feel the fog underneath, the static in my head. My body's been begging me to stop for hours. If I crash hard now, I'll be useless for days, and I can't afford that with rent looming. I need to sleep, actually sleep, not keep spinning reasons to stay awake.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 05:00",
-      "t": 1783039532.855228
     }
   ],
   "trends": {
@@ -758,6 +758,16 @@
         "fun": 0,
         "health": 88,
         "stress": 3
+      },
+      {
+        "sim_minutes": 1500,
+        "sim": "Day 2 \u00b7 09:00",
+        "energy": 94,
+        "full": 20,
+        "social": 0,
+        "fun": 0,
+        "health": 85,
+        "stress": 9
       }
     ]
   },
