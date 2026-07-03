@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783117023,
+    "generated_at": 1783117213,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 63,
+    "tick": 64,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3780,
-    "day": 3,
-    "hour": 23,
+    "sim_minutes": 3840,
+    "day": 4,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 3 \u00b7 23:00"
+    "label": "Day 4 \u00b7 00:00"
   },
   "stats": {
-    "energy": 31,
-    "full": 0,
-    "social": 90,
+    "energy": 25,
+    "full": 37,
+    "social": 85,
     "fun": 5,
     "health": 0,
-    "stress": 43
+    "stress": 42
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "foggy and slow",
-    "temp": 1.29
+    "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783117065.3040066,
+      "sim": "Day 4 \u00b7 00:00",
+      "action": "eat",
+      "thought": "I'm already at their place and my stomach is screaming and the rent is clawing at me, but walking away to be alone right now would just make everything worse. I need to actually ask them if we can order something\u2014stop pretending I'm fine and let them see I need this.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 25,
+        "full": 37,
+        "social": 85,
+        "fun": 5,
+        "health": 0,
+        "stress": 42
+      }
+    },
     {
       "t": 1783115236.6409805,
       "sim": "Day 3 \u00b7 23:00",
@@ -332,22 +348,6 @@
         "health": 26,
         "stress": 19
       }
-    },
-    {
-      "t": 1783081487.3533971,
-      "sim": "Day 3 \u00b7 04:00",
-      "action": "eat",
-      "thought": "I know what I'm doing\u2014I can see it happening in real time. The plan says eat, my fullness is zero, but I'm using that fog as permission to keep performing instead of actually stopping. The real lie is pretending sleep will fix this when what I'm actually terrified of is tomorrow, rent, the fact that I'm already drowning. I need to eat something small and real, not to \"stay functional,\" but because my body is actually empty and I can't think straight enough to even know what I actually need.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 88,
-        "full": 37,
-        "social": 0,
-        "fun": 0,
-        "health": 26,
-        "stress": 18
-      }
     }
   ],
   "build": {
@@ -424,33 +424,16 @@
       }
     ],
     "pos": {
-      "x": 2,
-      "y": 6
+      "x": 3,
+      "y": 4
     },
-    "at": null,
+    "at": "kitchen",
     "intent": {
       "action": "eat",
       "goal": "kitchen",
-      "arrived": false
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 2,
-        "y": 6
-      },
-      {
-        "x": 2,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 4
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
@@ -1165,6 +1148,16 @@
         "fun": 5,
         "health": 0,
         "stress": 43
+      },
+      {
+        "sim_minutes": 3840,
+        "sim": "Day 4 \u00b7 00:00",
+        "energy": 25,
+        "full": 37,
+        "social": 85,
+        "fun": 5,
+        "health": 0,
+        "stress": 42
       }
     ]
   },
@@ -1213,10 +1206,11 @@
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I can't think my way out of this loop alone \u2014 I need to actually be with someone, not perform being fine, just show up and let another person see me."
+        "note": "I can't think my way out of this loop alone \u2014 I need to actually be with someone, not perform being fine, just show up and let another person see me.",
+        "followed": false
       }
     ],
-    "active_index": 3,
+    "active_index": null,
     "revision": 3,
     "revised": "07:00"
   },
@@ -1235,6 +1229,6 @@
       17
     ],
     "overdue": 1,
-    "days_to_bill": 1
+    "days_to_bill": 0
   }
 }
