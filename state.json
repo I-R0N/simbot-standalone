@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1783054061,
+    "generated_at": 1783054253,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 28,
+    "tick": 29,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1680,
+    "sim_minutes": 1740,
     "day": 2,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 12:00"
+    "label": "Day 2 \u00b7 13:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 76,
+    "health": 73,
     "stress": 9
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783054113.6777194,
+      "sim": "Day 2 \u00b7 13:00",
+      "action": "sleep",
+      "thought": "The brightness is cracking and I know it. That fog is real, the static is real, and I'm running on fumes pretending to be fine. My body's been screaming and I've been ignoring it out of fear\u2014fear of stopping, fear of what comes next, fear of failing with rent three days away. But if I crash now, I'm actually finished. I need to sleep, actually sleep, not convince myself I'm sharp enough to see my friend.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 73,
+        "stress": 9
+      }
+    },
     {
       "t": 1783052289.2743335,
       "sim": "Day 2 \u00b7 12:00",
@@ -332,22 +348,6 @@
         "health": 97,
         "stress": 15
       }
-    },
-    {
-      "t": 1783017644.150459,
-      "sim": "Day 1 \u00b7 17:00",
-      "action": "exercise",
-      "thought": "The sun's warm and something in me is *alive* right now\u2014I can feel it despite what the numbers say. If I go home now I'll just crash hard, and this bright energy won't come back today. I'm already here, might as well use it.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 0,
-        "full": 28,
-        "social": 15,
-        "fun": 50,
-        "health": 100,
-        "stress": 5
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "The brightness is cracking and I know it. That fog is real, the static is real, and I'm running on fumes pretending to be fine. My body's been screaming and I've been ignoring it out of fear\u2014fear of stopping, fear of what comes next, fear of failing with rent three days away. But if I crash now, I'm actually finished. I need to sleep, actually sleep, not convince myself I'm sharp enough to see my friend.",
+      "importance": 8,
+      "sim": "Day 2 \u00b7 13:00",
+      "t": 1783054113.6777194
+    },
+    {
+      "kind": "observation",
       "text": "The brightness is cracking. I can feel it now\u2014that fog underneath, the static creeping in. My body's been screaming for hours and I keep ignoring it, but if I crash hard with rent due in three days, I'm finished. I need to actually sleep, not convince myself I'm fine enough to see my friend.",
       "importance": 8,
       "sim": "Day 2 \u00b7 12:00",
@@ -499,13 +506,6 @@
       "importance": 8,
       "sim": "Day 2 \u00b7 10:00",
       "t": 1783048635.3627079
-    },
-    {
-      "kind": "observation",
-      "text": "I can feel it now\u2014the fog underneath the brightness, the way my thoughts are moving just a half-second too slowly. My body's been asking for rest for hours and I keep ignoring it. I'm terrified of what happens when I stop moving, but I'm more terrified of crashing when rent's due in three days. I need to actually sleep, not find another distraction.",
-      "importance": 8,
-      "sim": "Day 2 \u00b7 09:00",
-      "t": 1783046811.1057837
     }
   ],
   "trends": {
@@ -798,6 +798,16 @@
         "fun": 0,
         "health": 76,
         "stress": 9
+      },
+      {
+        "sim_minutes": 1740,
+        "sim": "Day 2 \u00b7 13:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 73,
+        "stress": 9
       }
     ]
   },
@@ -813,7 +823,8 @@
         "goal": "friend",
         "loc_label": "Friend's place",
         "icon": "\ud83d\udc65",
-        "note": "I've been looping in my own head too long \u2014 being around a friend will break the cycle and give me something real to feel instead of just fear."
+        "note": "I've been looping in my own head too long \u2014 being around a friend will break the cycle and give me something real to feel instead of just fear.",
+        "followed": false
       },
       {
         "from_hour": 13,
@@ -836,7 +847,7 @@
         "note": "I'm running on fumes and food is the most basic thing I keep skipping \u2014 I need to actually fuel up before tonight."
       }
     ],
-    "active_index": 0,
+    "active_index": 1,
     "revision": 1,
     "revised": "10:00"
   },
