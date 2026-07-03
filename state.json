@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783090591,
+    "generated_at": 1783090773,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 48,
+    "tick": 49,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2880,
+    "sim_minutes": 2940,
     "day": 3,
-    "hour": 8,
+    "hour": 9,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 08:00"
+    "label": "Day 3 \u00b7 09:00"
   },
   "stats": {
     "energy": 94,
-    "full": 76,
+    "full": 68,
     "social": 0,
     "fun": 0,
     "health": 26,
-    "stress": 5
+    "stress": 3
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 0.76
+    "temp": 0.75
   },
   "activity": [
+    {
+      "t": 1783090592.3493602,
+      "sim": "Day 3 \u00b7 09:00",
+      "action": "sleep",
+      "thought": "The plan says eat, the scattered head says hunger, but I'm not actually hungry\u2014I'm terrified and running on fumes. If I keep performing fine and crash tomorrow when I need to work, rent destroys me. I need to stop lying to myself and actually rest before I break.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 68,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 3
+      }
+    },
     {
       "t": 1783088782.5006397,
       "sim": "Day 3 \u00b7 08:00",
@@ -330,22 +346,6 @@
         "social": 0,
         "fun": 0,
         "health": 70,
-        "stress": 9
-      }
-    },
-    {
-      "t": 1783054113.6777194,
-      "sim": "Day 2 \u00b7 13:00",
-      "action": "sleep",
-      "thought": "The brightness is cracking and I know it. That fog is real, the static is real, and I'm running on fumes pretending to be fine. My body's been screaming and I've been ignoring it out of fear\u2014fear of stopping, fear of what comes next, fear of failing with rent three days away. But if I crash now, I'm actually finished. I need to sleep, actually sleep, not convince myself I'm sharp enough to see my friend.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 73,
         "stress": 9
       }
     }
@@ -998,6 +998,16 @@
         "fun": 0,
         "health": 26,
         "stress": 5
+      },
+      {
+        "sim_minutes": 2940,
+        "sim": "Day 3 \u00b7 09:00",
+        "energy": 94,
+        "full": 68,
+        "social": 0,
+        "fun": 0,
+        "health": 26,
+        "stress": 3
       }
     ]
   },
