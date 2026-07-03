@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783109633,
+    "generated_at": 1783109823,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 59,
+    "tick": 60,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3540,
+    "sim_minutes": 3600,
     "day": 3,
-    "hour": 19,
+    "hour": 20,
     "minute": 0,
-    "phase": "day",
-    "label": "Day 3 \u00b7 19:00"
+    "phase": "night",
+    "label": "Day 3 \u00b7 20:00"
   },
   "stats": {
-    "energy": 55,
+    "energy": 49,
     "full": 0,
-    "social": 55,
-    "fun": 5,
-    "health": 11,
-    "stress": 30
+    "social": 85,
+    "fun": 10,
+    "health": 8,
+    "stress": 32
   },
   "mind": {
     "mood": "flat and heavy",
     "clarity": "a little scattered",
-    "temp": 1.09
+    "temp": 1.14
   },
   "activity": [
+    {
+      "t": 1783109761.1244004,
+      "sim": "Day 3 \u00b7 20:00",
+      "action": "socialize",
+      "thought": "I'm five blocks away and my stomach is empty and my chest won't stop tightening about the rent, but if I eat alone in my room I'll just spiral harder. My friend is there. I need to actually walk there instead of sitting here watching myself fracture.",
+      "whisper": "",
+      "loc": "friend",
+      "stats": {
+        "energy": 49,
+        "full": 0,
+        "social": 85,
+        "fun": 10,
+        "health": 8,
+        "stress": 32
+      }
+    },
     {
       "t": 1783107936.2621686,
       "sim": "Day 3 \u00b7 19:00",
@@ -332,22 +348,6 @@
         "health": 32,
         "stress": 21
       }
-    },
-    {
-      "t": 1783074173.768842,
-      "sim": "Day 3 \u00b7 00:00",
-      "action": "sleep",
-      "thought": "The plan says eat but I can feel the lie in it\u2014I'm not hungry, I'm *tired*, and there's this fog creeping in that food won't touch. My body's been running on fear for hours and I can feel the crash coming. If I keep pretending I'm fine and push through, I'll collapse with rent due in three days and \u229915 to my name. I need to actually sleep before something breaks.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 40,
-        "stress": 9
-      }
     }
   ],
   "build": {
@@ -424,33 +424,16 @@
       }
     ],
     "pos": {
-      "x": 2,
-      "y": 6
+      "x": 1,
+      "y": 9
     },
-    "at": null,
+    "at": "friend",
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
-      "arrived": false
+      "action": "socialize",
+      "goal": "friend",
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 2,
-        "y": 6
-      },
-      {
-        "x": 2,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 4
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
@@ -1125,6 +1108,16 @@
         "fun": 5,
         "health": 11,
         "stress": 30
+      },
+      {
+        "sim_minutes": 3600,
+        "sim": "Day 3 \u00b7 20:00",
+        "energy": 49,
+        "full": 0,
+        "social": 85,
+        "fun": 10,
+        "health": 8,
+        "stress": 32
       }
     ]
   },
