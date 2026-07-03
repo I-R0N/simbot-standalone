@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1783064964,
+    "generated_at": 1783065153,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 34,
+    "tick": 35,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2040,
+    "sim_minutes": 2100,
     "day": 2,
-    "hour": 18,
+    "hour": 19,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 18:00"
+    "label": "Day 2 \u00b7 19:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 58,
+    "health": 55,
     "stress": 9
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783065062.467056,
+      "sim": "Day 2 \u00b7 19:00",
+      "action": "sleep",
+      "thought": "I can feel it now\u2014the fog under the brightness, the delay in my thinking. I've been running on fear and it's catching up. The plan said eat, but I know what's real: I'm about to crash hard, and if I go down now with rent in three days and almost no money, I'm actually finished. I need to sleep before the mask breaks completely.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 55,
+        "stress": 9
+      }
+    },
     {
       "t": 1783063238.0008297,
       "sim": "Day 2 \u00b7 18:00",
@@ -332,22 +348,6 @@
         "health": 88,
         "stress": 40
       }
-    },
-    {
-      "t": 1783028595.2097085,
-      "sim": "Day 1 \u00b7 23:00",
-      "action": "eat",
-      "thought": "My body is screaming at me\u2014energy at zero, brain fogged over. I'm at the Kitchen already, and food is the one thing that might actually stop me from falling apart right now. The bright feeling is real, but it's masking how badly I need to eat and sleep.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 74,
-        "social": 20,
-        "fun": 40,
-        "health": 88,
-        "stress": 39
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "I can feel it now\u2014the fog under the brightness, the delay in my thinking. I've been running on fear and it's catching up. The plan said eat, but I know what's real: I'm about to crash hard, and if I go down now with rent in three days and almost no money, I'm actually finished. I need to sleep before the mask breaks completely.",
+      "importance": 9,
+      "sim": "Day 2 \u00b7 19:00",
+      "t": 1783065062.467056
+    },
+    {
+      "kind": "observation",
       "text": "The sharpness I'm feeling isn't real\u2014it's the last bright moment before the crash. My body's been screaming and I've been running on fear, and if I collapse with rent due in three days and \u229915 in my pocket, I'm done. I need to stop lying to myself about being \"fine\" and actually sleep before the mask shatters completely.",
       "importance": 9,
       "sim": "Day 2 \u00b7 18:00",
@@ -499,13 +506,6 @@
       "importance": 9,
       "sim": "Day 2 \u00b7 16:00",
       "t": 1783059585.630777
-    },
-    {
-      "kind": "observation",
-      "text": "The brightness was never real\u2014just adrenaline masking how close I am to breaking. I can feel the fog now, that delay in my thoughts, and my body's been screaming for hours. Three days until rent and I have \u229915. If I crash now, I'm done. I need to sleep, actually sleep, before the mask shatters completely.",
-      "importance": 9,
-      "sim": "Day 2 \u00b7 15:00",
-      "t": 1783057771.4217794
     }
   ],
   "trends": {
@@ -857,6 +857,16 @@
         "social": 0,
         "fun": 0,
         "health": 58,
+        "stress": 9
+      },
+      {
+        "sim_minutes": 2100,
+        "sim": "Day 2 \u00b7 19:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 55,
         "stress": 9
       }
     ]
