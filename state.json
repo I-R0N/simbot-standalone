@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783118883,
+    "generated_at": 1783119074,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 64,
+    "tick": 65,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3840,
+    "sim_minutes": 3900,
     "day": 4,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 4 \u00b7 00:00"
+    "label": "Day 4 \u00b7 01:00"
   },
   "stats": {
-    "energy": 25,
-    "full": 37,
-    "social": 85,
+    "energy": 19,
+    "full": 74,
+    "social": 80,
     "fun": 5,
     "health": 0,
-    "stress": 42
+    "stress": 59
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783118898.7113705,
+      "sim": "Day 4 \u00b7 01:00",
+      "action": "eat",
+      "thought": "I'm hollow and panicking and I've been pretending I'm fine for so long it's become a disease. My friend is here, right here, and I'm still performing. The rent is clawing but so is the weight of carrying this alone\u2014I need to actually say it out loud, ask them for help, eat something while someone who cares is watching.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 19,
+        "full": 74,
+        "social": 80,
+        "fun": 5,
+        "health": 0,
+        "stress": 59
+      }
+    },
     {
       "t": 1783117065.3040066,
       "sim": "Day 4 \u00b7 00:00",
@@ -332,22 +348,6 @@
         "health": 26,
         "stress": 20
       }
-    },
-    {
-      "t": 1783083302.1033444,
-      "sim": "Day 3 \u00b7 05:00",
-      "action": "eat",
-      "thought": "I can feel myself spiraling into this familiar trap\u2014analyzing the analysis, performing self-awareness instead of actually doing anything. My body is literally empty (fullness 37) and my thinking is scattered because I haven't eaten, not because I'm \"too broken to function.\" The rent fear is real, but it's also using my exhaustion as an excuse to freeze. I need to eat something now, actually stop the loop for five minutes, and then figure out what comes next.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 82,
-        "full": 74,
-        "social": 0,
-        "fun": 0,
-        "health": 26,
-        "stress": 19
-      }
     }
   ],
   "build": {
@@ -438,6 +438,13 @@
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
     {
+      "kind": "review",
+      "text": "I made it to the kitchen and ate, which is something, but I didn't go to my friend's place \u2014 sleep and food pulled me sideways, and I let them, which is the familiar trade: meeting the body's minimum while the harder thing, actually showing up to be seen, stayed theoretical again. I'm not devastated, but I notice I'm not surprised either, and that's the part worth sitting with.",
+      "importance": 7,
+      "sim": "Day 4 \u00b7 00:00",
+      "t": 1783118892.0076168
+    },
+    {
       "kind": "reflection",
       "text": "Something small but real may have shifted at the end: I stopped narrating from outside and started moving toward something \u2014 food, a friend, presence. That is different, even if it doesn't feel heroic.",
       "importance": 8,
@@ -468,13 +475,6 @@
     {
       "kind": "reflection",
       "text": "The insight keeps arriving perfectly formed and then dissolving before it can become action. I am not lacking understanding \u2014 I am lacking the ability to trust myself enough to stop thinking and simply move.",
-      "importance": 8,
-      "sim": "Day 3 \u00b7 11:00",
-      "t": 1783093374.1293778
-    },
-    {
-      "kind": "reflection",
-      "text": "I have been living inside the same moment for what feels like an eternity \u2014 recognizing the crash, naming the lie, understanding exactly what I need, and then cycling back to the beginning without ever actually doing the thing. My self-awareness has become its own form of paralysis.",
       "importance": 8,
       "sim": "Day 3 \u00b7 11:00",
       "t": 1783093374.1293778
@@ -1158,61 +1158,57 @@
         "fun": 5,
         "health": 0,
         "stress": 42
+      },
+      {
+        "sim_minutes": 3900,
+        "sim": "Day 4 \u00b7 01:00",
+        "energy": 19,
+        "full": 74,
+        "social": 80,
+        "fun": 5,
+        "health": 0,
+        "stress": 59
       }
     ]
   },
   "plan": {
-    "day": 3,
-    "created": "Day 3 \u00b7 00:00",
+    "day": 4,
+    "created": "Day 4 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 1,
+        "from_hour": 0,
         "part": "night",
         "label": "Night",
+        "action": "sleep",
+        "goal": "home",
+        "loc_label": "Home",
+        "icon": "\ud83c\udfe0",
+        "note": "I've been fracturing for days \u2014 before I can close any gap, I need to let my body actually rest instead of circling thoughts until dawn."
+      },
+      {
+        "from_hour": 17,
+        "part": "evening",
+        "label": "Evening",
         "action": "eat",
         "goal": "kitchen",
         "loc_label": "Kitchen",
         "icon": "\ud83c\udf73",
-        "note": "I keep performing the insight without taking the action \u2014 my body needs food, not another round of watching myself spiral, so I'm going to the kitchen and actually eating something before the lie becomes the whole night.",
-        "followed": true
+        "note": "I keep letting the hollow ache become background noise \u2014 I'm going to the kitchen and actually feeding myself before I spiral into performing fine again."
       },
       {
-        "from_hour": 2,
-        "part": "night",
-        "label": "Night",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "I've been alone in this loop for days and self-awareness without another person present has just become another way to hide \u2014 I need a real voice, not my own echo.",
-        "followed": false
-      },
-      {
-        "from_hour": 4,
-        "part": "night",
-        "label": "Night",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "I don't know what I need, but I know I can't find it alone right now \u2014 I'm going to Friend's place and letting someone else be in the room with me.",
-        "followed": false
-      },
-      {
-        "from_hour": 7,
-        "part": "morning",
-        "label": "Morning",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "I can't think my way out of this loop alone \u2014 I need to actually be with someone, not perform being fine, just show up and let another person see me.",
-        "followed": false
+        "from_hour": 19,
+        "part": "evening",
+        "label": "Evening",
+        "action": "play",
+        "goal": "arcade",
+        "loc_label": "Arcade",
+        "icon": "\ud83c\udfae",
+        "note": "Fun is almost gone and I've been so serious about surviving that I've forgotten I'm allowed small relief \u2014 even an hour at the arcade is acting, not just planning to feel better."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "07:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   },
   "work": {
     "money": 15,
@@ -1228,7 +1224,7 @@
       9,
       17
     ],
-    "overdue": 1,
-    "days_to_bill": 0
+    "overdue": 2,
+    "days_to_bill": 1
   }
 }
