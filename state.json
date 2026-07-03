@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generated_at": 1783066861,
+    "generated_at": 1783067053,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 35,
+    "tick": 36,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 2100,
+    "sim_minutes": 2160,
     "day": 2,
-    "hour": 19,
+    "hour": 20,
     "minute": 0,
-    "phase": "day",
-    "label": "Day 2 \u00b7 19:00"
+    "phase": "night",
+    "label": "Day 2 \u00b7 20:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 55,
+    "health": 52,
     "stress": 9
   },
   "mind": {
@@ -29,6 +29,22 @@
     "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783066888.2017136,
+      "sim": "Day 2 \u00b7 20:00",
+      "action": "sleep",
+      "thought": "The plan says eat, but I can feel the lie now\u2014that brightness isn't real, it's the last gasp before the crash. My thoughts are already getting foggy, and I have three days before rent is due with almost nothing. If I collapse now, I'm actually finished. I need to sleep while I still can.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 52,
+        "stress": 9
+      }
+    },
     {
       "t": 1783065062.467056,
       "sim": "Day 2 \u00b7 19:00",
@@ -331,22 +347,6 @@
         "fun": 35,
         "health": 88,
         "stress": 27
-      }
-    },
-    {
-      "t": 1783030419.8339608,
-      "sim": "Day 2 \u00b7 00:00",
-      "action": "eat",
-      "thought": "My energy is completely bottomed out and my thinking is so foggy I can barely trust myself right now. I'm already here at the Kitchen\u2014eating something is the only thing that makes sense before I crash completely, even though every part of me wants to just collapse into sleep.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 92,
-        "social": 15,
-        "fun": 40,
-        "health": 88,
-        "stress": 40
       }
     }
   ],
@@ -867,6 +867,16 @@
         "social": 0,
         "fun": 0,
         "health": 55,
+        "stress": 9
+      },
+      {
+        "sim_minutes": 2160,
+        "sim": "Day 2 \u00b7 20:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 52,
         "stress": 9
       }
     ]
