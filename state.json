@@ -1,34 +1,50 @@
 {
   "meta": {
-    "generated_at": 1783063084,
+    "generated_at": 1783063264,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 33,
+    "tick": 34,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 1980,
+    "sim_minutes": 2040,
     "day": 2,
-    "hour": 17,
+    "hour": 18,
     "minute": 0,
     "phase": "day",
-    "label": "Day 2 \u00b7 17:00"
+    "label": "Day 2 \u00b7 18:00"
   },
   "stats": {
     "energy": 94,
     "full": 0,
     "social": 0,
     "fun": 0,
-    "health": 61,
+    "health": 58,
     "stress": 9
   },
   "mind": {
     "mood": "even",
-    "clarity": "sharp",
+    "clarity": "a little scattered",
     "temp": 0.77
   },
   "activity": [
+    {
+      "t": 1783063238.0008297,
+      "sim": "Day 2 \u00b7 18:00",
+      "action": "sleep",
+      "thought": "The sharpness I'm feeling isn't real\u2014it's the last bright moment before the crash. My body's been screaming and I've been running on fear, and if I collapse with rent due in three days and \u229915 in my pocket, I'm done. I need to stop lying to myself about being \"fine\" and actually sleep before the mask shatters completely.",
+      "whisper": "",
+      "loc": "home",
+      "stats": {
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 58,
+        "stress": 9
+      }
+    },
     {
       "t": 1783061413.440341,
       "sim": "Day 2 \u00b7 17:00",
@@ -332,22 +348,6 @@
         "health": 88,
         "stress": 39
       }
-    },
-    {
-      "t": 1783026770.1986036,
-      "sim": "Day 1 \u00b7 22:00",
-      "action": "eat",
-      "thought": "I'm hitting a wall hard\u2014my brain is fog and my body is running on fumes. Kitchen is three blocks away and I need food *now* before I completely crash. The bright feeling is nice but it won't carry me through the night if I'm this depleted.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 0,
-        "full": 37,
-        "social": 25,
-        "fun": 40,
-        "health": 88,
-        "stress": 38
-      }
     }
   ],
   "build": {
@@ -481,6 +481,13 @@
     },
     {
       "kind": "observation",
+      "text": "The sharpness I'm feeling isn't real\u2014it's the last bright moment before the crash. My body's been screaming and I've been running on fear, and if I collapse with rent due in three days and \u229915 in my pocket, I'm done. I need to stop lying to myself about being \"fine\" and actually sleep before the mask shatters completely.",
+      "importance": 9,
+      "sim": "Day 2 \u00b7 18:00",
+      "t": 1783063238.0008297
+    },
+    {
+      "kind": "observation",
       "text": "The brightness is cracking and I know it now. I can feel that fog underneath, the static creeping in\u2014I've been running on pure fear and adrenaline, ignoring my body's screams, and I'm about to hit a wall hard. If I crash with rent due in three days and only \u229915 to my name, I'm finished. I need to actually sleep, not convince myself I'm sharp enough to keep the momentum going.",
       "importance": 9,
       "sim": "Day 2 \u00b7 17:00",
@@ -499,13 +506,6 @@
       "importance": 9,
       "sim": "Day 2 \u00b7 15:00",
       "t": 1783057771.4217794
-    },
-    {
-      "kind": "observation",
-      "text": "The brightness is fake and I know it now\u2014I can feel the fog creeping in, that half-second delay in my thoughts. My body's been screaming and I've been running on pure adrenaline and fear, but if I crash hard with rent due in three days, I'm actually finished. I need to sleep now, actually sleep, before the mask cracks completely.",
-      "importance": 9,
-      "sim": "Day 2 \u00b7 14:00",
-      "t": 1783055946.4738698
     }
   ],
   "trends": {
@@ -847,6 +847,16 @@
         "social": 0,
         "fun": 0,
         "health": 61,
+        "stress": 9
+      },
+      {
+        "sim_minutes": 2040,
+        "sim": "Day 2 \u00b7 18:00",
+        "energy": 94,
+        "full": 0,
+        "social": 0,
+        "fun": 0,
+        "health": 58,
         "stress": 9
       }
     ]
