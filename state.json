@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generated_at": 1783098683,
+    "generated_at": 1783098873,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 53,
+    "tick": 54,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 3180,
+    "sim_minutes": 3240,
     "day": 3,
-    "hour": 13,
+    "hour": 14,
     "minute": 0,
     "phase": "day",
-    "label": "Day 3 \u00b7 13:00"
+    "label": "Day 3 \u00b7 14:00"
   },
   "stats": {
-    "energy": 86,
-    "full": 36,
+    "energy": 85,
+    "full": 28,
     "social": 0,
-    "fun": 6,
+    "fun": 9,
     "health": 26,
     "stress": 3
   },
@@ -29,6 +29,22 @@
     "temp": 0.8
   },
   "activity": [
+    {
+      "t": 1783098824.9296865,
+      "sim": "Day 3 \u00b7 14:00",
+      "action": "relax",
+      "thought": "I can feel myself coming apart\u2014scattered, heavy, terrified about rent but also knowing that if I push into work right now in this state, I'll either crash or fail. My body is screaming that it needs to stop, not go. I'm going to actually listen to that instead of just knowing it and ignoring it.",
+      "whisper": "",
+      "loc": "park",
+      "stats": {
+        "energy": 85,
+        "full": 28,
+        "social": 0,
+        "fun": 9,
+        "health": 26,
+        "stress": 3
+      }
+    },
     {
       "t": 1783096999.536982,
       "sim": "Day 3 \u00b7 13:00",
@@ -330,22 +346,6 @@
         "social": 0,
         "fun": 0,
         "health": 55,
-        "stress": 9
-      }
-    },
-    {
-      "t": 1783063238.0008297,
-      "sim": "Day 2 \u00b7 18:00",
-      "action": "sleep",
-      "thought": "The sharpness I'm feeling isn't real\u2014it's the last bright moment before the crash. My body's been screaming and I've been running on fear, and if I collapse with rent due in three days and \u229915 in my pocket, I'm done. I need to stop lying to myself about being \"fine\" and actually sleep before the mask shatters completely.",
-      "whisper": "",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 0,
-        "social": 0,
-        "fun": 0,
-        "health": 58,
         "stress": 9
       }
     }
@@ -1046,6 +1046,16 @@
         "full": 36,
         "social": 0,
         "fun": 6,
+        "health": 26,
+        "stress": 3
+      },
+      {
+        "sim_minutes": 3240,
+        "sim": "Day 3 \u00b7 14:00",
+        "energy": 85,
+        "full": 28,
+        "social": 0,
+        "fun": 9,
         "health": 26,
         "stress": 3
       }
