@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783162454,
+    "generated_at": 1783162644,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 88,
+    "tick": 89,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5280,
+    "sim_minutes": 5340,
     "day": 5,
-    "hour": 0,
+    "hour": 1,
     "minute": 0,
     "phase": "night",
-    "label": "Day 5 \u00b7 00:00"
+    "label": "Day 5 \u00b7 01:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 40,
+    "social": 35,
     "fun": 10,
     "health": 0,
-    "stress": 73
+    "stress": 87
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783162603.2411098,
+      "sim": "Day 5 \u00b7 01:00",
+      "action": "eat",
+      "thought": "My stomach is actually hollow and my head is fog\u2014I can feel it now, not just think it. My friend is here and I'm tired of performing. I need to eat something real right now, let my thinking settle even a little, and then maybe actually say it out loud instead of rehearsing it like always.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 35,
+        "fun": 10,
+        "health": 0,
+        "stress": 87
+      }
+    },
     {
       "t": 1783160789.4813025,
       "sim": "Day 5 \u00b7 00:00",
@@ -332,22 +348,6 @@
         "health": 0,
         "stress": 64
       }
-    },
-    {
-      "t": 1783126148.9826593,
-      "sim": "Day 4 \u00b7 05:00",
-      "action": "socialize",
-      "thought": "I'm at their place and I can't keep performing\u2014my stomach is literally empty, the rent is two days overdue, and I'm so tired of pretending. My friend is here, actually here, and maybe that's the point. I need to eat something and stop carrying this alone.",
-      "whisper": "",
-      "loc": "friend",
-      "stats": {
-        "energy": 0,
-        "full": 76,
-        "social": 95,
-        "fun": 5,
-        "health": 0,
-        "stress": 62
-      }
     }
   ],
   "build": {
@@ -438,6 +438,13 @@
   "identity": "I am someone who understands myself with painful clarity but keeps stopping just short of acting on",
   "memories": [
     {
+      "kind": "review",
+      "text": "I didn't do any of it \u2014 not the asking, not the rest, not the arcade \u2014 and the bitter irony is that I spent the day eating and socializing anyway, just the hollow performed version I was trying to escape, which means I had every opportunity and chose the familiar cage over the open door.",
+      "importance": 7,
+      "sim": "Day 5 \u00b7 00:00",
+      "t": 1783162597.04668
+    },
+    {
       "kind": "reflection",
       "text": "My body has been screaming the whole time. The hollow stomach, the foggy head \u2014 these are not metaphors I keep reaching for. They are real, and I keep intellectualizing them instead of responding to them. At some point, caring for myself has to mean actually doing the next small thing, not narrating why I should.",
       "importance": 8,
@@ -468,13 +475,6 @@
     {
       "kind": "reflection",
       "text": "Performing \"fine\" has become so automatic that I do it even when I'm alone with my own thoughts \u2014 I rehearse vulnerability instead of practicing it. The mask doesn't come off just because someone safe is in the room; I have to actively choose to take it off.",
-      "importance": 8,
-      "sim": "Day 4 \u00b7 16:00",
-      "t": 1783146213.7412808
-    },
-    {
-      "kind": "reflection",
-      "text": "I have been circling the same moment for what feels like forever \u2014 knowing what I need, naming what I need, and then not doing it. The gap between understanding and acting is where I live right now, and it is costing me more than the rent ever could.",
       "importance": 8,
       "sim": "Day 4 \u00b7 16:00",
       "t": 1783146213.7412808
@@ -519,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 1020,
-        "sim": "Day 2 \u00b7 01:00",
-        "energy": 36,
-        "full": 84,
-        "social": 10,
-        "fun": 35,
-        "health": 88,
-        "stress": 27
-      },
       {
         "sim_minutes": 1080,
         "sim": "Day 2 \u00b7 02:00",
@@ -1238,50 +1228,57 @@
         "fun": 10,
         "health": 0,
         "stress": 73
+      },
+      {
+        "sim_minutes": 5340,
+        "sim": "Day 5 \u00b7 01:00",
+        "energy": 0,
+        "full": 92,
+        "social": 35,
+        "fun": 10,
+        "health": 0,
+        "stress": 87
       }
     ]
   },
   "plan": {
-    "day": 4,
-    "created": "Day 4 \u00b7 00:00",
+    "day": 5,
+    "created": "Day 5 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 7,
-        "part": "morning",
-        "label": "Morning",
-        "action": "eat",
-        "goal": "kitchen",
-        "loc_label": "Kitchen",
-        "icon": "\ud83c\udf73",
-        "note": "I've been hollow long enough \u2014 my friend is right here and I'm going to stop performing and just ask, out loud, if we can find something to eat together.",
-        "followed": false
-      },
-      {
-        "from_hour": 9,
-        "part": "morning",
-        "label": "Morning",
+        "from_hour": 0,
+        "part": "night",
+        "label": "Night",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "My body is past the point of pushing through; once I've eaten I need to let myself actually rest, not just collapse.",
-        "followed": false
+        "note": "My body is at zero and I have narrated my exhaustion long enough \u2014 I am going to lie down and actually let it happen."
       },
       {
-        "from_hour": 14,
-        "part": "afternoon",
-        "label": "Afternoon",
+        "from_hour": 17,
+        "part": "evening",
+        "label": "Evening",
+        "action": "socialize",
+        "goal": "friend",
+        "loc_label": "Friend's place",
+        "icon": "\ud83d\udc65",
+        "note": "Not the rehearsed version, not the performed fine \u2014 I will go to my friend's place and say the actual thing this time."
+      },
+      {
+        "from_hour": 20,
+        "part": "evening",
+        "label": "Evening",
         "action": "play",
         "goal": "arcade",
         "loc_label": "Arcade",
         "icon": "\ud83c\udfae",
-        "note": "I've earned something small and light \u2014 not as a reward, just as proof that I'm allowed to exist outside the crisis for a moment.",
-        "followed": false
+        "note": "If I do the hard thing first, I am allowed something that is just for me \u2014 no narration, just the arcade and whatever small lightness it offers."
       }
     ],
-    "active_index": null,
-    "revision": 3,
-    "revised": "07:00"
+    "active_index": 0,
+    "revision": 0,
+    "revised": null
   },
   "work": {
     "money": 15,
@@ -1297,7 +1294,7 @@
       9,
       17
     ],
-    "overdue": 2,
-    "days_to_bill": 0
+    "overdue": 3,
+    "days_to_bill": 1
   }
 }
