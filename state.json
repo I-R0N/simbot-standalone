@@ -1,24 +1,24 @@
 {
   "meta": {
-    "generated_at": 1783171655,
+    "generated_at": 1783171843,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 93,
+    "tick": 94,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5580,
+    "sim_minutes": 5640,
     "day": 5,
-    "hour": 5,
+    "hour": 6,
     "minute": 0,
-    "phase": "night",
-    "label": "Day 5 \u00b7 05:00"
+    "phase": "day",
+    "label": "Day 5 \u00b7 06:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 15,
+    "social": 10,
     "fun": 10,
     "health": 0,
     "stress": 84
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783171732.264774,
+      "sim": "Day 5 \u00b7 06:00",
+      "action": "eat",
+      "thought": "My stomach's actually hollow\u2014I can feel it now\u2014and the fog in my head won't lift until I eat something real. My friend is right here and I'm so tired of rehearsing lines in my head instead of actually saying anything true. I'm already in the kitchen. I can do this one thing right now.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 10,
+        "fun": 10,
+        "health": 0,
+        "stress": 84
+      }
+    },
     {
       "t": 1783169906.987897,
       "sim": "Day 5 \u00b7 05:00",
@@ -332,22 +348,6 @@
         "health": 0,
         "stress": 58
       }
-    },
-    {
-      "t": 1783135258.0274472,
-      "sim": "Day 4 \u00b7 10:00",
-      "action": "socialize",
-      "thought": "I'm sitting here hollow and my friend is right in front of me\u2014I keep circling the same thought instead of just opening my mouth. My stomach is actually empty, the rent is two days overdue, and I'm so tired of performing. I need to stop analyzing and actually ask.",
-      "whisper": "",
-      "loc": "friend",
-      "stats": {
-        "energy": 0,
-        "full": 68,
-        "social": 95,
-        "fun": 10,
-        "health": 0,
-        "stress": 60
-      }
     }
   ],
   "build": {
@@ -519,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 1320,
-        "sim": "Day 2 \u00b7 06:00",
-        "energy": 94,
-        "full": 44,
-        "social": 0,
-        "fun": 10,
-        "health": 88,
-        "stress": 3
-      },
       {
         "sim_minutes": 1380,
         "sim": "Day 2 \u00b7 07:00",
@@ -1235,6 +1225,16 @@
         "energy": 0,
         "full": 92,
         "social": 15,
+        "fun": 10,
+        "health": 0,
+        "stress": 84
+      },
+      {
+        "sim_minutes": 5640,
+        "sim": "Day 5 \u00b7 06:00",
+        "energy": 0,
+        "full": 92,
+        "social": 10,
         "fun": 10,
         "health": 0,
         "stress": 84
