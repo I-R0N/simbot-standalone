@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783158874,
+    "generated_at": 1783159062,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 86,
+    "tick": 87,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5160,
+    "sim_minutes": 5220,
     "day": 4,
-    "hour": 22,
+    "hour": 23,
     "minute": 0,
     "phase": "night",
-    "label": "Day 4 \u00b7 22:00"
+    "label": "Day 4 \u00b7 23:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 50,
+    "social": 45,
     "fun": 10,
     "health": 0,
-    "stress": 71
+    "stress": 72
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783158964.7553666,
+      "sim": "Day 4 \u00b7 23:00",
+      "action": "eat",
+      "thought": "My stomach's actually empty\u2014I can feel it now, that hollow ache\u2014and my head is complete fog. My friend is right here and I'm so tired of pretending I'm fine when I'm not. I need to eat something real, get my thinking even slightly clearer, and then... maybe actually say it out loud this time instead of just rehearsing in my head.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 45,
+        "fun": 10,
+        "health": 0,
+        "stress": 72
+      }
+    },
     {
       "t": 1783157139.8863719,
       "sim": "Day 4 \u00b7 22:00",
@@ -332,22 +348,6 @@
         "health": 0,
         "stress": 65
       }
-    },
-    {
-      "t": 1783122513.7365975,
-      "sim": "Day 4 \u00b7 03:00",
-      "action": "eat",
-      "thought": "I'm at their place now and I can feel the mask still on, even though I'm exhausted from wearing it. My stomach is actually hollow\u2014not metaphorically, actually empty\u2014and the rent debt is a weight I've been carrying alone for two days. I need to eat something real, and I need to stop pretending I'm fine long enough to actually say it out loud.",
-      "whisper": "",
-      "loc": "kitchen",
-      "stats": {
-        "energy": 7,
-        "full": 92,
-        "social": 70,
-        "fun": 0,
-        "health": 0,
-        "stress": 63
-      }
     }
   ],
   "build": {
@@ -519,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 900,
-        "sim": "Day 1 \u00b7 23:00",
-        "energy": 0,
-        "full": 74,
-        "social": 20,
-        "fun": 40,
-        "health": 88,
-        "stress": 39
-      },
       {
         "sim_minutes": 960,
         "sim": "Day 2 \u00b7 00:00",
@@ -1238,6 +1228,16 @@
         "fun": 10,
         "health": 0,
         "stress": 71
+      },
+      {
+        "sim_minutes": 5220,
+        "sim": "Day 4 \u00b7 23:00",
+        "energy": 0,
+        "full": 92,
+        "social": 45,
+        "fun": 10,
+        "health": 0,
+        "stress": 72
       }
     ]
   },
