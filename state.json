@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783127933,
+    "generated_at": 1783128114,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 69,
+    "tick": 70,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4140,
+    "sim_minutes": 4200,
     "day": 4,
-    "hour": 5,
+    "hour": 6,
     "minute": 0,
-    "phase": "night",
-    "label": "Day 4 \u00b7 05:00"
+    "phase": "day",
+    "label": "Day 4 \u00b7 06:00"
   },
   "stats": {
     "energy": 0,
-    "full": 76,
-    "social": 95,
-    "fun": 5,
+    "full": 68,
+    "social": 90,
+    "fun": 0,
     "health": 0,
-    "stress": 62
+    "stress": 64
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783127973.8907328,
+      "sim": "Day 4 \u00b7 06:00",
+      "action": "eat",
+      "thought": "My stomach is actually hollow and I'm so tired of pretending everything's fine. My friend is right here\u2014maybe I can just... ask. Not perform. Actually say it out loud that I'm struggling.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 0,
+        "full": 68,
+        "social": 90,
+        "fun": 0,
+        "health": 0,
+        "stress": 64
+      }
+    },
     {
       "t": 1783126148.9826593,
       "sim": "Day 4 \u00b7 05:00",
@@ -332,22 +348,6 @@
         "health": 26,
         "stress": 5
       }
-    },
-    {
-      "t": 1783091542.1037278,
-      "sim": "Day 3 \u00b7 10:00",
-      "action": "sleep",
-      "thought": "The thought keeps circling back\u2014work, earn, survive the rent deadline. But I can feel myself fraying at the edges. My thinking is scattered, my body is heavy, and I'm running on terror, not fuel. If I push to work right now in this state, I'll either crash mid-shift or make mistakes that cost me the job. I need to actually stop and let myself rest, even though every anxious part of me screams that I don't have time.",
-      "whisper": "Make some money",
-      "loc": "home",
-      "stats": {
-        "energy": 94,
-        "full": 60,
-        "social": 0,
-        "fun": 0,
-        "health": 26,
-        "stress": 3
-      }
     }
   ],
   "build": {
@@ -424,16 +424,33 @@
       }
     ],
     "pos": {
-      "x": 1,
-      "y": 9
+      "x": 2,
+      "y": 6
     },
-    "at": "friend",
+    "at": null,
     "intent": {
-      "action": "socialize",
-      "goal": "friend",
-      "arrived": true
+      "action": "eat",
+      "goal": "kitchen",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 2,
+        "y": 6
+      },
+      {
+        "x": 2,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 5
+      },
+      {
+        "x": 3,
+        "y": 4
+      }
+    ]
   },
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
@@ -1208,6 +1225,16 @@
         "fun": 5,
         "health": 0,
         "stress": 62
+      },
+      {
+        "sim_minutes": 4200,
+        "sim": "Day 4 \u00b7 06:00",
+        "energy": 0,
+        "full": 68,
+        "social": 90,
+        "fun": 0,
+        "health": 0,
+        "stress": 64
       }
     ]
   },
