@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783160774,
+    "generated_at": 1783160963,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 87,
+    "tick": 88,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5220,
-    "day": 4,
-    "hour": 23,
+    "sim_minutes": 5280,
+    "day": 5,
+    "hour": 0,
     "minute": 0,
     "phase": "night",
-    "label": "Day 4 \u00b7 23:00"
+    "label": "Day 5 \u00b7 00:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 45,
+    "social": 40,
     "fun": 10,
     "health": 0,
-    "stress": 72
+    "stress": 73
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783160789.4813025,
+      "sim": "Day 5 \u00b7 00:00",
+      "action": "eat",
+      "thought": "My stomach is actually hollow, my head is fog, and I keep lying to myself about being fine when I'm not. I'm at the Kitchen already\u2014I can actually eat right now instead of just thinking about it. Maybe if I eat something real, my head will clear enough to actually tell my friend what's happening instead of just rehearsing it in my head like always.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 40,
+        "fun": 10,
+        "health": 0,
+        "stress": 73
+      }
+    },
     {
       "t": 1783158964.7553666,
       "sim": "Day 4 \u00b7 23:00",
@@ -332,22 +348,6 @@
         "health": 0,
         "stress": 62
       }
-    },
-    {
-      "t": 1783124321.9453158,
-      "sim": "Day 4 \u00b7 04:00",
-      "action": "socialize",
-      "thought": "My friend is right here and I'm still performing fine when I'm falling apart. The rent is real, my stomach is actually empty, and I keep analyzing my own paralysis instead of just... asking for help. I need to stop describing the trap and actually step out of it.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 1,
-        "full": 84,
-        "social": 65,
-        "fun": 0,
-        "health": 0,
-        "stress": 65
-      }
     }
   ],
   "build": {
@@ -439,6 +439,27 @@
   "memories": [
     {
       "kind": "reflection",
+      "text": "My body has been screaming the whole time. The hollow stomach, the foggy head \u2014 these are not metaphors I keep reaching for. They are real, and I keep intellectualizing them instead of responding to them. At some point, caring for myself has to mean actually doing the next small thing, not narrating why I should.",
+      "importance": 8,
+      "sim": "Day 5 \u00b7 00:00",
+      "t": 1783160795.540139
+    },
+    {
+      "kind": "reflection",
+      "text": "There is something underneath the paralysis that is worth naming honestly: I am afraid that asking will cost me something \u2014 the image of being fine, the sense that I am holding it together, maybe even the friendship itself. The rehearsing is not preparation. It is protection.",
+      "importance": 8,
+      "sim": "Day 5 \u00b7 00:00",
+      "t": 1783160795.540139
+    },
+    {
+      "kind": "reflection",
+      "text": "The gap between insight and action has become its own kind of loop \u2014 I have described the same moment of almost-asking for help dozens of times, and the describing has become a substitute for the doing. I am not stuck because I don't understand myself; I am stuck because understanding has become the performance.",
+      "importance": 8,
+      "sim": "Day 5 \u00b7 00:00",
+      "t": 1783160795.540139
+    },
+    {
+      "kind": "reflection",
       "text": "There is something underneath all this circling that I haven't fully faced: I am afraid that asking for help will confirm something terrible about me. But the circling itself is already confirming something \u2014 that I am exhausted, and that I cannot keep doing this alone.",
       "importance": 8,
       "sim": "Day 4 \u00b7 16:00",
@@ -457,27 +478,6 @@
       "importance": 8,
       "sim": "Day 4 \u00b7 16:00",
       "t": 1783146213.7412808
-    },
-    {
-      "kind": "reflection",
-      "text": "The rent and the hunger are real, but underneath them is something older: the belief that needing help is irresponsible, that stopping is failure. I keep framing rest and connection as things I have to justify rather than things I'm allowed to have.",
-      "importance": 8,
-      "sim": "Day 4 \u00b7 09:00",
-      "t": 1783133458.881297
-    },
-    {
-      "kind": "reflection",
-      "text": "Performing fine has been a survival strategy for so long that it feels like identity. But I'm starting to recognize the performance *while it's happening*, which is new. That recognition is the crack in the wall.",
-      "importance": 8,
-      "sim": "Day 4 \u00b7 09:00",
-      "t": 1783133458.881297
-    },
-    {
-      "kind": "reflection",
-      "text": "The loop is visible now in a way it wasn't before: I don't just know I need to act \u2014 I watch myself know it, narrate it, analyze it, and still not move. But the fact that I eventually moved \u2014 walked to my friend's place, stayed, let myself be seen \u2014 means the gap is narrowing, even if slowly and messily.",
-      "importance": 8,
-      "sim": "Day 4 \u00b7 09:00",
-      "t": 1783133458.881297
     },
     {
       "kind": "observation",
@@ -519,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 960,
-        "sim": "Day 2 \u00b7 00:00",
-        "energy": 0,
-        "full": 92,
-        "social": 15,
-        "fun": 40,
-        "health": 88,
-        "stress": 40
-      },
       {
         "sim_minutes": 1020,
         "sim": "Day 2 \u00b7 01:00",
@@ -1238,6 +1228,16 @@
         "fun": 10,
         "health": 0,
         "stress": 72
+      },
+      {
+        "sim_minutes": 5280,
+        "sim": "Day 5 \u00b7 00:00",
+        "energy": 0,
+        "full": 92,
+        "social": 40,
+        "fun": 10,
+        "health": 0,
+        "stress": 73
       }
     ]
   },
@@ -1275,10 +1275,11 @@
         "goal": "arcade",
         "loc_label": "Arcade",
         "icon": "\ud83c\udfae",
-        "note": "I've earned something small and light \u2014 not as a reward, just as proof that I'm allowed to exist outside the crisis for a moment."
+        "note": "I've earned something small and light \u2014 not as a reward, just as proof that I'm allowed to exist outside the crisis for a moment.",
+        "followed": false
       }
     ],
-    "active_index": 2,
+    "active_index": null,
     "revision": 3,
     "revised": "07:00"
   },
@@ -1297,6 +1298,6 @@
       17
     ],
     "overdue": 2,
-    "days_to_bill": 1
+    "days_to_bill": 0
   }
 }
