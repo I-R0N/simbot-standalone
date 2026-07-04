@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783140544,
+    "generated_at": 1783140733,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 76,
+    "tick": 77,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4560,
+    "sim_minutes": 4620,
     "day": 4,
-    "hour": 12,
+    "hour": 13,
     "minute": 0,
     "phase": "day",
-    "label": "Day 4 \u00b7 12:00"
+    "label": "Day 4 \u00b7 13:00"
   },
   "stats": {
     "energy": 0,
-    "full": 52,
-    "social": 90,
-    "fun": 10,
+    "full": 44,
+    "social": 95,
+    "fun": 15,
     "health": 0,
-    "stress": 60
+    "stress": 57
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783140732.9910226,
+      "sim": "Day 4 \u00b7 13:00",
+      "action": "socialize",
+      "thought": "My friend is right here and I'm drowning\u2014actually drowning\u2014and I keep rehearsing like I'm auditioning for the role of \"fine.\" My stomach is empty, I owe rent I don't have, and I'm so tired of performing that I can barely think. I need to eat, yeah, but more than that... I need to stop doing this alone.",
+      "whisper": "",
+      "loc": "friend",
+      "stats": {
+        "energy": 0,
+        "full": 44,
+        "social": 95,
+        "fun": 15,
+        "health": 0,
+        "stress": 57
+      }
+    },
     {
       "t": 1783138908.0211892,
       "sim": "Day 4 \u00b7 12:00",
@@ -332,22 +348,6 @@
         "health": 14,
         "stress": 24
       }
-    },
-    {
-      "t": 1783104300.5595028,
-      "sim": "Day 3 \u00b7 17:00",
-      "action": "socialize",
-      "thought": "I'm five blocks away and I can feel myself fracturing\u2014the rent is clawing at me but so is the sheer weight of being alone right now with this panic. My friend is close. If I force myself toward work in this state, I'll either break or fail anyway. I need to actually do what I know I need instead of just knowing it.",
-      "whisper": "",
-      "loc": "friend",
-      "stats": {
-        "energy": 67,
-        "full": 4,
-        "social": 30,
-        "fun": 5,
-        "health": 17,
-        "stress": 22
-      }
     }
   ],
   "build": {
@@ -424,33 +424,16 @@
       }
     ],
     "pos": {
-      "x": 2,
-      "y": 6
+      "x": 1,
+      "y": 9
     },
-    "at": null,
+    "at": "friend",
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
-      "arrived": false
+      "action": "socialize",
+      "goal": "friend",
+      "arrived": true
     },
-    "path": [
-      {
-        "x": 2,
-        "y": 6
-      },
-      {
-        "x": 2,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 5
-      },
-      {
-        "x": 3,
-        "y": 4
-      }
-    ]
+    "path": []
   },
   "identity": "I am someone learning, painfully and in real time",
   "memories": [
@@ -536,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 300,
-        "sim": "Day 1 \u00b7 13:00",
-        "energy": 20,
-        "full": 60,
-        "social": 35,
-        "fun": 50,
-        "health": 99,
-        "stress": 6
-      },
       {
         "sim_minutes": 360,
         "sim": "Day 1 \u00b7 14:00",
@@ -1255,6 +1228,16 @@
         "fun": 10,
         "health": 0,
         "stress": 60
+      },
+      {
+        "sim_minutes": 4620,
+        "sim": "Day 4 \u00b7 13:00",
+        "energy": 0,
+        "full": 44,
+        "social": 95,
+        "fun": 15,
+        "health": 0,
+        "stress": 57
       }
     ]
   },
