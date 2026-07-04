@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783164324,
+    "generated_at": 1783164507,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 89,
+    "tick": 90,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 5340,
+    "sim_minutes": 5400,
     "day": 5,
-    "hour": 1,
+    "hour": 2,
     "minute": 0,
     "phase": "night",
-    "label": "Day 5 \u00b7 01:00"
+    "label": "Day 5 \u00b7 02:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 35,
+    "social": 30,
     "fun": 10,
     "health": 0,
-    "stress": 87
+    "stress": 86
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783164430.7275064,
+      "sim": "Day 5 \u00b7 02:00",
+      "action": "eat",
+      "thought": "My stomach is actually hollow\u2014I can feel that ache pulling at me\u2014and my head won't clear until I eat something real. My friend is sitting right here watching me perform fine when I'm falling apart. I need to eat now, let my thinking settle even a little, and then... maybe this time I actually say it instead of rehearsing it in my head like I'm auditioning for the role of someone who has their shit together.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 30,
+        "fun": 10,
+        "health": 0,
+        "stress": 86
+      }
+    },
     {
       "t": 1783162603.2411098,
       "sim": "Day 5 \u00b7 01:00",
@@ -332,22 +348,6 @@
         "health": 0,
         "stress": 65
       }
-    },
-    {
-      "t": 1783127973.8907328,
-      "sim": "Day 4 \u00b7 06:00",
-      "action": "eat",
-      "thought": "My stomach is actually hollow and I'm so tired of pretending everything's fine. My friend is right here\u2014maybe I can just... ask. Not perform. Actually say it out loud that I'm struggling.",
-      "whisper": "",
-      "loc": null,
-      "stats": {
-        "energy": 0,
-        "full": 68,
-        "social": 90,
-        "fun": 0,
-        "health": 0,
-        "stress": 64
-      }
     }
   ],
   "build": {
@@ -519,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 1080,
-        "sim": "Day 2 \u00b7 02:00",
-        "energy": 72,
-        "full": 76,
-        "social": 5,
-        "fun": 30,
-        "health": 88,
-        "stress": 15
-      },
       {
         "sim_minutes": 1140,
         "sim": "Day 2 \u00b7 03:00",
@@ -1238,6 +1228,16 @@
         "fun": 10,
         "health": 0,
         "stress": 87
+      },
+      {
+        "sim_minutes": 5400,
+        "sim": "Day 5 \u00b7 02:00",
+        "energy": 0,
+        "full": 92,
+        "social": 30,
+        "fun": 10,
+        "health": 0,
+        "stress": 86
       }
     ]
   },
@@ -1246,39 +1246,19 @@
     "created": "Day 5 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 0,
+        "from_hour": 1,
         "part": "night",
         "label": "Night",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "My body is at zero and I have narrated my exhaustion long enough \u2014 I am going to lie down and actually let it happen."
-      },
-      {
-        "from_hour": 17,
-        "part": "evening",
-        "label": "Evening",
-        "action": "socialize",
-        "goal": "friend",
-        "loc_label": "Friend's place",
-        "icon": "\ud83d\udc65",
-        "note": "Not the rehearsed version, not the performed fine \u2014 I will go to my friend's place and say the actual thing this time."
-      },
-      {
-        "from_hour": 20,
-        "part": "evening",
-        "label": "Evening",
-        "action": "play",
-        "goal": "arcade",
-        "loc_label": "Arcade",
-        "icon": "\ud83c\udfae",
-        "note": "If I do the hard thing first, I am allowed something that is just for me \u2014 no narration, just the arcade and whatever small lightness it offers."
+        "note": "I have narrated my way around every real need for days \u2014 my energy is gone and my body is past the point where more thinking, eating, or performing will help; I have to stop and let myself actually rest."
       }
     ],
     "active_index": 0,
-    "revision": 0,
-    "revised": null
+    "revision": 1,
+    "revised": "01:00"
   },
   "work": {
     "money": 15,
