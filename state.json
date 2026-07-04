@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783149763,
+    "generated_at": 1783149953,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 81,
+    "tick": 82,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4860,
+    "sim_minutes": 4920,
     "day": 4,
-    "hour": 17,
+    "hour": 18,
     "minute": 0,
     "phase": "day",
-    "label": "Day 4 \u00b7 17:00"
+    "label": "Day 4 \u00b7 18:00"
   },
   "stats": {
     "energy": 0,
     "full": 92,
-    "social": 75,
+    "social": 70,
     "fun": 10,
     "health": 0,
-    "stress": 65
+    "stress": 66
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783149838.778466,
+      "sim": "Day 4 \u00b7 18:00",
+      "action": "eat",
+      "thought": "My friend is right here and I'm so tired of pretending everything's fine. My stomach is genuinely empty and my head is fog\u2014I can't think clearly enough to keep this act up anyway. I need to eat something, and then I need to actually tell them what's happening instead of rehearsing like I'm auditioning for the role of okay.",
+      "whisper": "",
+      "loc": "kitchen",
+      "stats": {
+        "energy": 0,
+        "full": 92,
+        "social": 70,
+        "fun": 10,
+        "health": 0,
+        "stress": 66
+      }
+    },
     {
       "t": 1783148013.034664,
       "sim": "Day 4 \u00b7 17:00",
@@ -332,22 +348,6 @@
         "health": 0,
         "stress": 43
       }
-    },
-    {
-      "t": 1783113411.651852,
-      "sim": "Day 3 \u00b7 22:00",
-      "action": "socialize",
-      "thought": "I'm at my friend's place and my stomach is completely empty\u2014I can feel it now, that hollow ache mixing with the rent panic. I know I should be grinding extra hours to catch up, but I'm already fracturing and pretending I'm fine won't help anyone. I need to actually ask them if we can order something, stop the performance, let them see me need this.",
-      "whisper": "",
-      "loc": "friend",
-      "stats": {
-        "energy": 37,
-        "full": 0,
-        "social": 95,
-        "fun": 10,
-        "health": 2,
-        "stress": 38
-      }
     }
   ],
   "build": {
@@ -519,16 +519,6 @@
       "stress"
     ],
     "points": [
-      {
-        "sim_minutes": 600,
-        "sim": "Day 1 \u00b7 18:00",
-        "energy": 0,
-        "full": 20,
-        "social": 10,
-        "fun": 45,
-        "health": 97,
-        "stress": 15
-      },
       {
         "sim_minutes": 660,
         "sim": "Day 1 \u00b7 19:00",
@@ -1238,6 +1228,16 @@
         "fun": 10,
         "health": 0,
         "stress": 65
+      },
+      {
+        "sim_minutes": 4920,
+        "sim": "Day 4 \u00b7 18:00",
+        "energy": 0,
+        "full": 92,
+        "social": 70,
+        "fun": 10,
+        "health": 0,
+        "stress": 66
       }
     ]
   },
