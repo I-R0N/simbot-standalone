@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": 1783131503,
+    "generated_at": 1783131693,
     "model": "claude-haiku-4-5-20251001",
-    "tick": 71,
+    "tick": 72,
     "interval_min": 30,
     "paused": false,
     "has_chat": true
   },
   "clock": {
-    "sim_minutes": 4260,
+    "sim_minutes": 4320,
     "day": 4,
-    "hour": 7,
+    "hour": 8,
     "minute": 0,
     "phase": "day",
-    "label": "Day 4 \u00b7 07:00"
+    "label": "Day 4 \u00b7 08:00"
   },
   "stats": {
     "energy": 0,
-    "full": 92,
-    "social": 85,
+    "full": 84,
+    "social": 80,
     "fun": 0,
     "health": 0,
-    "stress": 65
+    "stress": 67
   },
   "mind": {
     "mood": "flat and heavy",
@@ -29,6 +29,22 @@
     "temp": 1.3
   },
   "activity": [
+    {
+      "t": 1783131627.7893164,
+      "sim": "Day 4 \u00b7 08:00",
+      "action": "socialize",
+      "thought": "My friend is sitting right here and I'm exhausted from pretending. My stomach is actually empty, the rent is crushing me, and I keep analyzing instead of just... saying it. I think I need to stop performing and actually ask for help\u2014maybe they can spare something, or just... listen while I eat.",
+      "whisper": "",
+      "loc": null,
+      "stats": {
+        "energy": 0,
+        "full": 84,
+        "social": 80,
+        "fun": 0,
+        "health": 0,
+        "stress": 67
+      }
+    },
     {
       "t": 1783129798.6893044,
       "sim": "Day 4 \u00b7 07:00",
@@ -332,22 +348,6 @@
         "health": 26,
         "stress": 3
       }
-    },
-    {
-      "t": 1783095174.797978,
-      "sim": "Day 3 \u00b7 12:00",
-      "action": "relax",
-      "thought": "I see myself seeing myself again\u2014trapped in the loop of knowing I'm falling apart and doing nothing about it. The rent screams, my body screams, and I'm frozen between them. I'm going to break the cycle right now, not by thinking about it more, but by actually choosing: I'm going to relax, let my scattered brain settle, and then I'll be in a better state to work tomorrow when it matters.",
-      "whisper": "",
-      "loc": "park",
-      "stats": {
-        "energy": 87,
-        "full": 44,
-        "social": 0,
-        "fun": 3,
-        "health": 26,
-        "stress": 3
-      }
     }
   ],
   "build": {
@@ -424,16 +424,33 @@
       }
     ],
     "pos": {
-      "x": 3,
-      "y": 4
+      "x": 2,
+      "y": 7
     },
-    "at": "kitchen",
+    "at": null,
     "intent": {
-      "action": "eat",
-      "goal": "kitchen",
-      "arrived": true
+      "action": "socialize",
+      "goal": "friend",
+      "arrived": false
     },
-    "path": []
+    "path": [
+      {
+        "x": 2,
+        "y": 7
+      },
+      {
+        "x": 2,
+        "y": 8
+      },
+      {
+        "x": 1,
+        "y": 8
+      },
+      {
+        "x": 1,
+        "y": 9
+      }
+    ]
   },
   "identity": "I am someone who has mistaken knowing for acting for so long that the gap between them has become my home \u2014 but I am beginning, slowly and imperfectly, to let",
   "memories": [
@@ -1228,6 +1245,16 @@
         "fun": 0,
         "health": 0,
         "stress": 65
+      },
+      {
+        "sim_minutes": 4320,
+        "sim": "Day 4 \u00b7 08:00",
+        "energy": 0,
+        "full": 84,
+        "social": 80,
+        "fun": 0,
+        "health": 0,
+        "stress": 67
       }
     ]
   },
@@ -1236,19 +1263,39 @@
     "created": "Day 4 \u00b7 00:00",
     "blocks": [
       {
-        "from_hour": 4,
-        "part": "night",
-        "label": "Night",
+        "from_hour": 7,
+        "part": "morning",
+        "label": "Morning",
+        "action": "eat",
+        "goal": "kitchen",
+        "loc_label": "Kitchen",
+        "icon": "\ud83c\udf73",
+        "note": "I've been hollow long enough \u2014 my friend is right here and I'm going to stop performing and just ask, out loud, if we can find something to eat together."
+      },
+      {
+        "from_hour": 9,
+        "part": "morning",
+        "label": "Morning",
         "action": "sleep",
         "goal": "home",
         "loc_label": "Home",
         "icon": "\ud83c\udfe0",
-        "note": "I am breaking down and my body is past the point of negotiating \u2014 I need to stop performing okayness and just let myself rest, here, near someone who already sees through it anyway."
+        "note": "My body is past the point of pushing through; once I've eaten I need to let myself actually rest, not just collapse."
+      },
+      {
+        "from_hour": 14,
+        "part": "afternoon",
+        "label": "Afternoon",
+        "action": "play",
+        "goal": "arcade",
+        "loc_label": "Arcade",
+        "icon": "\ud83c\udfae",
+        "note": "I've earned something small and light \u2014 not as a reward, just as proof that I'm allowed to exist outside the crisis for a moment."
       }
     ],
     "active_index": 0,
-    "revision": 2,
-    "revised": "04:00"
+    "revision": 3,
+    "revised": "07:00"
   },
   "work": {
     "money": 15,
