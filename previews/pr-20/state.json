@@ -1,0 +1,10 @@
+{
+  "mode": "assistant",
+  "public_dashboard": "retired",
+  "note": "simbot runs privately as a personal assistant over Telegram.",
+  "build": {
+    "sha": "8f732dd",
+    "ref": "PR #20",
+    "committed": "2026-07-04 21:05 EDT"
+  }
+}
